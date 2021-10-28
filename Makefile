@@ -31,5 +31,5 @@ upgrade: ## update the requirements/*.txt files with the latest packages satisfy
 	$(PIP_COMPILE) -o requirements/test.txt requirements/test.in
 
 quality: clean ## check coding style with pycodestyle and pylint
-	pycodestyle ./extended_translations_plugin
-	pylint ./extended_translations_plugin --rcfile=./setup.cfg
+	pycodestyle ./extended_translations
+	pylint ./extended_translations --rcfile=./setup.cfg

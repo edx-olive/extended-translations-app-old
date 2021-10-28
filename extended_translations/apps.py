@@ -1,5 +1,5 @@
 """
-App configuration for extended_translations_plugin.
+App configuration for extended_translations.
 """
 
 from __future__ import unicode_literals
@@ -18,7 +18,7 @@ class ExtendedTranslationsPluginConfig(AppConfig):
     """
      Open edX translatable plugin app configuration.
     """
-    name = 'extended_translations_plugin'
+    name = 'extended_translations'
     verbose_name = 'Open edX translatable plugin app'
 
     plugin_app = {

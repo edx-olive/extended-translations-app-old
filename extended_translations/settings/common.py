@@ -1,5 +1,5 @@
 """
-Common Django settings for extended_translations_plugin project.
+Common Django settings for extended_translations project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.11/topics/settings/
@@ -23,7 +23,7 @@ SECRET_KEY = 'secret-key'
 
 INSTALLED_APPS = []
 
-ROOT_URLCONF = 'extended_translations_plugin.urls'
+ROOT_URLCONF = 'extended_translations.urls'
 
 
 # Internationalization

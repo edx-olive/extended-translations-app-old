@@ -1,5 +1,5 @@
 """
-Production Django settings for extended_translations_plugin project.
+Production Django settings for extended_translations project.
 """
 
 from __future__ import unicode_literals

@@ -1,5 +1,5 @@
 """
-AWS Django settings for extended_translations_plugin project.
+AWS Django settings for extended_translations project.
 
 Juniper release will remove aws.py file. https://openedx.atlassian.net/browse/DEPR-14
 """

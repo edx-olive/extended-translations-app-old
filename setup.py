@@ -1,5 +1,5 @@
 """
-Setup file for extended_translations_plugin Django plugin.
+Setup file for extended_translations Django plugin.
 """
 
 from __future__ import print_function
@@ -76,7 +76,7 @@ def get_version(*file_paths):
 with open("README.rst", "r") as fh:
     README = fh.read()
 
-VERSION = get_version('extended_translations_plugin', '__init__.py')
+VERSION = get_version('extended_translations', '__init__.py')
 
 
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
@@ -105,7 +105,7 @@ setup(
         'Programming Language :: Python :: 3.8',
     ],
     packages=[
-        'extended_translations_plugin',
+        'extended_translations',
     ],
     include_package_data=True,
     install_requires=load_requirements('requirements/base.in'),
