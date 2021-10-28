@@ -14,6 +14,10 @@ Unreleased
 
 *
 
+[0.0.1] - 2021-10-28
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Add extended translations settings, configuration, custom Hebrew, Arbic and Ru translations  
+
 [0.0.0] - 2021-10-28
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Pluggble app initialization
