@@ -1,6 +1,8 @@
 """
-Plugin configuration for integration application to the edx-platform.
+App configuration for extended_translations.
 """
+
+from __future__ import unicode_literals
 
 from django.apps import AppConfig
 
@@ -12,27 +14,19 @@ from openedx.core.djangoapps.plugins.constants import (
 )
 
 
-class TranslationsPluginConfig(AppConfig):
+class ExtendedTranslationsPluginConfig(AppConfig):
+    """
+     Open edX translatable plugin app configuration.
+    """
     name = 'extended_translations'
+    verbose_name = 'Open edX translatable plugin app'
 
     plugin_app = {
-        PluginURLs.CONFIG: {
-            ProjectType.LMS: {
-                PluginURLs.NAMESPACE: u'user_document',
-                PluginURLs.REGEX: r'user/document/',
-                PluginURLs.RELATIVE_PATH: u'urls',
-
-            },
-            ProjectType.CMS: {
-                PluginURLs.NAMESPACE: u'user_document',
-                PluginURLs.REGEX: r'user/document/',
-                PluginURLs.RELATIVE_PATH: u'urls',
-
-            }
-        },
-
         PluginSettings.CONFIG: {
             ProjectType.LMS: {
+                SettingsType.COMMON: {PluginSettings.RELATIVE_PATH: 'settings.common'},
+            },
+            ProjectType.CMS: {
                 SettingsType.COMMON: {PluginSettings.RELATIVE_PATH: 'settings.common'},
             }
         }

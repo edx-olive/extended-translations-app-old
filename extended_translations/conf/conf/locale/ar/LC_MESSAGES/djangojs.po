@@ -1,0 +1,107 @@
+# #-#-#-#-#  djangojs-partial.po (0.1a)  #-#-#-#-#
+# edX translation file.
+# Copyright (C) 2021 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2021.
+#
+# #-#-#-#-#  djangojs-studio.po (0.1a)  #-#-#-#-#
+# edX translation file.
+# Copyright (C) 2021 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2021.
+#
+# #-#-#-#-#  djangojs-account-settings-view.po (0.1a)  #-#-#-#-#
+# edX translation file.
+# Copyright (C) 2021 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2021.
+#
+# #-#-#-#-#  underscore.po (0.1a)  #-#-#-#-#
+# edX translation file
+# Copyright (C) 2021 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2021.
+#
+# #-#-#-#-#  underscore-studio.po (0.1a)  #-#-#-#-#
+# edX translation file
+# Copyright (C) 2021 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2021.
+#
+# Translators:
+# waeldaoud2014 <wael.daoud@hotmail.com>, 2021
+# soliman osman <solimanosman@windowslive.com>, 2021
+# Ahmad AbdArrahman <mygooglizer@gmail.com>, 2021
+# Abdelmageed <mido.a@hotmail.com>, 2021
+# Emad Ahmad Alghamdi <eaalghamdi@kau.edu.sa>, 2021
+# Ahmad Magdy <bio.eng.ahmed.magdy@gmail.com>, 2021
+# abdallah.nassif <abdallah_n@hotmail.com>, 2021
+# Sarina Canelake <sarina@edx.org>, 2021
+# Abdelghani Gadiri <wh.gnu.linux@gmail.com>, 2021
+# Mohamed Ibrahim <root.php@hotmail.com>, 2021
+# faisal wazir <alwazir95business@gmail.com>, 2021
+# Abdullatif El Ali <abdullatifalali@gmail.com>, 2021
+# br1ng <ibnalawam@gmail.com>, 2021
+# Heb Hassan <bebohas2020@gmail.com>, 2021
+# Ned Batchelder <ned@edx.org>, 2021
+# Shadi Naif <shadinaif@gmail.com>, 2021
+# RaghadG <raghad_g@yahoo.com>, 2021
+# Ahmad <reload_cobra2@yahoo.com>, 2021
+# e2f_ar t3 <e2f_ar_t3@outlook.com>, 2021
+# e2f_ar r3 <e2f_ar_r3@outlook.com>, 2021
+# Roy Zakka, 2021
+# Ahmed Rizk <mr.rizk@gmail.com>, 2021
+# Abdallah Nassif <abdoosh00@gmail.com>, 2021
+# Najwan Al Rousan <najwanrousan@gmail.com>, 2021
+# AR R1 <e2far1@hotmail.com>, 2021
+# 6e68c7971a89e50e680ae9444d303c8f, 2021
+# Nabeel El-Dughailib <nabeel@qordoba.com>, 2021
+# may <may@qordoba.com>, 2021
+# Jad Freij <jkfreij@gmail.com>, 2021
+# Omar Al-Ithawi <omar.al.dolaimy@gmail.com>, 2021
+# Ali Hasan <ahasan@qrf.org>, 2021
+# Ahmed Jazzar <ahmed.mojaz@gmail.com>, 2021
+# Tariq Hamid <ou63@outlook.com>, 2021
+# Soha Assali <soha+transifex@qordoba.com>, 2021
+# 11e20772453a5447f86b653d16e71bd3_f829fca <fc1a175da0e051e8f2220ae4e8c37e82_372655>, 2021
+# Natalia Berdnikov <nberdnikov@edx.org>, 2021
+# shefaa abu jabel <shefaa.aj@gmail.com>, 2021
+# Sahbi BG <sahbi.g@gmail.com>, 2021
+# Hamza Assada <7amza.it@gmail.com>, 2021
+# Rehan Ahmad <rehan.ahmad@arbisoft.com>, 2021
+# Glib Glugovskiy <glugov1998@gmail.com>, 2021
+# Hassan Husseini <hassan@constructeducation.com>, 2021
+# NELC Open edX Translation <openedx@elc.edu.sa>, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2021-01-06 21:02+0000\n"
+"PO-Revision-Date: 2021-01-06 21:06+0000\n"
+"Last-Translator: NELC Open edX Translation <openedx@elc.edu.sa>, 2021\n"
+"Language-Team: Arabic (https://www.transifex.com/open-edx/teams/6205/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+msgid "Account Details"
+msgstr "بيانات الحساب المستخدم الخاص بك"
+
+msgid "Already have an account?"
+msgstr "هل لديك حساب بالفعل؟"
+
+msgid "Create Account"
+msgstr "إنشاء حساب"
+
+msgid "Create an Account."
+msgstr "إنشاء حساب"
+
+msgid "First time here?"
+msgstr "هل هذه هي المرة الأولى بالنسبة لك?"
+
+msgid "Support education research by providing additional information"
+msgstr "من أجل البحث وتحسين التعلّم يسرنا مشاركتك في بعض البيانات الإضافية عنك"
