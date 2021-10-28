@@ -6,39 +6,28 @@ from __future__ import unicode_literals
 
 from django.apps import AppConfig
 
+from openedx.core.djangoapps.plugins.constants import (
+    PluginSettings,
+    PluginURLs,
+    ProjectType,
+    SettingsType,
+)
+
 
 class ExtendedTranslationsPluginConfig(AppConfig):
     """
      Open edX translatable plugin app configuration.
     """
     name = 'extended_translations_plugin'
-    verbose_name = ' Open edX translatable plugin app'
+    verbose_name = 'Open edX translatable plugin app'
 
     plugin_app = {
-        'url_config': {
-            'lms.djangoapp': {
-                'namespace': 'extended_translations_plugin',
-                'regex': r'^extended_translations_plugin/',
-                'relative_path': 'urls',
+        PluginSettings.CONFIG: {
+            ProjectType.LMS: {
+                SettingsType.COMMON: {PluginSettings.RELATIVE_PATH: 'settings.common'},
             },
-            'cms.djangoapp': {
-                'namespace': 'extended_translations_plugin',
-                'regex': r'^extended_translations_plugin/',
-                'relative_path': 'urls',
+            ProjectType.CMS: {
+                SettingsType.COMMON: {PluginSettings.RELATIVE_PATH: 'settings.common'},
             }
-        },
-        'settings_config': {
-            'lms.djangoapp': {
-                'common': {'relative_path': 'settings.common'},
-                'test': {'relative_path': 'settings.test'},
-                'aws': {'relative_path': 'settings.aws'},
-                'production': {'relative_path': 'settings.production'},
-            },
-            'cms.djangoapp': {
-                'common': {'relative_path': 'settings.common'},
-                'test': {'relative_path': 'settings.test'},
-                'aws': {'relative_path': 'settings.aws'},
-                'production': {'relative_path': 'settings.production'},
-            },
         }
     }

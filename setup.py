@@ -10,6 +10,23 @@ import re
 from setuptools import setup
 
 
+def package_data(pkg, roots):
+    """
+    Find package_data.
+
+    All of the files under each of the `roots` will be declared as package
+    data for package `pkg`.
+    """
+
+    data = []
+    for root in roots:
+        for dirname, _, files in os.walk(os.path.join(pkg, root)):
+            for file_name in files:
+                data.append(os.path.relpath(os.path.join(dirname, file_name), pkg))
+
+    return {pkg: data}
+
+
 def load_requirements(*requirements_paths):
     """
     Load all requirements from the specified requirements files.
@@ -62,12 +79,15 @@ with open("README.rst", "r") as fh:
 VERSION = get_version('extended_translations_plugin', '__init__.py')
 
 
+os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
+
+
 setup(
-    name='extended_translations_plugin',
+    name='Extended Translations plugin for Open edX',
     version=VERSION,
-    author='eduNEXT',
-    author_email='contact@edunext.co',
-    description=' Open edX translatable plugin app',
+    author='RaccoonGang',
+    author_email='dmytro.nefyodov@raccoongang.com',
+    description='Provides the way to extend and override translations for Open edX and it dependencies in one place',
     license='AGPL',
     long_description=README,
     long_description_content_type='text/x-rst',
@@ -91,8 +111,7 @@ setup(
     install_requires=load_requirements('requirements/base.in'),
     zip_safe=False,
     entry_points={
-        "lms.djangoapp": [
-            'extended_translations_plugin = extended_translations_plugin.apps:ExtendedTranslationsPluginConfig',
-        ],
-    },
+        "lms.djangoapp": ["extended_translations = extended_translations.apps:TranslationsPluginConfig"],
+        "cms.djangoapp": ["extended_translations = extended_translations.apps:TranslationsPluginConfig"],
+    }
 )
