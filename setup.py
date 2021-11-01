@@ -111,7 +111,7 @@ setup(
     install_requires=load_requirements('requirements/base.in'),
     zip_safe=False,
     entry_points={
-        "lms.djangoapp": ["extended_translations = extended_translations.apps:TranslationsPluginConfig"],
-        "cms.djangoapp": ["extended_translations = extended_translations.apps:TranslationsPluginConfig"],
+        "lms.djangoapp": ["extended_translations = extended_translations.apps:ExtendedTranslationsPluginConfig"],
+        "cms.djangoapp": ["extended_translations = extended_translations.apps:ExtendedTranslationsPluginConfig"],
     }
 )
