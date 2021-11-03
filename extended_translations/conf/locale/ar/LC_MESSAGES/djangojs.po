@@ -105,3 +105,52 @@ msgstr "هل هذه هي المرة الأولى بالنسبة لك?"
 
 msgid "Support education research by providing additional information"
 msgstr "من أجل البحث وتحسين التعلّم يسرنا مشاركتك في بعض البيانات الإضافية عنك"
+
+msgid "(optional)"
+msgstr "(اختياري)"
+
+msgid "Sign In"
+msgstr "تسجيل الدخول"
+
+msgid "Sign in."
+msgstr "تسجيل الدخول"
+
+msgid "Create an account using"
+msgstr "انشاء حساب بمساعدة"
+
+msgid "or create a new one here"
+msgstr "أو لإنشاء حساب جديد هنا"
+
+msgid "Create account"
+msgstr "إنشاء حساب"
+
+#: cms/static/js/models/settings/course_grader.js
+msgid "Total weight must be 100%."
+msgstr "٪يجب أن يكون الوزن الإجمالي لجميع أنواع المهام 100"
+
+#: cms/static/js/views/modals/assignment_type_summary.js
+msgid "Total summary: <%= total %>"
+msgstr "الوزن الكلي: <%= total %>"
+
+#: cms/static/js/views/settings/grading.js
+msgid "Assignment types weight summary"
+msgstr "ملخص الوزن حسب نوع المهام"
+
+#: cms/templates/js/assignment-type-summary-dialog.underscore
+msgid "Assignment type"
+msgstr "نوع المهمة"
+
+#: cms/templates/js/assignment-type-summary-dialog.underscore
+msgid "Weight"
+msgstr "الوزن"
+
+#: cms/templates/js/course_grade_policy.underscore
+msgid "Actual Number"
+msgstr "العدد الفعلي"
+
+#: cms/templates/js/course_grade_policy.underscore
+msgid ""
+"The actual number of subsections in the course that contain problems of this"
+" assignment type."
+msgstr ""
+"العدد الفعلي للفصول الفرعية التي تحتوي على هذه الأنواع من المشاكل في سياق هذه المهمة"

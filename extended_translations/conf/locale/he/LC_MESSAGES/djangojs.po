@@ -82,3 +82,118 @@ msgstr "פעם ראשונה שלך כאן?"
 
 msgid "Support education research by providing additional information"
 msgstr "רוצה לקבל קורסים מותאמים אישית? ספר/י לנו עוד על עצמך"
+
+#: common/static/bundles/VerticalStudentView.js
+#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js
+msgid "Bookmark this page"
+msgstr "סמן עמוד זה"
+
+#. Translators: This string is appended to optional field labels on the
+#. student login, registration, and
+#. profile forms.
+#: lms/static/js/student_account/views/FormView.js
+msgid "(optional)"
+msgstr "(אופציונלי)"
+
+#: lms/static/js/student_account/views/LoginView.js
+msgid ""
+"{paragraphStart}You entered {boldStart}{email}{boldEnd}. If this email "
+"address is associated with your {platform_name} account, we will send a "
+"message with password recovery instructions to this email "
+"address.{paragraphEnd}{paragraphStart}If you do not receive a password reset"
+" message after 1 minute, verify that you entered the correct email address, "
+"or check your spam folder.{paragraphEnd}{paragraphStart}If you need further "
+"assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
+msgstr ""
+"{paragraphStart}המייל שהזנת הינו {boldStart}{email}{boldEnd}. אם כתובת דוא\"ל "
+"זו משויכת לחשבון {platform_name} שלך, תשלח אליך הודעה עם הוראות לאיפוס סיסמה."
+"{paragraphEnd}{paragraphStart}אם לא קיבלת הודעת איפוס סיסמה, מומלץ לוודא שהזנת "
+"את כתובת הדוא\"ל הנכונה, או לבדוק את תיקיית דואר הזבל או "
+"הספאם.{paragraphEnd}{paragraphStart}לסיוע נוסף, {anchorStart}יש לפנות לתמיכה "
+"הטכנית{anchorEnd}.{paragraphEnd}"
+
+#: lms/templates/student_account/register.underscore
+msgid "Create an account using"
+msgstr "יצירת חשבון בעזרת"
+
+msgid "Create an Account"
+msgstr "יצירת חשבון"
+
+msgid "An error occurred. Try loading the page again."
+msgstr "אירעה שגיאה. נסה לטעון שוב את העמוד."
+
+msgid ""
+ "Add a clear and descriptive title to encourage participation. (Required)"
+msgstr ""
+"הוסף כותרת ברורה ותיאורית בכדי לעודד את ההשתתפות בדיון. (חובה)."
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid ""
+"Enter email addresses and/or usernames, separated by new lines or commas, "
+"for the learners you want to add. *"
+msgstr ""
+"הזן רשימת כתובות דואר אלקטרוני ו/או שמות משתמש מופרדים בשורה חדשה או פסיק, "
+"ללומדים שאתה מעוניין להוסיף."
+
+#: lms/templates/student_account/register.underscore
+msgid "or create a new one here"
+msgstr "או ליצירת אחד חדש כאן"
+
+#: lms/templates/verify_student/intro_step.underscore
+msgid "Activate Your Account"
+msgstr "הפעלת החשבון שלך"
+
+msgid "Total weight must be 100%."
+msgstr "המשקל הכולל של כל סוגי המטלות צריך להסתכם ל100%"
+
+msgid "Total summary: <%= total %>"
+msgstr "סה\"כ משקל: <%= total %>"
+
+msgid "Assignment types weight summary"
+msgstr "סיכום המשקל לפי סוגי המטלות"
+
+msgid "Assignment type"
+msgstr "סוג מטלה"
+
+msgid "Weight"
+msgstr "משקל"
+
+msgid "Actual Number"
+msgstr "מספר בפועל"
+
+msgid ""
+"The actual number of subsections in the course that contain problems of this"
+" assignment type."
+msgstr ""
+"מספר תתי הפרקים בפועל בקורס שמכילים בעיות מסוג המטלה הזה"
+
+#: lms/static/js/student_account/views/RegisterView.js
+msgid "(required)"
+msgstr ""
+
+#: lms/templates/student_account/form_field.underscore
+msgid "Need help signing in?"
+msgstr ""
+
+#: lms/templates/student_account/form_field.underscore
+msgid "Forgot my password"
+msgstr ""
+
+#: lms/templates/student_account/form_field.underscore
+msgid "Sign in with your company or school"
+msgstr ""
+
+#: lms/templates/student_account/password_reset.underscore
+msgid ""
+"Please enter your log-in or recovery email address below and we will send "
+"you an email with instructions."
+msgstr ""
+
+#: lms/templates/student_account/password_reset.underscore
+msgid "Recover my password"
+msgstr ""
+
+#: lms/templates/student_account/form_field.underscore
+msgid "Need other help signing in?"
+msgstr ""
+
