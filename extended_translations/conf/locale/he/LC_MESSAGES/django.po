@@ -338,6 +338,210 @@ msgstr "חסרים מספר נתונים בהגדרת החשבון שלך!"
 msgid "Please {link_start}complete your profile{link_end}."
 msgstr "אנא {link_start} סיימ/י למלא את הגדרות החשבון שלך {link_end}"
 
+msgid "Honor Code"
+msgstr "כולל תעודה"
+
+msgid ""
+"In order to sign in, you need to activate your account.<br /><br />We just "
+"sent an activation link to <strong>{email}</strong>.  If you do not receive "
+"an email, check your spam folders or <a href=\"{support_url}\">contact "
+"{platform} Support</a>."
+msgstr ""
+"בכדי להירשם, עליך להפעיל קודם את חשבונך.<br /><br />הרגע נשלח אליך מייל "
+"ל<strong>{email}</strong> ובו קישור להפעלה. אם אינך רואה את המייל, מומלץ לבדוק"
+"את תיקיות הספאם שלך או <a href=\"{support_url}\">ליצור קשר עם תמיכת "
+"{platform}</a>."
+
+#: lms/djangoapps/ccx/utils.py
+msgid ""
+"A CCX can only be created on this course through an external service. "
+"Contact a course admin to give you access."
+msgstr ""
+"ניתן ליצור CCX רק בקורס זה דרך שירות חיצוני. צור קשר עם מנהל הקורס שיעניק לך "
+"גישה לקורס."
+
+#: lms/djangoapps/ccx/views.py
+msgid ""
+"You cannot create a CCX from a course using a deprecated id. Please create a"
+" rerun of this course in the studio to allow this action."
+msgstr ""
+"לא ניתן ליצור CCX מקורס באמצעות מזהה מיושן. צור הרצה חוזרת של קורס זה ב-Studio "
+"על מנת לאפשר פעולה זו."
+
+msgid ""
+"It looks like {email_address} belongs to an existing account. Try again with"
+" a different email address."
+msgstr ""
+"נראה כי {email_address} שייך לחשבון קיים. נסה שוב עם כתובת דואר אלקטרוני "
+"אחרת."
+
+#. Translators: These instructions appear on the login form, immediately
+#. below a field meant to hold the user's email address.
+#. Translators: These instructions appear on the password reset form,
+#. immediately below a field meant to hold the user's email address.
+#. pylint: disable=no-member
+#: openedx/core/djangoapps/user_authn/views/login_form.py
+#: openedx/core/djangoapps/user_authn/views/password_reset.py
+#, python-brace-format
+msgid "The email address you used to register with {platform_name}"
+msgstr "כתובת האי מייל שאיתה נרשמת ל{platform_name}."
+
+msgid "Remember me"
+msgstr "זכרו אותי"
+
+msgid "This is what you will use to login."
+msgstr "כתובת האי מייל תשמש אותך להתחברות."
+
+msgid "Jane Q. Learner"
+msgstr "אז איך אמרת שקוראים לך?"
+
+#. Translators: These instructions appear on the registration form,
+#. immediately
+#. below a field meant to hold the user's full name.
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
+msgid "This name will be used on any certificates that you earn."
+msgstr "זה השם שיופיע בכל תעודות הסיום שלך."
+
+#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. Translators: This label appears above a field on the registration form
+#. meant to hold the user's public username.
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
+#: lms/templates/signup_modal.html
+#: themes/stanford-style/lms/templates/register-form.html
+#: themes/stanford-style/lms/templates/register-shib.html
+msgid "Public Username"
+msgstr "שם משתמש"
+
+#. Translators: These instructions appear on the registration form,
+#. immediately
+#. below a field meant to hold the user's public username.
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
+msgid ""
+"The name that will identify you in your courses. It cannot be changed later."
+msgstr ""
+"זה יהיה הכינוי שלך המזהה שלך בקורסים. לא ניתן לשנות אותו מאוחר יותר."
+
+#. Translators: This example username is used as a placeholder in
+#. a field on the registration form meant to hold the user's username.
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Jane_Q_Learner"
+msgstr "אז איך אמרת שקוראים לך?"
+
+msgid "I agree to the {platform_name} {terms_of_service}"
+msgstr "קראתי והסכמתי ל{terms_of_service} של {platform_name}"
+
+msgid "Review the Terms of Service"
+msgstr "לקריאת תנאי השימוש"
+
+msgid ""
+"You should see your new email in your {link_start}dashboard{link_end}."
+msgstr ""
+"תוכל לראות את כתובת הדואר האלקטרוני החדשה שלך ב{link_start}לוח הבקרה{link_end} שלך."
+
+#: lms/templates/courseware/course_about.html
+msgctxt "self"
+msgid "Enroll"
+msgstr "הירשם"
+
+#: lms/templates/courseware/course_about.html
+msgctxt "self"
+msgid "enroll"
+msgstr "הירשם"
+
+#: lms/templates/login.html
+msgid "We couldn't log you in."
+msgstr "לא הצלחנו לרשום אותך."
+
+msgid "Welcome to {org}'s {course_title}!"
+msgstr "ברוכים הבאים אל הקורס {course_title} של {org}!"
+
+msgid "Welcome to {course_title}!"
+msgstr "ברוכים הבאים אל הקורס {course_title}!"
+
+#: lms/templates/courseware/progress.html
+msgid "Completed by {date}"
+msgstr "הושלם ב {date}"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+#: common/templates/student/edx_ace/accountactivation/email/body.txt
+#, python-format
+msgid ""
+"You're almost there! Use the link below to activate your account to access "
+"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"able to log back into your account until you have activated it."
+msgstr ""
+
+msgid "Enjoy learning with {platform_name}."
+msgstr "מאחלים לכם למידה מהנה ב{platform_name}\n"
+"***"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.txt
+#, python-format
+msgid ""
+"If you need help, please use our web form at %(support_url)s or email "
+"%(support_email)s."
+msgstr ""
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+#: common/templates/student/edx_ace/accountactivation/email/body.txt
+#, python-format
+msgid ""
+"This email message was automatically sent by %(lms_url)s because someone "
+"attempted to create an account on %(platform_name)s using this email "
+"address."
+msgstr ""
+"הודעה זו נשלחה באופן אוטומטי על ידי %(lms_url)s, לאחר שנוצר חשבון ב%(platform_name)s באמצעות כתובת דוא\"ל זו."
+
+#: common/templates/student/edx_ace/accountactivation/email/subject.txt
+#, python-format
+msgid "Action Required: Activate your %(platform_name)s account"
+msgstr "נדרשת פעולה: הפעל את חשבון %(platform_name)s שלך"
+
+#: common/djangoapps/student/views/dashboard.py
+#, python-brace-format
+msgid ""
+"Check your {email_start}{email}{email_end} inbox for an account activation "
+"link from {platform_name}. If you need help, contact "
+"{link_start}{platform_name} Support{link_end}."
+msgstr ""
+"שלחנו מייל אימות ל {email_start}{email}{email_end} ובו ניתן למצוא קישור "
+"לאימות המשתמש שלך בקמפוס {platform_name}. אם נתקלת בבעיות, אנשי התמיכה פה "
+"לשירותך {link_start}{platform_name}קמפוס תמיכה{link_end}."
+
+#: lms/templates/instructor/instructor_dashboard_2/sensitive_data_download_msg.txt
+msgid ""
+"Contains information protected under the Protection of Privacy Law - the "
+"wrongful transgressor commits an offense"
+msgstr ""
+"מכיל מידע מוגן לפי חוק הגנת הפרטיות - המוסר שלא כדין עובר עבירה"
+
+#: common/djangoapps/util/password_policy_validators.py
+#, python-brace-format
+msgid "Your password must contain {length_instruction}."
+msgstr ""
+
+#: common/djangoapps/util/password_policy_validators.py
+#, python-format
+msgid "at least %(min_length)d character"
+msgid_plural "at least %(min_length)d characters"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#. Translators: This label appears above a dropdown menu on the registration
+#. form used to select the country in which the user lives.
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
+msgid "Country or Region of Residence"
+msgstr ""
+
+#. Translators: These instructions appear on the registration form,
+#. immediately
+#. below a field meant to hold the user's country.
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
+msgid "The country or region where you live."
+msgstr ""
+
 #~ msgid "Academic Planning"
 #~ msgstr "תכנון אקדמי"
 

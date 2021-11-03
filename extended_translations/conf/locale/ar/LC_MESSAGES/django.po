@@ -72,7 +72,7 @@ msgstr "الدعم"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/footer.html:32
 msgid "Terms of Service"
-msgstr ""
+msgstr "شروط الاستخدام"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:29
 msgid "Global"
@@ -339,6 +339,73 @@ msgstr "ينقصك بعض البيانات في إعداد حسابك!"
 msgid "Please {link_start}complete your profile{link_end}."
 msgstr "يرجى منك {link_start} الانتهاء من ملء إعدادات حسابك {link_end}"
 
+msgid "The email address you used to register with {platform_name}"
+msgstr "عنوان البريد الإلكتروني الذي قمت بالتسجيل به {platform_name}."
+
+msgid "Remember me"
+msgstr "تذكرني"
+
+msgid "This is what you will use to login."
+msgstr "سيتم استخدام عنوان البريد الإلكتروني لتسجيل الدخول."
+
+msgid "Jane Q. Learner"
+msgstr "إذن ما هو اسمك?"
+
+msgid "This name will be used on any certificates that you earn."
+msgstr "هذا هو الاسم الذي سيظهر على جميع شهادات التخرج الخاصة بك."
+
+msgid ""
+"The name that will identify you in your courses. It cannot be changed later."
+msgstr ""
+"سيكون هذا هو لقبك ومعرفك في الدورات. لا يمكن تغييره لاحقا."
+
+msgid "Jane_Q_Learner"
+msgstr "إذن ما هو اسمك?"
+
+msgid "I agree to the {platform_name} {terms_of_service}"
+msgstr "لقد قرأت ووافقت على {terms_of_service} ل- {platform_name}"
+
+msgid "You must agree to the {platform_name} {terms_of_service}"
+msgstr "يجب أن توافق على {terms_of_service} ل- {platform_name}"
+
+msgid "Review the Terms of Service"
+msgstr "راجع شروط الاستخدام"
+
+#: lms/templates/courseware/info.html
+msgid "Welcome to {org}'s {course_title}!"
+msgstr "مرحبًا بك في المساق {course_title} التابع للمؤسسة {org}!"
+
+#: lms/templates/courseware/info.html
+msgid "Welcome to {course_title}!"
+msgstr "أهلاً وسهلاً بكم في المساق {course_title}!"
+
+msgid ""
+"Check your {email_start}{email}{email_end} inbox for an account activation "
+"link from {platform_name}. If you need help, contact "
+"{link_start}{platform_name} Support{link_end}."
+msgstr ""
+"أرسلنا إليك رسالة تحقق إلى{email_start}{email}{email_end} "
+"حيث يمكنك ايجاد رابط التحقق من اسم مستخدمك في. {platform_name} "
+"إذا كان لديك أي مشكلة , فإن فريق الدعم لدينا في خدمتك: "
+"{link_start}{platform_name} الدعم{link_end}"
+
+#: lms/templates/instructor/instructor_dashboard_2/sensitive_data_download_msg.txt
+msgid ""
+"Contains information protected under the Protection of Privacy Law - the "
+"wrongful transgressor commits an offense"
+msgstr ""
+"يحوي معلومات محمية بموجب قانون حماية الخصوصية - المخالف يعاقب"
+
+#: common/djangoapps/util/password_policy_validators.py
+#, python-format
+msgid "at least %(min_length)d character"
+msgid_plural "at least %(min_length)d characters"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+msgstr[5] ""
 
 #~ msgid "Academic Planning"
 #~ msgstr "التخطيط الدراسي"
