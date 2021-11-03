@@ -10,6 +10,9 @@ import re
 from setuptools import setup
 
 
+VERSION = '0.0.1'
+
+
 def package_data(pkg, roots):
     """
     Find package_data.
