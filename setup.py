@@ -83,7 +83,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 
 setup(
-    name='Extended Translations plugin for Open edX',
+    name='extended_translations',
     version=VERSION,
     author='RaccoonGang',
     author_email='dmytro.nefyodov@raccoongang.com',
