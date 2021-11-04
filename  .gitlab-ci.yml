@@ -1,7 +1,7 @@
 image: "python:latest"
 
-run:
-  stage: deploy
+package-build:
+  stage: build
   script:
   - pip install twine
   - python setup.py sdist bdist_wheel

@@ -13,7 +13,8 @@ changes in Open edX, and it's dependencies translations in each repository.
 Features
 ########
 
-Place your plugin features list.
+Override translations for edx-platform and xblocks adding custom translations to django.po, djangojs.po
+and by generating .mo and .js files in this app.
 
 Installation
 ############
@@ -23,13 +24,15 @@ Open edX devstack
 
 - Clone this repo in the src folder of your devstack.
 - Open a new Lms/Devstack shell.
-- Install the plugin as follows: pip install -e /path/to/your/src/folder
+- Install the plugin as follows: pip install -e ./src/extended_translations or pip install -e /edx/edxapp/src/extended_translations
 - Restart Lms/Studio services.
 
 Usage
 #####
 
-Include a usage description for your plugin.
+- Add new custom translations to django.po and djangojs.po for different languages
+- Compile .mo and .js files in LMS/Studio environment
+- After installing application in OpenedX environment, translations will be overrided
 
 Contributing
 ############
