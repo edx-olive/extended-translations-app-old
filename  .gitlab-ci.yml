@@ -1,0 +1,10 @@
+image: "python:latest"
+
+package-build:
+  stage: build
+  script:
+  - pip install twine
+  - python setup.py sdist bdist_wheel
+  - TWINE_PASSWORD=${PACKAGES_TOKEN} TWINE_USERNAME=${PACKAGES_TOKEN_NAME} python -m twine upload --repository-url https://gitlab.raccoongang.com/api/v4/projects/${CI_PROJECT_ID}/packages/pypi dist/*
+  only:
+  - tags
