@@ -379,6 +379,10 @@ msgstr "مرحبًا بك في المساق {course_title} التابع للمؤ
 msgid "Welcome to {course_title}!"
 msgstr "أهلاً وسهلاً بكم في المساق {course_title}!"
 
+#: lms/templates/courseware/progress.html
+msgid "Course Progress for '{username}' ({email})"
+msgstr "مستوى التقدم في المساق ل '{username}' ({email})"
+
 msgid ""
 "Check your {email_start}{email}{email_end} inbox for an account activation "
 "link from {platform_name}. If you need help, contact "
