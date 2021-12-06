@@ -400,6 +400,10 @@ msgid ""
 msgstr ""
 "يحوي معلومات محمية بموجب قانون حماية الخصوصية - المخالف يعاقب"
 
+#: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html
+msgid "Completed {completion_date_html}"
+msgstr "اكتمل {completion_date_html}"
+
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
 msgid "at least %(min_length)d character"
