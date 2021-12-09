@@ -311,10 +311,6 @@ msgstr "תודה על שאלתך"
 msgid "Privacy Policy"
 msgstr "שינוי מדיניות הפרטיות שלנו"
 
-#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:7
-msgid "Terms of Use"
-msgstr ""
-
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:58
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:83
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:109
@@ -935,6 +931,198 @@ msgstr ""
 msgid "Change my Password"
 msgstr ""
 
+msgid "Terms of Use"
+msgstr "תנאי שימוש"
+
+msgid "A. General"
+msgstr "א. כללי"
+
+msgid "B. Copyrights"
+msgstr "ב. זכויות יוצרים"
+
+msgid "C. Links to websites"
+msgstr "ג. קישורים לאתרים"
+
+msgid "D. Privacy"
+msgstr "ד. פרטיות"
+
+msgid "E. Official publications of the State of Israel"
+msgstr "ה. פרסומים רשמיים של מדינת ישראל"
+
+msgid "F. Use of Cookie files"
+msgstr "ו. שימוש בקבצי Cookies"
+
+msgid "G. Warranty"
+msgstr "ז. אחריות"
+
+msgid "H. Applications regarding the Website or Service"
+msgstr "ח. פניות בנוגע לאתר או השירות"
+
+msgid "Headquarters for the National Digital Israel Initiative in Ministry of Social Equality of the State of Israel (hereinafter, \"the Ministry\") offers the information and online services in this Internet site (hereinafter, \"the Service\" or \"the Website\") subject to the following terms:"
+msgstr "מטה המיזם הלאומי \"ישראל דיגיטלית\" במשרד לשוויון חברתי, מדינת ישראל (להלן: \"המשרד\") מציע את המידע והשירותים המקוונים באתר אינטרנט זה (להלן: \"השירות\" או \"האתר\") בכפוף לתנאים הבאים:"
+
+msgid "The meaning of the terms \"User\" is any person who makes contact and/or communicates with the Website."
+msgstr "המונח \"משתמש\" להלן משמעו כל אדם אשר יוצר קשר ו/או מתקשר עם האתר."
+
+msgid "The information in the Website is formulated in masculine form for convenience purposes only and refer to men and women alike."
+msgstr "המידע באתר מנוסח בלשון זכר לצורכי נוחות בלבד, ומתייחס לגברים ולנשים כאחד."
+
+msgid "Following the copyrights laws applicable in Israel and international conventions, the copyrights in the Ministry's publications, including those published in this Service are the property of the State of Israel. These copyrights command, among other things, text, pictures, drawings, maps, sound clips, video clips, graphics and software applications (hereinafter, \"the Privileged Material\"), unless explicitly determined otherwise that the copyrights in the Privileged Material are the property of another party. The copyrights are the property of the Ministry or of third parties and is reserved to them."
+msgstr "לפי דיני זכויות היוצרים התקפים בישראל, ועל פי אמנות בין-לאומיות, זכויות היוצרים בפרסומי המשרד, כולל אלו המתפרסמים בשירות זה, שייכות למדינת ישראל. זכויות יוצרים אלו חולשות, בין השאר, על טקסט, תמונות, איורים, מפות, קטעי צליל, קטעי וידיאו, גרפיקה ויישומי תוכנה (להלן: \"החומר המוגן\"), אלא אם כן נקבע באופן מפורש כי זכויות היוצרים בחומר המוגן שייכות לגורם אחר. זכות היוצרים מצויה בבעלות המשרד או בבעלותם של צדדים שלישיים, ושמורה להם."
+
+msgid "The User may perform \"fair use\" of the Privileged Material in accordance with the rules set by the law. Fair use includes a reasonable quote out of the Privileged Material. the said quoter should mention the source of the quote, whether it is the Ministry or another party. The User may not make use, within the Privileged Material, of any falsification, vitiation or other change or any action that may be a degradation in relation to the Privileged Material that may slight or dishonor the owner of the copyrights in it. Subject to copyright laws, the User may not copy, redistribute, retransmit, or publish Privileged Material without the Ministry's advance written consent."
+msgstr "המשתמש רשאי לעשות \"שימוש הוגן\" בחומר המוגן, הכל בהתאם לכללים הקבועים בדין. שימוש הוגן כולל ציטוט סביר מתוך החומר המוגן. המצטט כאמור חייב לציין את המקור לציטוט, בין אם הוא המשרד ובין אם הוא גורם אחר. אסור למשתמש לעשות בחומר המוגן כל סילוף, פגימה או שינוי אחר, או כל פעולה שיש בה משום הפחתת ערך ביחס לחומר המוגן, העלולה לפגוע בכבודו או בשמו של בעל זכויות היוצרים בו. בכפוף לדיני זכויות יוצרים, אסור למשתמש להעתיק, להפיץ מחדש, לשדר מחדש או לפרסם חומר מוגן, ללא הסכמה מראש ובכתב מאת המשרד."
+
+msgid "There are links in this site, referring to external websites. These websites are not under the Ministry's control and the Ministry cannot be held accountable to the content of the material found in the foregoing websites. These websites are exclusively intended for the convenience of Users of the Website. In addition, the Ministry cannot be held liable, directly or indirectly, to the content of the websites and it cannot be held accountable in any way whatsoever to flaws and/or defects and/or errors of any kind in the information appearing in those websites. The Ministry will not be held responsible to software and other damages if caused due to use of the websites. In other words, there are no legal or commercial relations between the Ministry and the owners of the linked websites."
+msgstr "באתר זה נמצאים קישורים המפנים לאתרים חיצוניים, אתרים אלה אינם בשליטת המשרד ואין המשרד אחראי לתוכן החומר הנמצא באתרים האמורים. האתרים נועדו לנוחיות המשתמשים באתר בלבד. כמו כן אין למשרד אחריות עקיפה או ישירה לאמור באתרים, ואין המשרד אחראי בצורה כלשהי לפגמים ו/או ליקויים ו/או טעויות מכל סוג, במידע שמופיע באותם אתרים. המשרד לא יישא באחריות בגין נזקי תכנה ונזקים אחרים אם יגרמו כתוצאה מהשימוש באתרים. הווה אומר כי אין בין המשרד לבין בעלי האתרים המקושרים יחסים משפטיים או מסחריים."
+
+msgid "At the time of editing the links to the external websites in hte Ministry's Website, it was found that the information complies with the Website's general objectives and the actual links are in order at the time. However, it is possible that with time, changes are made to the linked website, hence links to external websites should not be construed as providing authorization, certification, recommendation or preference by the State or the Ministry to the linked websites of their operators, owners or creators, including to documents and any other material contained in them or to products presented in them."
+msgstr "בעת עריכת הקישורים לאתרים החיצוניים באתר המשרד, נמצא כי המידע הינו תואם את מטרותיו הכלליות של האתר וכי הקישורים עצמם הינם תקינים לאותה עת. ואולם, יתכן שבמהלך הזמן חלו שינויים באתר המקושר ולכן אין לפרש קישורים לאתרים חיצוניים כמתן גושפנקה, אישור, המלצה או העדפה על ידי המדינה או המשרד לאתרים המקושרים או למפעיליהם, בעליהם או יוצריהם, לרבות למסמכים ולכל חומר אחר הנמצאים בהם, או למוצרים המוצגים בהם."
+
+msgid "If a user in a website believes a linked site or material in it are not appropriate or if it found that the link is no proper or in any other application relevant to this Service, he is required to report this to the Website staff by e-mail to address"
+msgstr "אם משתמש באתר סבור שאתר מקושר או החומר המצוי בו אינם מתאימים, או אם נמצא כי הקישור אינו תקין, או בכל פנייה נוספת הרלוונטית לשירות זה הוא מתבקש להודיע על כך לצוות האתר בכתובת הדוא\"ל ."
+
+msgid "In order to be registered and receive the Services offered by this Website, we will issue you a personal username and password."
+msgstr "על מנת להירשם ולקבל את השירותים המוצעים באתר זה, ננפיק לכם שם משתמש וססמה אישיים."
+
+msgid "Pay attention that upon entry into this Website, you confirm that you understand and unequivocally confirm collection, use, disclosure and saving of your personal details as specified above in Israel, Ireland and other countries and territories for the purposes specified in this privacy policy document. For the avoidance of doubt, it is hereby clarified that any confirmation pertaining to the right to transfer information defined hereunder as \"Student Data\" also includes your approval to transfer the relevant personal data to a jurisdiction that may provide a different level of privacy protection than that existing in your country."
+msgstr "יש לשים לב כי בעת הכניסה לאתר זה, הנכם מאשרים שאתם מבינים ומאשרים באופן חד משמעי את איסוף, שימוש, גילוי ושמירת פרטיכם האישיים, כמפורט להלן, בישראל, באירלנד ובמדינות וטריטוריות אחרות, לצרכים המפורטים במסמך מדיניות פרטיות זה. למען הסר ספק, מובהר כי כל אישור הנוגע לזכות להעברת מידע המוגדר להלן כ-\"נתוני הלומד\" כוללת גם את אישורכם להעברת המידע האישי הרלוונטי לתחום השיפוט שעשוי לספק רמה שונה של הגנת פרטיות מזו הקיימת במדינתכם."
+
+msgid "If your disagree to these terms, please refrain from surfing to this Website, reviewing any of its content or registering to it. If you choose to refrain from providing us with a certain information that is required for provision of certain services offered by our Website, it is possible that you may not be able to create a user account and we may not be capable of providing you with these services."
+msgstr "אם אינכם מסכימים לתנאים אלה, אנא הימנעו מלגשת לאתר, לעיין באלו מתכניו או להירשם אליו. אם אתם בוחרים שלא לספק לנו מידע מסוים הנדרש לאספקת שירותים מסוימים שאתרנו מציע, יתכן שלא תוכלו ליצור חשבון משתמש, ויתכן שלא נוכל לספק לכם את השירותים הללו."
+
+msgid "We will require that you provide us with the following information about you (Student Data):"
+msgstr "נזדקק שתספקו לנו את המידע להלן אודותיכם (\"נתוני לומד\"):"
+
+msgid "Full name"
+msgstr "שם מלא"
+
+msgid "ID No."
+msgstr "מספר זהות"
+
+msgid "e-mail address"
+msgstr "כתובת דוא\"ל"
+
+msgid "Organization name"
+msgstr "שם ארגון"
+
+msgid "Name of the course to which you are registering."
+msgstr "שם הקורס שהנכם נרשמים אליו."
+
+msgid "We gather the Student Data upon your registration to the Website for the purpose of receiving a user account, while participating in on-line courses, registering to get a certificate for a payment, send us an e-mail and/or take part in our public forums. We also gather certain useful information regarding the student performance and learning patterns. In addition, we monitor information indicating to, among other things, which of the Website's pages you have visited, the order of your visits to them, the time of these visits as well as which hyperlinks and other interface controllers you have used."
+msgstr "אנו אוספים את נתוני הלומד במעמד הרשמתכםלאתר לצורך קבלתחשבון משתמש, כאשר הנכם משתתפים בקורסים מקוונים, נרשמים לקבלת תעודה בתשלום, שולחים לנו הודעות דוא\"ל ו/או משתתפים בפורומים הציבוריים שלנו. אנו גם אוספים מידע שימושי מסוים על ביצועי תלמידים ודפוסי למידה. בנוסף, אנחנו עוקבים אחר מידע המעיד, בין היתר, באלו מדפי האתר ביקרתם, הסדר בו ביקרתם בהם, מתי ביקרתם בהם ובאילו היפר-קישורים ובקרי ממשק אחרים השתמשתם."
+
+msgid "We may document the IP address, operating system and web browser software used by any user of the Website, and we can identify from the IP address the Internet provider and geographical location of the User's connection point. An assortment of network analysis tools are used in gathering this information. Some of the information is gathered by Cookie files (small text files placed in your computer and record information about you to which the Website can access.) You are supposed to have the capability to control the way your web browser accept Cookie files, if at all. Most wen browsers provide instructions in hte Help area in the toolbar how to reset the browser so it reject Cookie files. If you choose to reject our Cookie files, many functionalities and elements of the Website's accessories may not be operating properly."
+msgstr "אנו עשויים לתעד את כתובת ה-IP, מערכת ההפעלה ותוכנת הדפדפן המשמשים כל משתמש באתר, וביכולתנו לזהות מכתובת ה-IP את ספק האינטרנט והמיקום הגאוגרפי של נקודת ההתקשרות של המשתמש. מבחר כלי אנליטיקת רשת משמשים לאיסוף מידע זה. חלק מהמידע נאסף באמצעות קבי Cookies (קבצי טקסט קטנים המוכנסים למחשב שלכם ומתעדים מידע עליכם, שאליו האתר יכול לגשת). אמורה להיות לכם היכולת לשלוט באופן שבו דפדפן האינטרנט שלכם מקבל קבצי Cookies, אם בכלל יקבל אותם. מרבית הדפדפנים מספקים הוראות כיצד לאפס את הדפדפן כך שיידחה קבצי Cookies, באיזור ה\"עזרה\" בסרגל הכלים. אם תדחו את קבצי ה-Cookies שלנו, תפקודים ואלמנטים רבים של כלי עזר באתר עשויים שלא לעבוד כראוי."
+
+msgid "Among other things, we, educational institutes and other bodies )hereinafter, \"the Educational Institutes\", providing courses by way of the Website, may use information about you gathered from teh Website (including Student Data) in the following cases. In case we share or deliver your Student Data: (1) third parties that receive the Student Data are required to handle these data in a confedential way and employ security means sufficient for protection of the information from loss, improper use, unauthorized access of exposure, alteration and destruction; (2) we will disclose and share the Student Data with a third party only when requested by a third party for execution of either of the objectives declared to you upon gathering of the information."
+msgstr "בין היתר, אנו, מוסדות חינוך וגופים אחרים (להלן:\"מוסדות החינוך\"), המספקים קורסים באמצעות האתר, עשויים להשתמש במידע עליכם שייאסף מן האתר (כולל נתוני הלומד) במקרים שלהלן. במקרה שנשתף או נמסור את נתוני הלומד אודותיך: (1) נדרשים צדדים שלישיים המקבלים את נתוני הלומד לנהוג בנתונים אלו באופן חסוי ולהפעיל אמצעי אבטחה מספקים לשם ההגנה על המידע מאובדן, שימוש בלתי הולם, גישה בלתי מורשה או חשיפה, שינוי והשמדה; (2) אנו נחשוף ונשתף את נתוני הלומד בפני צד ג' רק כשהדבר יידרש על ידי צד ג' לשם ביצוע אחת המטרות שהוצהרו בפניך, בעת איסוף המידע."
+
+msgid "To enable us and the Educational Institutes to provide, manage and improve the courses."
+msgstr "על מנת לאפשר לנו ולמוסדות החינוך לספק את הקורסים, לנהל אותם ולשפר אותם."
+
+msgid "To assist us and the Educational Institutes to better the Website's value proposal, either individually (e.g. by a course staff when working with a student), or collectively and male the experience personalized and for the purpose of evaluating the access to and use of the Website as well as its impact on the Israeli and international educational community."
+msgstr "על מנת לסייע לנו ולמוסדות החינוך לשפר את הצעת הערך של האתר, הן באופן פרטני (למשל על ידי צוות קורס בעת העבודה עם תלמיד), והן באופן כולל, ולהפוך את החוויה ליותר מותאמת אישית ולצורך ביצוע הערכה בדבר הגישה לאתר השימוש בו, ואת השפעתו על"
+
+msgid "For scientific research, especially, e.g. in area of cognitive studies and pedagogy."
+msgstr "ילת החינוך הישראלית וקהילת החינוך הבינלאומית."
+
+msgid "For purposes for which you have explicitly provided the information, such as in response to a specific question or to grant you access to content of a specific course and/or courses you choose."
+msgstr "לצרכי מחקר מדעי, ובייחוד, לדוגמה, בתחומים של מדע הקוגניציה וחינוך."
+
+msgid "In order to perform an individual and general tracking of attendence, progress and completion of an on-line course, and for statistical analysis of the student performance and learning method."
+msgstr "למטרות שלשמן סיפקתם את המידע במפורש, למשל, למענה על שאלה מסוימת או כדי לאפשר לכם גישה לתוכן הקורס המסוים ו/או שירותי הקורס המסוימים שתבחרו."
+
+msgid "To monitor and identify violations of the code of honor or service terms, as well as misuse or possible abuse of the Website."
+msgstr "על מנת לנהל מעקב פרטני וכולל של נוכחות, התקדמות והשלמתו של קורס מקוון, ולשם ניתוח הסטטיסטיקה על ביצועי תלמידים ואופן הלימוד של תלמידים."
+
+msgid "To publish gathered information, excluding personal information, that pertaining to access to, use of or influence of the Website, as well as to student performance."
+msgstr "על מנת לנטר ולזהות הפרות של קוד הכבוד או של תנאי השירות, כמו גם ניצול לרעה או ניצול אפשרי לרעה של האתר."
+
+msgid "To send you updates regarding on-line courses we or educational institutes offer or about other events."
+msgstr "על מנת לפרסם מידע שנאסף, אך לא מידע אישי, הנוגע לגישה לאתר, לשימוש בו, להשפעתו ולביצועי התלמידים."
+
+msgid "To archive this information and/or use it in future communications with you."
+msgstr "על מנת לשלוח לכם עדכונים על קורסים מקוונים שאנו או מוסדות חינוך מציעים, או על אירועים אחרים."
+
+msgid "To preserve and improve the performance of the Website, software, systems and network and their security."
+msgstr "על מנת לארכב מידע זה ו/או להשתמש בו בתקשורת עתידית עמכם."
+
+msgid "For the purposes described in various places in this privacy policy (including, e.g., sharing with a third party.)"
+msgstr "על מנת לשמר ולשפר את תפקוד האתר, את התוכנה, המערכות והרשת שלנו, ואת אבטחתם."
+
+msgid "For the purpose of verifying your identity upon registration for a paid certificate."
+msgstr "למטרות המתוארות במקומות שונים במדיניות הפרטיות הזו (כולל, לדוגמה, שיתוף עם צד ג')."
+
+msgid "To process applications for refund, when applicable."
+msgstr "לצורך אימות זהותך בעת ההרשמה לתעודה בתשלום."
+
+msgid "This Website may include connections to websites operated by a third party, including other content and certain service providers, such as the providers that process payments on our behalf. These other websites are not under our control and you agree and acknowledge that we cannot be held responsible to the gathering of your personal information and use of it as part of your visit to these websites, unless mentioned otherwise in this privacy policy. We advise you to use caution when being redirected to third party websites from this Website and review the privacy policy of each and every website you visit and use."
+msgstr "אתר זה עשוי להכיל קישורים לאתרי אינטרנט המתופעלים על ידי צד ג', לרבות ספקי תוכן אחרים וכן ספקי שירות מסוימים, כגון אותם ספקים המעבדים את התשלומים מטעמנו. אתרי אינטרנט אחרים אלה אינם נמצאים תחת שליטתנו, והנכם מסכימים ומכירים בכך שאיננו אחראים לאיסוף המידע האישי שלכם והשימוש בו במסגרת ביקורכם באתרים אלה, אלא אם מצוין אחרת במדיניות פרטיות זו. אנו ממליצים לכם להיזהר כשאתם מופנים לאתרי צד ג' מתוך אתר זה, ולעיין במדיניות הפרטיות של כל אתר ואתר שאתם מבקרים בו ומשתמשים בו."
+
+msgid "We share the gathered information with Educational Institutes and we and the Educational Institutes may share this information (including Student Data) with a third party as follows:"
+msgstr "אנו נחלוק את המידע שאנו אוספים עם מוסדות חינוך, ואנו ומוסדות החינוך עשויים לחלוק מידע זה (כולל נתוני הלומד) עם צד ג' כדלקמן:"
+
+msgid "With service providers or contractors that perform certain actions in our name or in the name of the Educational Institutes, including processing of information you have provided us in the Website, processing of acquisitions and other transactions in the Website by way of third party suppliers, operation of the Website or parts of it, provision or management of courses, or in any connection to any other aspect of the Services we provide."
+msgstr "עם ספקי שירות או קבלנים שמבצעים פעולות מסוימות בשמנו או בשם מוסדות החינוך, כולל עיבוד מידע שסיפקתם לנו באתר, עיבוד רכישות ועסקאות אחרות באתר דרך ספקי צד ג', הפעלת האתר או חלקים ממנו, אספקת קורסים או ניהולם, או בכל קשר לכל היבט אחר של השירותים המוענקים על ידנו."
+
+msgid "With other visitors to the Website, if you send reactions, homework or other information and contents (hereinafter collectively, \"the Publications\") to a part in the Website that was designated to public communication and to other members of your class, if you are sending Publications to a part of the Website that was designated to the eyes of these classmates. We may provide your Publications to students who will register to the same courses you take in the context of the forums, the courseware or any other context. If we republish your Publications that originally appeared in the non-public parts of the Website, we will do so without mentioning your real name and e-mail address (unless you explicitly approve publication of your details), but we would be entitled to use your Username without your consent."
+msgstr "עם מבקרים אחרים באתר, במידה שהנכם שולחים תגובות, שיעורי בית או מידע אחר ותכנים אחרים (יחדיו, \"הפרסומים\") לחלק באתר שיועד לתקשורת ציבורית; ולחברים אחרים בכיתה שאתם חברים בה, במידה שהנכם שולחים פרסומים לחלק באתר שיועד לעיונם של חברי כיתה אלה. אנחנו עשויים לספק את פרסומיכם לתלמידים שיירשמו לאותם קורסים שלמדתם, בהקשר של הפורומים, הלומדה או בכל הקשר אחר. אם אנו מפרסמים מחדש את פרסומיכם, שהופיעו במקור בחלקים הבלתי-ציבוריים של האתר, נפרסם אותם ללא שמכם האמיתי וכתובת הדוא\"ל האמיתית שלכם (אלא אם תאשרו את פרסום פרטיכם במפורש), אך נוכל להשתמש בשם המשתמש שלכם ללא הסכמתכם."
+
+msgid "For scientific research, especially, e.g. in area of cognitive studies and pedagogy. Nevertheless, we will share your personal information for this purpose only if this can be done in a lawful way and to the extent permissible by the law."
+msgstr "לצרכי מחקר מדעי, ובייחוד, לדוגמה, בתחומים של מדע הקוגניציה וחינוך. יחד עם זאת, אנו נחלוק את המידע האישי שלכם למטרה זו אך ורק במידה וניתן לעשות זאת על פי הדין ובמידה המותרת על פי הדין בלבד."
+
+msgid "In order to provide you with opportunities to communicate with other users with similar areas of interest and learning objectives to yours. For instance, we may recommend certain study partners or establish contact between students who have the potential to mentor one another. In such cases, we may use the information we have gathered about you to determine who may be interested in communication with you, but will provide the other students nothing but your Username and will not reveal your real name or the e-mail address by which you could be contacted."
+msgstr "על מנת לספק לכם הזדמנויות לתקשר עם משתמשים אחרים בעלי תחומי עניין דומים לשלכם ומטרות לימוד דומות לשלכם. למשל, אנחנו עשויים להמליץ על שותפים מסוימים ללימוד או לקשר בין תלמידים עם פוטנציאל להיות מנטורים אחד של השני. במקרים כאלה, נוכל להשתמש במידע שאספנו עליכם כדי להכריע מי יהיה מעוניין בתקשורת עמכם, אך נספק לתלמידים אחרים רק את שם המשתמש שלכם, ולא נחשוף את שמכם האמיתי או את כתובת הדוא\"ל שבה ניתן ליצור איתכם קשר."
+
+msgid "In response to a summons or to a court order, or for any other legal procedure; to investigate or prevent investigation, or to act in reaction to illegal activities, suspicion of fraud, or in view of security or technical problems, or to enforce our terms of service, code of honor or privacy policy as much as may be required in excess to the applicable law or to protect our rights, property and safety or of others."
+msgstr "בתגובה לזימון לבית דין או לצו בית משפט, או עבור כל תהליך חוקי אחר; על מנת לחקור, או למנוע חקירה, או על מנת לפעול בתגובה לפעילויות בלתי-חוקיות, חשד להונאה, או לאור בעיות אבטחה או בעיות טכניות, או על מנת לאכוף את תנאי השירות שלנו, את קוד הכבוד שלנו או את מדיניות הפרטיות שלנו, ככל שיידרש מעבר לכך בדין החל, או על מנת להגן על זכויותינו, רכושנו ובטחוננו או של אחרים."
+
+msgid "With entities and organizations related to us or to the Educational Institutes and/or with which we or the Educational Institutes collaborate or with those that will come in our place, in the event that the management of this Website or any part of it will be transferred to any other third party for the purpose of provision of the Services by them in accordance with the terms of this privacy policy."
+msgstr "עם גופים וארגונים הקשורים אלינו או למוסדות החינוך ו/או שעמם אנו או מוסדות החינוך משתפים פעולה, או עם אלו שיבואו במקומנו, במקרה שניהול אתר זה או כל חלק ממנו יועבר לצד שלישי אחר כלשהו, לצורך מתן השירותים על ידם, בהתאם לתנאי מדיניות פרטיות זו."
+
+msgid "As will described before you upon collection of funds from you or following your authorization."
+msgstr "כפי שיתואר בפניכם בעת גביית כספים ממכם או בהתאם להסכמתכם."
+
+msgid "For integration with third party services. For instance, video clips and other content that would be uploaded to the YouTube website or others that are not under our control."
+msgstr "לצורך אינטגרציה עם שירותי צד ג'. לדוגמה, סרטונים ותכנים נוספים שיועלו על גבי אתר YouTube או באתרים אחרים שאינם תחת שליטתנו."
+
+msgid "For your attention:"
+msgstr "לתשומת ליבכם:"
+
+msgid "We intend to share your Student Data with EdX.inc that provides or will provide us with hosting and other services as website administrators."
+msgstr "בכוונתנו לשתף ולחלוק נתוני הלומד אודותיכם עם חברת EdX.inc, שמספקת או תספק לנו שירותי אירוח ושירותים אחרים כמנהל האתר."
+
+msgid "In accordance with a service provision agreement signed between us (the Headquarters for the National \"Digital Israel\" Initiative) and EdX.inc,"
+msgstr "לפי הסכם למתן שירותים שנחתם ביננו (מטה המיזם הלאומי \"ישראל דיגיטלית\") לבין EdX.inc :"
+
+msgid "\"EdX shall use such Learner Data only to the extent required to in order to carry out tasks in compliance with this Agreement. EdX will ensure that it will not share Learner Data with any third parties unless edX has NDB written prior consent or that edX is required to share such information, provided that appropriate confidentiality and security measures are taken. EdX will comply with all applicable laws, policies, and regulations relating to its use of Learner Data.\""
+msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד. \""
+
+msgid "The Website and data stored in it are stored in server farm of Amazon Web Services (AWS) in Dublin, Ireland. To review AWS's privacy policy and terms of use, visit"
+msgstr "האתר והנתונים המאוחסנים בו מאוחסנים בחוות השרתים (AWS) של Amazon בדבלין, אירלנד. לצורך עיון במדיניות הפרטיות ותנאי השימוש של AWS, גשו לכתובת:"
+
+msgid "Should there be a conflict or discrepancy between the material published in the Website and that appearing in official written publications of the State of Israel, the material in this official publications will be considered correct. In any event of conflict and/or discrepancy between the material displayed in this Service and another publication of the Ministry, the Ministry will determine which publication should be considered correct."
+msgstr "במידה שיש סתירה או אי-התאמה בין החומר המתפרסם באתר לבין החומר המופיע בפרסומים הרשמיים בכתב של מדינת ישראל, החומר בפרסומים רשמיים אלה ייחשב כנכון. בכל מקרה של סתירה ו/או אי התאמה בין החומר המוצג בשירות זה לבין פרסום אחר של המשרד, יקבע המשרד איזה מן הפרסומים ייחשב כנכון."
+
+msgid "This Website use Google Analytics, a Google product assisting website owners understand the way customers are involved in their websites. When you visit this Website, your web browser automatically sends Google certain data. These data includes, among other things, the web address of the page you are visiting and your IP address. Google Analytics uses Cookie files, text files placed in the computer to help the website to analyze how users use the website. The information gathered by a Cookie file is transferred to Google servers where it is stored. Google uses this information to assess your use of the website and prepare reports on the website activity and Internet use for website owners. Google may also transfer the information to third parties when it is required to do so by the law or when a third party processes the information for Google. Google will not attribute the IP address to other information in its possession."
+msgstr "אתר זה משתמש בגוגל אנליטיקס, מוצר של גוגל שעוזר לבעלי אתרים להבין את אופן המעורבות של לקוחות באתרים שלהם. כאשר אתם מבקרים באתר זה הדפדפן שלכם שולח נתונים מסוימים ל-Google באופן אוטומטי. נתונים אלה כוללים, בין היתר, את כתובת האינטרנט של הדף שבו אתם מבקרים ואת כתובת ה-IP שלכם. גוגל אנליטיקס משתמשים בקבצי \"Cookies\", קבצי טקסט המוצבים על המחשב במטרה לסייע לאתר לנתח כיצד המבקרים משתמשים באתר. האינפורמציה שנאספת דרך קובץ ה-\"Cookies\" מועברת ונשמרת בשרתי גוגל. גוגל משתמשת במידע זה כדי להעריך את השימוש שלך באתר, עריכת דוחות על פעילות האתר ועל השימוש באינטרנט בשביל מנהלי אתרים. גוגל עלולה גם להעביר את המידע לצד שלישי, כאשר היא נדרשת לכך מתוקף חוק, או כאשר צד שלישי מעבד את המידע בשביל גוגל. גוגל לא תשייך את כתובת ה-IP עם מידע אחר שיש לגוגל."
+
+msgid "Use of Cookie files can be cancelled by selecting the appropriate option in the browser's settings, but in such a case, it is possible that some of the information appearing in the Website will not be available."
+msgstr "ניתן לבטל את השימוש בקבצי \"Cookies\" על ידי בחירת האפשרות המתאימה בהגדרות הדפדפן, אולם במקרה כזה יתכן ולא כל המידע המופיע באתר יהיה זמין."
+
+msgid "For further information on the way to cancel sending information to Google Analytics"
+msgstr "למידע נוסף על אופן ביטול שליחת מידע ל-Google Analytics"
+
+msgid "Surfing to this Website constitutes your consent to the information gathering by Google in the way and for the purposes aforementioned."
+msgstr "גלישה באתר זה מהווה את הסכמתך לאיסוף המידע על ידי גוגל באופן ולמען השימושים שצוינו לעיל."
+
+msgid "The Service is offered to the public AS IS. The State of Israel will not be held responsible for the matching of the Service to the User's requirements. In addition, the State of Israel will not be held liable for mistakes or errors in the material presented within the Service. The State of Israel will not be held liable for changes made to the material presented within the Service by the User or any third party. The User bears the sole responsibility to the manner he uses the Service. The State of Israel will not be held responsible for any damage incurred by the User of any third party as a direct or indirect result of use of the Service, including damage caused due to use of software applications that were downloaded directly by way of the Service or used as a result of using the Service. For the purpose of this section, the State of Israel includes its employees and representatives."
+msgstr "השירות מוצע לציבור \"כמות שהוא\" (\"‎AS IS\"). מדינת ישראל לא תישא באחריות להתאמת השירות לצורכי המשתמש. כמו כן, לא תישא מדינת ישראל באחריות לטעויות או לשגיאות בחומר המוצג בשירות. מדינת ישראל לא תישא באחריות לשינויים שנעשו בחומר המוצג בשירות על ידי המשתמש או על ידי כל צד ג'. המשתמש בלבד יישא באחריות לאופן שבו הוא עושה שימוש בשירות. מדינת ישראל לא תישא באחריות לכל נזק שנגרם למשתמש או לכל צד ג' כתוצאה ישירה או עקיפה מן השימוש בשירות, לרבות נזק שנגרם עקב השימוש ביישומי תוכנה שהורדו ישירות באמצעות השירות או הופעלו כתוצאה מהשימוש בשירות. לעניין סעיף זה, \"מדינת ישראל\", לרבות עובדיה ונציגיה."
+
+msgid "Applications or questions regarding the Website's activity can be sent byway of e-mail to"
+msgstr "בכל פניה או שאלה הנוגעת לפעילות האתר, ניתן לפנות באמצעות כתובת הדוא\"ל."
+
 #~ msgid "Academic Planning"
 #~ msgstr "תכנון אקדמי"
 
@@ -1204,4 +1392,3 @@ msgstr ""
 
 #~ msgid "YouTube"
 #~ msgstr "יוטיוב"
-
