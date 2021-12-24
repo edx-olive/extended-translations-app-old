@@ -534,14 +534,14 @@ msgstr[3] ""
 #. form used to select the country in which the user lives.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
 msgid "Country or Region of Residence"
-msgstr ""
+msgstr "ארץ או אזור מגורים"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's country.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
 msgid "The country or region where you live."
-msgstr ""
+msgstr "מדינה או מחוז מגורים"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #, python-format
@@ -1249,6 +1249,45 @@ msgstr "לפי הסכם למתן שירותים שנחתם ביננו (מטה ה
 
 msgid "The Site is hosted and The Data on it stored, on Amazon’s Dublin, Ireland data center (AWS). For AWS' privacy policy Terms of use, please go to:"
 msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד.\""
+
+#: lms/templates/problem.html
+msgid "You have used {num_used} of {num_total} attempt"
+msgid_plural "You have used {num_used} of {num_total} attempts"
+msgstr[0] "השתמשת ב-{num_used} מתוך {num_total} ניסיונות"
+msgstr[1] "השתמשת ב-{num_used} מתוך {num_total} ניסיונות"
+msgstr[2] "השתמשת ב-{num_used} מתוך {num_total} ניסיונות"
+msgstr[3] "השתמשת ב-{num_used} מתוך {num_total} ניסיונות"
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgid "Role of the users being enrolled."
+msgstr "תפקיד המשתמשים הרשומים."
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+msgid ""
+"Select a problem to generate a CSV file that lists all student answers to "
+"the problem. You also select a section or chapter to include results of all "
+"problems in that section or chapter."
+msgstr ""
+"כדי להוריד את כל תשובות הלומדים אשר השיבו על בעיה ספציפית, יש לבחור את הבעיה"
+" הרצויה ו- צור קובץ CSV. עליך גם לבחור מקטע או פרק כדי"
+" לכלול תוצאות של כל הבעיות המשוייכות לאותו מקטע או פרק."
+
+#: lms/templates/instructor/instructor_dashboard_2/data_download.html
+#: lms/templates/instructor/instructor_dashboard_2/data_download_2/problem_report.html
+msgid "NOTE"
+msgstr "הערה"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Score Override"
+msgstr "עדכון ציון"
+
+#: lms/templates/instructor/instructor_dashboard_2/student_admin.html
+msgid "Override Learner's Score"
+msgstr "עדכון ציון"
+
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html
+msgid "Choose the graded subsection:"
+msgstr "בחירת תת-פרק מְצוּיְנָּן:"
 
 #~ msgid "Academic Planning"
 #~ msgstr "תכנון אקדמי"

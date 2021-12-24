@@ -723,12 +723,12 @@ msgstr "تتم استضافة الموقع وتخزين البيانات الم�
 #, python-format
 msgid "at least %(min_length)d character"
 msgid_plural "at least %(min_length)d characters"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "%(min_length)d حرفًا على الأقل"
+msgstr[1] "%(min_length)d أحرف على الأقل"
+
+#: common/djangoapps/util/password_policy_validators.py
+msgid "Your password must contain {length_instruction}."
+msgstr "يجب أن تحتوي كلمة مرورك على {length_instruction}."
 
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/responsenotification/email/body.txt
 #, python-format
