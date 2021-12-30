@@ -1640,9 +1640,9 @@ msgstr "חשבון זה ננעל כתוצאה ממספר רב של נסיונת,
 
 
 #. Eden: All Xblocks: (django.po)
-#. Eden: Transltion that I Found From GitHub ( by Google search: ' edx: "some-translation-string" po ') 
+#. Eden: Transltion that I Found From GitHub ( by Google search: ' edx: "some-translation-string" po ')
 # Translation that I found on branch edx-proctoring
-# module: Proctored exams with time limits 
+# module: Proctored exams with time limits
 #: templates/timed_exam/submitted.html
 msgid ""
 "\n"
