@@ -1295,6 +1295,20 @@ msgstr "עדכון ציון"
 msgid "Choose the graded subsection:"
 msgstr "בחירת תת-פרק מְצוּיְנָּן:"
 
+#: common/djangoapps/util/password_policy_validators.py
+#, python-brace-format
+msgid "Your password must contain {length_instruction}."
+msgstr ""
+
+#: common/djangoapps/util/password_policy_validators.py
+#, python-format
+msgid "at least %(min_length)d character"
+msgid_plural "at least %(min_length)d characters"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "To gain insights into student enrollment and participation"
 msgstr "על מנת לקבל תובנות אודות רישום והשתתפות סטודנטים"
