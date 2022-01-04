@@ -738,6 +738,12 @@ msgstr "يجب أن تحتوي كلمة مرورك على {length_instruction}."
 msgid "%(comment_username)s replied to {start_tag}%(thread_title)s{end_tag}:"
 msgstr "%(comment_username)s قام بالرد على {start_tag}%(thread_title)s{end_tag}:"
 
+#. Translators: This label appears above a dropdown menu on the registration
+#. form used to select the country in which the user lives.
+#: openedx/core/djangoapps/user_api/api.py
+msgid "Country or Region of Residence"
+msgstr "البلد"
+
 #~ msgid "Academic Planning"
 #~ msgstr "التخطيط الدراسي"
 
