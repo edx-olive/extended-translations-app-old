@@ -328,6 +328,12 @@ msgstr ""
 msgid "Please {link_start}complete your profile{link_end}."
 msgstr ""
 
+#. Translators: This label appears above a dropdown menu on the registration
+#. form used to select the country in which the user lives.
+#: openedx/core/djangoapps/user_api/api.py
+msgid "Country or Region of Residence"
+msgstr "Country"
+
 #~ msgid "Academic Planning"
 #~ msgstr ""
 
