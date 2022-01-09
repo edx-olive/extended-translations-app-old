@@ -1099,8 +1099,11 @@ msgstr "בכוונתנו לשתף ולחלוק נתוני הלומד אודות�
 msgid "In accordance with a service provision agreement signed between us (the Headquarters for the National \"Digital Israel\" Initiative) and EdX.inc,"
 msgstr "לפי הסכם למתן שירותים שנחתם ביננו (מטה המיזם הלאומי \"ישראל דיגיטלית\") לבין EdX.inc :"
 
+# msgid "\"EdX shall use such Learner Data only to the extent required to in order to carry out tasks in compliance with this Agreement. EdX will ensure that it will not share Learner Data with any third parties unless edX has NDB written prior consent or that edX is required to share such information, provided that appropriate confidentiality and security measures are taken. EdX will comply with all applicable laws, policies, and regulations relating to its use of Learner Data.\""
+# msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד. \""
+
 msgid "\"EdX shall use such Learner Data only to the extent required to in order to carry out tasks in compliance with this Agreement. EdX will ensure that it will not share Learner Data with any third parties unless edX has NDB written prior consent or that edX is required to share such information, provided that appropriate confidentiality and security measures are taken. EdX will comply with all applicable laws, policies, and regulations relating to its use of Learner Data.\""
-msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד. \""
+msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש  ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים  לשימוש שהיא מבצעת בנתוני הלומד.\""
 
 msgid "The Website and data stored in it are stored in server farm of Amazon Web Services (AWS) in Dublin, Ireland. To review AWS's privacy policy and terms of use, visit"
 msgstr "האתר והנתונים המאוחסנים בו מאוחסנים בחוות השרתים (AWS) של Amazon בדבלין, אירלנד. לצורך עיון במדיניות הפרטיות ותנאי השימוש של AWS, גשו לכתובת:"
@@ -1247,8 +1250,11 @@ msgstr "בכוונתנו לשתף ולחלוק נתוני הלומד אודות�
 msgid "According to the service agreement signed between us (NDB) and edX Inc. edX Inc.:"
 msgstr "לפי הסכם למתן שירותים שנחתם ביננו (מטה המיזם הלאומי \"ישראל דיגיטלית\") לבין EdX.inc :"
 
+# msgid "The Site is hosted and The Data on it stored, on Amazon’s Dublin, Ireland data center (AWS). For AWS' privacy policy Terms of use, please go to:"
+# msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד.\""
+
 msgid "The Site is hosted and The Data on it stored, on Amazon’s Dublin, Ireland data center (AWS). For AWS' privacy policy Terms of use, please go to:"
-msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד.\""
+msgstr "האתר והנתונים המאוחסנים בו מאוחסנים בחוות השרתים (AWS) של Amazon בדבלין, אירלנד. לצורך עיון במדיניות הפרטיות ותנאי השימוש של AWS, גשו לכתובת:"
 
 #: lms/templates/problem.html
 msgid "You have used {num_used} of {num_total} attempt"
