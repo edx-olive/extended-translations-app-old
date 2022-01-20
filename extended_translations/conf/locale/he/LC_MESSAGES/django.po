@@ -1295,6 +1295,14 @@ msgstr "עדכון ציון"
 msgid "Choose the graded subsection:"
 msgstr "בחירת תת-פרק מְצוּיְנָּן:"
 
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
+msgid "To gain insights into student enrollment and participation"
+msgstr "על מנת לקבל תובנות אודות רישום והשתתפות סטודנטים"
+
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
+msgid "visit Campus Insights, our new course analytics product"
+msgstr "בקר בCampus Insights, מוצר הניתוח המידע של הקורס"
+
 #~ msgid "Academic Planning"
 #~ msgstr "תכנון אקדמי"
 
