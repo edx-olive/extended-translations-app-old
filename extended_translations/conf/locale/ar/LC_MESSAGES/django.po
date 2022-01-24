@@ -744,6 +744,14 @@ msgstr "%(comment_username)s قام بالرد على {start_tag}%(thread_title)
 msgid "Country or Region of Residence"
 msgstr "البلد"
 
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
+msgid "To gain insights into student enrollment and participation"
+msgstr "لمزيدٍ من المعلومات حول تسجيل الطلّاب ومشاركتهم، يُرجى"
+
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
+msgid "visit Campus Insights, our new course analytics product"
+msgstr "زيارة Campus Insights، منتجنا الجديد لتحليلات المساقات"
+
 #~ msgid "Academic Planning"
 #~ msgstr "التخطيط الدراسي"
 
