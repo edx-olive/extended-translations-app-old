@@ -756,6 +756,31 @@ msgstr "زيارة Campus Insights، منتجنا الجديد لتحليلات 
 msgid "If you need further assistance, {start_tag}contact us technical support{end_tag}."
 msgstr "لمعلومات اضافية يمكنكم التوجه الى {start_tag}الطاقم التقني{end_tag} الخاص بنا."
 
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.html
+msgid "Greeting %(full_name)s,"
+msgstr "مرحبا، %(full_name)s"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.html
+msgid "Per your request, you've received permission to open a new class for the course %(course_name)s"
+msgstr "%(course_name)s بناءً على طلبك، تم منحك إذنًا لفتح فصل دراسي جديد لك في المساق"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.html
+msgid "Enter the following link to give the class a name and move forward in the management of the class:"
+msgstr ":انتقل إلى الرابط التالي لمنح الفصل اسمًا والتقدم في إدارة الفصل"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.html
+msgid "For your convenience, we prepared for you instructional videos that will assist you throughout all "
+"learning stages, from student registration to tracking their progress and class management:"
+msgstr ":لراحتك، قمنا بإعداد مقاطع فيديو إرشادية ستساعدك خلال جميع مراحل التعلم، من تسجيل الطلاب إلى مراقبة التقدم وإدارة الفصل الدراسي"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/subject.txt
+msgid "Obtaining permission to open a class from a course on the IL campus"
+msgstr "الحصول على إذن لفتح فصل دراسي من دورة داخل الحرم الجامعي"
+
 #~ msgid "Academic Planning"
 #~ msgstr "التخطيط الدراسي"
 

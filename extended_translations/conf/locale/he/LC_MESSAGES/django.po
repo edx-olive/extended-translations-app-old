@@ -1307,6 +1307,31 @@ msgstr "בקר בCampus Insights, מוצר הניתוח המידע של הקור
 msgid "If you need further assistance, {start_tag}contact us technical support{end_tag}."
 msgstr "למידע נוסף ניתן לפנות ל{start_tag}תמיכה{end_tag} שלנו."
 
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.html
+msgid "Greeting %(full_name)s,"
+msgstr ",שלום %(full_name)s"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.html
+msgid "Per your request, you've received permission to open a new class for the course %(course_name)s"
+msgstr "%(course_name)s לבקשתך, קיבלת הרשאה לפתוח כיתה חדשה עבורך מתוך הקורס"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.html
+msgid "Enter the following link to give the class a name and move forward in the management of the class:"
+msgstr ":יש להיכנס ללינק הבא בכדי לתת לכיתה שם ולהתקדם בניהול הכיתה"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.html
+msgid "For your convenience, we prepared for you instructional videos that will assist you throughout all "
+"learning stages, from student registration to tracking their progress and class management:"
+msgstr ":לנוחיותך, הכנו עבורך סרטוני הדרכה שיסייעו לך לאורך כל שלבי הלמידה, החל מרישום התלמידים ועד המעקב אחרי ההתקדמות וניהול הכיתה"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/subject.txt
+msgid "Obtaining permission to open a class from a course on the IL campus"
+msgstr "קבלת הרשאה לפתיחת כיתה מתוך קורס בקמפוסIL"
+
 #~ msgid "Academic Planning"
 #~ msgstr "תכנון אקדמי"
 
