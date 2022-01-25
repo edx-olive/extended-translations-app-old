@@ -1332,6 +1332,22 @@ msgstr ":לנוחיותך, הכנו עבורך סרטוני הדרכה שיסי�
 msgid "Obtaining permission to open a class from a course on the IL campus"
 msgstr "קבלת הרשאה לפתיחת כיתה מתוך קורס בקמפוסIL"
 
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/subject.txt
+msgid "A class has been opened for you from a course on the IL campus"
+msgstr "נפתחה עבורך כיתה מתוך קורס בקמפוסIL"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+msgid "Per your request, a new class was opened for you for the course %(root_course_name)s"
+msgstr "%(root_course_name)s לבקשתך, קיבלת הרשאה לפתוח כיתה חדשה עבורך מתוך הקורס"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+msgid "Called %(course_name)s"
+msgstr "%(course_name)s בשם"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+msgid "The class will appear in your personal area at the following link:"
+msgstr ":הכיתה תופיע באזור האישי שלך בלינק הבא"
+
 #~ msgid "Academic Planning"
 #~ msgstr "תכנון אקדמי"
 

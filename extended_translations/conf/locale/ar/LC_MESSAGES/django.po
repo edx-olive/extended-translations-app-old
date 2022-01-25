@@ -781,6 +781,23 @@ msgstr ":لراحتك، قمنا بإعداد مقاطع فيديو إرشادي
 msgid "Obtaining permission to open a class from a course on the IL campus"
 msgstr "الحصول على إذن لفتح فصل دراسي من دورة داخل الحرم الجامعي"
 
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/subject.txt
+msgid "A class has been opened for you from a course on the IL campus"
+msgstr "تم فتح فصل دراسي لك من دورة في حرم IL"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+msgid "Per your request, a new class was opened for you for the course %(root_course_name)s"
+msgstr "%(root_course_name)s بناءً على طلبك، تم منحك إذنًا لفتح فصل دراسي جديد لك في المساق"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+msgid "Called %(course_name)s"
+msgstr "%(course_name)s تحت اسم"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
+msgid "The class will appear in your personal area at the following link:"
+msgstr ":سيظهر الفصل في منطقتك الشخصية على الرابط التالي"
+
 #~ msgid "Academic Planning"
 #~ msgstr "التخطيط الدراسي"
 
