@@ -1303,6 +1303,10 @@ msgstr "על מנת לקבל תובנות אודות רישום והשתתפות
 msgid "visit Campus Insights, our new course analytics product"
 msgstr "בקר בCampus Insights, מוצר הניתוח המידע של הקורס"
 
+#, python-format
+msgid "If you need further assistance, {start_tag}contact us technical support{end_tag}."
+msgstr "למידע נוסף ניתן לפנות ל{start_tag}תמיכה{end_tag} שלנו."
+
 #~ msgid "Academic Planning"
 #~ msgstr "תכנון אקדמי"
 
