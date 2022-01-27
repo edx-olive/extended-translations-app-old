@@ -14,6 +14,14 @@ Unreleased
 
 *
 
+[0.0.7] - 2021-01-25
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Add banner with the link to insights
+
+[0.0.6] - 2021-01-10
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Update privacy translations to match ginkgo version
+
 [0.0.5] - 2021-12-24
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Add clients translations

@@ -568,8 +568,11 @@ msgstr "نحن عازمون على تبادل المعلومات عنك ومشا
 msgid "In accordance with a service provision agreement signed between us (the Headquarters for the National \"Digital Israel\" Initiative) and EdX.inc,"
 msgstr "وفقا لاتفاقية توفير الخدمات الموقعة بيننا (مقر المشروع الوطني \"إسرائيل الرقمية\") وبين  EdX.inc:"
 
+# msgid "\"EdX shall use such Learner Data only to the extent required to in order to carry out tasks in compliance with this Agreement. EdX will ensure that it will not share Learner Data with any third parties unless edX has NDB written prior consent or that edX is required to share such information, provided that appropriate confidentiality and security measures are taken. EdX will comply with all applicable laws, policies, and regulations relating to its use of Learner Data.\""
+# msgstr " \"سوف تستخدم بيانات EDX المتعلم فقط بالقدر اللازم لتنفيذ مهام EdX بموجب هذه الاتفاقية. سوف تضمن عدم مشاركة بيانات المتعلم الخاصة بك مع طرف ثالث ما لم تكن قد حصلت على إذن خطي مسبق من مقر إسرائيل الرقمية لمشاركة المعلومات بشرط أن تتخذ تدابير السلامة والسرية المناسبة يجب أن تمتثل EDX لجميع القوانين المعمول بها والسرية , والسياسات واللوائح التي تنطبق عليها واستخدامها في بيانات المتعلم. \""
+
 msgid "\"EdX shall use such Learner Data only to the extent required to in order to carry out tasks in compliance with this Agreement. EdX will ensure that it will not share Learner Data with any third parties unless edX has NDB written prior consent or that edX is required to share such information, provided that appropriate confidentiality and security measures are taken. EdX will comply with all applicable laws, policies, and regulations relating to its use of Learner Data.\""
-msgstr " \"سوف تستخدم بيانات EDX المتعلم فقط بالقدر اللازم لتنفيذ مهام EdX بموجب هذه الاتفاقية. سوف تضمن عدم مشاركة بيانات المتعلم الخاصة بك مع طرف ثالث ما لم تكن قد حصلت على إذن خطي مسبق من مقر إسرائيل الرقمية لمشاركة المعلومات بشرط أن تتخذ تدابير السلامة والسرية المناسبة يجب أن تمتثل EDX لجميع القوانين المعمول بها والسرية , والسياسات واللوائح التي تنطبق عليها واستخدامها في بيانات المتعلم. \""
+msgstr "\"يجب على EdX استخدام بيانات الطالب فقط بالقدر اللازم من أجل تنفيذ المهام بموجب هذا الاتفاق. وستلتزم EdX بعدم مشاركة بيانات الطالب مع أي طرف ثالث إلا إذا حصلت EdXعلى موافقة NDB الخطية المسبقة أو إذا شاركت EdX هذه البيانات شريطة أن يتم اتخاذ إجراءات سرية وأمنية. سوف تلتزم EdX بجميع القوانين والسياسات واللوائح المتعلقة باستخدام بيانات الطالب.\""
 
 msgid "The Website and data stored in it are stored in server farm of Amazon Web Services (AWS) in Dublin, Ireland. To review AWS's privacy policy and terms of use, visit"
 msgstr "يتم تخزين الموقع والبيانات المخزنة عليه في مزرعة خوادم  (AWS) في الأمازون في دبلن, أيرلندا. لمراجعة سياسة خصوصية AWS وشروط الاستخدام , يرجى الاتصال على العنوان:"
@@ -734,6 +737,20 @@ msgstr "يجب أن تحتوي كلمة مرورك على {length_instruction}."
 #, python-format
 msgid "%(comment_username)s replied to {start_tag}%(thread_title)s{end_tag}:"
 msgstr "%(comment_username)s قام بالرد على {start_tag}%(thread_title)s{end_tag}:"
+
+#. Translators: This label appears above a dropdown menu on the registration
+#. form used to select the country in which the user lives.
+#: openedx/core/djangoapps/user_api/api.py
+msgid "Country or Region of Residence"
+msgstr "البلد"
+
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
+msgid "To gain insights into student enrollment and participation"
+msgstr "لمزيدٍ من المعلومات حول تسجيل الطلّاب ومشاركتهم، يُرجى"
+
+#: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
+msgid "visit Campus Insights, our new course analytics product"
+msgstr "زيارة Campus Insights، منتجنا الجديد لتحليلات المساقات"
 
 #~ msgid "Academic Planning"
 #~ msgstr "التخطيط الدراسي"
