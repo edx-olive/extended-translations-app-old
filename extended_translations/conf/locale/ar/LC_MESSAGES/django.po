@@ -752,6 +752,10 @@ msgstr "لمزيدٍ من المعلومات حول تسجيل الطلّاب و
 msgid "visit Campus Insights, our new course analytics product"
 msgstr "زيارة Campus Insights، منتجنا الجديد لتحليلات المساقات"
 
+#, python-format
+msgid "If you need further assistance, {start_tag}contact us technical support{end_tag}."
+msgstr "لمعلومات اضافية يمكنكم التوجه الى {start_tag}الطاقم التقني{end_tag} الخاص بنا."
+
 #~ msgid "Academic Planning"
 #~ msgstr "التخطيط الدراسي"
 
