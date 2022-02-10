@@ -1631,3 +1631,10 @@ msgstr "הכיתה תופיע באזור האישי שלך בלינק הבא:"
 
 #~ msgid "YouTube"
 #~ msgstr "יוטיוב"
+
+#: openedx/core/djangoapps/user_api/accounts/views.py
+#: openedx/core/djangoapps/user_authn/views/login.py
+msgid ""
+"This account has been temporarily locked due to excessive login failures. "
+"Try again later."
+msgstr "חשבון זה ננעל כתוצאה ממספר רב של נסיונת, באפשרותך לאפס את הסיסמה כדי להתחבר לחשבון."
