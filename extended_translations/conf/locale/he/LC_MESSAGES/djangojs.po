@@ -187,11 +187,13 @@ msgstr ""
 msgid ""
 "Please enter your log-in or recovery email address below and we will send "
 "you an email with instructions."
-msgstr ""
+msgstr "יש להזין מטה את כתובת הדוא\"ל שאיתה נרשמת לאתר או כתובת דוא
+
+ל נוספת לשחזור (במידה והגדרת כזו), ואנו נשלח לך הנחיות לקביעת סיסמה חדשה."
 
 #: lms/templates/student_account/password_reset.underscore
 msgid "Recover my password"
-msgstr ""
+msgstr "שחזר את הסיסמה שלי"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Need other help signing in?"
@@ -207,7 +209,7 @@ msgstr "קמפוס IL יכולים לראות את"
 #: common/static/bundles/ProblemBlockPreview.js
 msgid "{num_points} point possible (ungraded)"
 msgid_plural "{num_points} points possible (ungraded)"
-msgstr[0] "נקודות אפשריות (שלא דורגו) {num_points}"
+msgstr[0] "(שלא דורגה) {num_points} נקודה אפשרית אחת"
 msgstr[1] "נקודות אפשריות (שלא דורגו) {num_points}"
 msgstr[2] "נקודות אפשריות (שלא דורגו) {num_points}"
 msgstr[3] "נקודות אפשריות (שלא דורגו) {num_points}"
