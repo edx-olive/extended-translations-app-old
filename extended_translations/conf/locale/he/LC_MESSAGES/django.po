@@ -55,7 +55,7 @@ msgstr "אודות"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/footer.html:22
 msgid "About this Site"
-msgstr "אודות אתר זה"
+msgstr "החזון"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/footer.html:23
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:11
@@ -110,11 +110,11 @@ msgstr "בחר שפה"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:99
 msgid "Courses"
-msgstr "קורסים"
+msgstr "אזור אישי"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:102
 msgid "About Us"
-msgstr "אודותינו"
+msgstr "החזון"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/program.html:36
 msgid "Logo Image"
@@ -534,7 +534,7 @@ msgstr[3] ""
 #. form used to select the country in which the user lives.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
 msgid "Country or Region of Residence"
-msgstr "מדינה"
+msgstr "ארץ או אזור מגורים"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
@@ -697,12 +697,12 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"                    הוזמנת כבוחן בטא לקורס %(course_name)s ב-%(site_name)s\n"
+"                    הוזמנת כבוחנ/ת בטא לקורס %(course_name)s ב-%(site_name)s\n"
 "                "
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "The invitation has been sent by a member of the course staff."
-msgstr ""
+msgstr "הזמנה זו נשלחה על ידי חבר/ה מצוות הקורס"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "To start accessing course materials, please visit:"
@@ -1103,7 +1103,7 @@ msgstr "לפי הסכם למתן שירותים שנחתם ביננו (מטה ה
 # msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד. \""
 
 msgid "\"EdX shall use such Learner Data only to the extent required to in order to carry out tasks in compliance with this Agreement. EdX will ensure that it will not share Learner Data with any third parties unless edX has NDB written prior consent or that edX is required to share such information, provided that appropriate confidentiality and security measures are taken. EdX will comply with all applicable laws, policies, and regulations relating to its use of Learner Data.\""
-msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש  ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים  לשימוש שהיא מבצעת בנתוני הלומד.\""
+msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד. \""
 
 msgid "The Website and data stored in it are stored in server farm of Amazon Web Services (AWS) in Dublin, Ireland. To review AWS's privacy policy and terms of use, visit"
 msgstr "האתר והנתונים המאוחסנים בו מאוחסנים בחוות השרתים (AWS) של Amazon בדבלין, אירלנד. לצורך עיון במדיניות הפרטיות ותנאי השימוש של AWS, גשו לכתובת:"
@@ -1254,7 +1254,7 @@ msgstr "לפי הסכם למתן שירותים שנחתם ביננו (מטה ה
 # msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד.\""
 
 msgid "The Site is hosted and The Data on it stored, on Amazon’s Dublin, Ireland data center (AWS). For AWS' privacy policy Terms of use, please go to:"
-msgstr "האתר והנתונים המאוחסנים בו מאוחסנים בחוות השרתים (AWS) של Amazon בדבלין, אירלנד. לצורך עיון במדיניות הפרטיות ותנאי השימוש של AWS, גשו לכתובת:"
+msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד.\""
 
 #: lms/templates/problem.html
 msgid "You have used {num_used} of {num_total} attempt"
@@ -1266,7 +1266,7 @@ msgstr[3] "השתמשת ב-{num_used} מתוך {num_total} ניסיונות"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Role of the users being enrolled."
-msgstr "תפקיד המשתמשים הרשומים."
+msgstr "המשתמשים הרשומים מעלה יהיו בתור"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -1274,9 +1274,8 @@ msgid ""
 "the problem. You also select a section or chapter to include results of all "
 "problems in that section or chapter."
 msgstr ""
-"כדי להוריד את כל תשובות הלומדים אשר השיבו על בעיה ספציפית, יש לבחור את הבעיה"
-" הרצויה ו- צור קובץ CSV. עליך גם לבחור מקטע או פרק כדי"
-" לכלול תוצאות של כל הבעיות המשוייכות לאותו מקטע או פרק."
+"צרו קובץ csv המכיל את כל תשובות הלומדים אשר השיבו על בעיה ספציפית. "
+"ביכולתכם לבחור פרק או בעיה בכדי לכלול את כלל התשובות בחלקים אלו "
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/problem_report.html
