@@ -186,14 +186,6 @@ msgstr ""
 msgid "An error occurred. Please try again later."
 msgstr "אירעה שגיאה. נסה שוב מאוחר יותר."
 
-#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:107
-msgid ""
-"The currently logged-in user account does not have permission to enroll "
-"in this course. You may need to {start_logout_tag}log out{end_tag} then "
-"try the enroll button again. Please visit the {start_help_tag}help "
-"page{end_tag} for a possible solution."
-msgstr ""
-
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:242
 msgid "Start Date"
 msgstr "תאריך התחלה"
@@ -1294,20 +1286,6 @@ msgstr "עדכון ציון"
 msgid "Choose the graded subsection:"
 msgstr "בחירת תת-פרק מְצוּיְנָּן:"
 
-#: common/djangoapps/util/password_policy_validators.py
-#, python-brace-format
-msgid "Your password must contain {length_instruction}."
-msgstr ""
-
-#: common/djangoapps/util/password_policy_validators.py
-#, python-format
-msgid "at least %(min_length)d character"
-msgid_plural "at least %(min_length)d characters"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "To gain insights into student enrollment and participation"
 msgstr "על מנת לקבל תובנות אודות רישום והשתתפות סטודנטים"
@@ -1315,10 +1293,6 @@ msgstr "על מנת לקבל תובנות אודות רישום והשתתפות
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "visit Campus Insights, our new course analytics product"
 msgstr "בקר בCampus Insights, מוצר הניתוח המידע של הקורס"
-
-#, python-format
-msgid "If you need further assistance, {start_tag}contact us technical support{end_tag}."
-msgstr "למידע נוסף ניתן לפנות ל{start_tag}תמיכה{end_tag} שלנו."
 
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.html
@@ -1694,12 +1668,8 @@ msgstr ""
 msgid "Supported file types: "
 msgstr ""
 
-#: lms/templates/learner_dashboard/_dashboard_incomplete_profile_notification.html
-msgid "Your profile has missing fields!"
-msgstr "חסרים מספר נתונים בהגדרת החשבון שלך!"
-
-#. Eden: Xblock poll:
-#. Referance: OpenCraft-Poll repo
+# Eden: Xblock poll:
+# Referance: OpenCraft-Poll repo
 #: poll/public/handlebars/survey_results.handlebars
 msgid "Results gathered from {total} respondent"
 msgid_plural "Results gathered from {total} respondents."
@@ -1868,7 +1838,7 @@ msgstr "קבע ציון"
 #: edx_sga/templates/staff_graded_assignment/show.html
 #, python-format
 msgid "Grade for %(student_name)s"
-msgstr "ציון עבור %(student_name)"
+msgstr "ציון עבור %(student_name)s"
 
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Grade:"
@@ -1885,10 +1855,6 @@ msgstr "מחק ציון"
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Upload a different file"
 msgstr "העלה קובץ אחר"
-
-#: edx_sga/templates/staff_graded_assignment/show.html
-msgid "This assignment has not yet been graded."
-msgstr "טרם התקבל ציון להגשה זו"
 
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Your score is"

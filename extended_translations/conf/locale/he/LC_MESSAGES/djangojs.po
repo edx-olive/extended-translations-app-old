@@ -187,9 +187,8 @@ msgstr ""
 msgid ""
 "Please enter your log-in or recovery email address below and we will send "
 "you an email with instructions."
-msgstr "יש להזין מטה את כתובת הדוא\"ל שאיתה נרשמת לאתר או כתובת דוא
-
-ל נוספת לשחזור (במידה והגדרת כזו), ואנו נשלח לך הנחיות לקביעת סיסמה חדשה."
+msgstr "יש להזין מטה את כתובת הדוא\"ל שאיתה נרשמת לאתר או כתובת דוא"
+"ל נוספת לשחזור (במידה והגדרת כזו), ואנו נשלח לך הנחיות לקביעת סיסמה חדשה."
 
 #: lms/templates/student_account/password_reset.underscore
 msgid "Recover my password"
