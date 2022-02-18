@@ -55,7 +55,7 @@ msgstr "אודות"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/footer.html:22
 msgid "About this Site"
-msgstr "אודות אתר זה"
+msgstr "החזון"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/footer.html:23
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:11
@@ -110,11 +110,11 @@ msgstr "בחר שפה"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:99
 msgid "Courses"
-msgstr "קורסים"
+msgstr "אזור אישי"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:102
 msgid "About Us"
-msgstr "אודותינו"
+msgstr "החזון"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/program.html:36
 msgid "Logo Image"
@@ -534,7 +534,7 @@ msgstr[3] ""
 #. form used to select the country in which the user lives.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
 msgid "Country or Region of Residence"
-msgstr "מדינה"
+msgstr "ארץ או אזור מגורים"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
@@ -697,12 +697,12 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"                    הוזמנת כבוחן בטא לקורס %(course_name)s ב-%(site_name)s\n"
+"                    הוזמנת כבוחנ/ת בטא לקורס %(course_name)s ב-%(site_name)s\n"
 "                "
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "The invitation has been sent by a member of the course staff."
-msgstr ""
+msgstr "הזמנה זו נשלחה על ידי חבר/ה מצוות הקורס"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "To start accessing course materials, please visit:"
@@ -1103,7 +1103,7 @@ msgstr "לפי הסכם למתן שירותים שנחתם ביננו (מטה ה
 # msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד. \""
 
 msgid "\"EdX shall use such Learner Data only to the extent required to in order to carry out tasks in compliance with this Agreement. EdX will ensure that it will not share Learner Data with any third parties unless edX has NDB written prior consent or that edX is required to share such information, provided that appropriate confidentiality and security measures are taken. EdX will comply with all applicable laws, policies, and regulations relating to its use of Learner Data.\""
-msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש  ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים  לשימוש שהיא מבצעת בנתוני הלומד.\""
+msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד. \""
 
 msgid "The Website and data stored in it are stored in server farm of Amazon Web Services (AWS) in Dublin, Ireland. To review AWS's privacy policy and terms of use, visit"
 msgstr "האתר והנתונים המאוחסנים בו מאוחסנים בחוות השרתים (AWS) של Amazon בדבלין, אירלנד. לצורך עיון במדיניות הפרטיות ותנאי השימוש של AWS, גשו לכתובת:"
@@ -1254,7 +1254,7 @@ msgstr "לפי הסכם למתן שירותים שנחתם ביננו (מטה ה
 # msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד.\""
 
 msgid "The Site is hosted and The Data on it stored, on Amazon’s Dublin, Ireland data center (AWS). For AWS' privacy policy Terms of use, please go to:"
-msgstr "האתר והנתונים המאוחסנים בו מאוחסנים בחוות השרתים (AWS) של Amazon בדבלין, אירלנד. לצורך עיון במדיניות הפרטיות ותנאי השימוש של AWS, גשו לכתובת:"
+msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד.\""
 
 #: lms/templates/problem.html
 msgid "You have used {num_used} of {num_total} attempt"
@@ -1266,7 +1266,7 @@ msgstr[3] "השתמשת ב-{num_used} מתוך {num_total} ניסיונות"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Role of the users being enrolled."
-msgstr "תפקיד המשתמשים הרשומים."
+msgstr "המשתמשים הרשומים מעלה יהיו בתור"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -1274,9 +1274,8 @@ msgid ""
 "the problem. You also select a section or chapter to include results of all "
 "problems in that section or chapter."
 msgstr ""
-"כדי להוריד את כל תשובות הלומדים אשר השיבו על בעיה ספציפית, יש לבחור את הבעיה"
-" הרצויה ו- צור קובץ CSV. עליך גם לבחור מקטע או פרק כדי"
-" לכלול תוצאות של כל הבעיות המשוייכות לאותו מקטע או פרק."
+"צרו קובץ csv המכיל את כל תשובות הלומדים אשר השיבו על בעיה ספציפית. "
+"ביכולתכם לבחור פרק או בעיה בכדי לכלול את כלל התשובות בחלקים אלו "
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/problem_report.html
@@ -1631,3 +1630,274 @@ msgstr "הכיתה תופיע באזור האישי שלך בלינק הבא:"
 
 #~ msgid "YouTube"
 #~ msgstr "יוטיוב"
+
+#: openedx/core/djangoapps/user_api/accounts/views.py
+#: openedx/core/djangoapps/user_authn/views/login.py
+msgid ""
+"This account has been temporarily locked due to excessive login failures. "
+"Try again later."
+msgstr "חשבון זה ננעל כתוצאה ממספר רב של נסיונת, באפשרותך לאפס את הסיסמה כדי להתחבר לחשבון."
+
+
+#. Eden: All Xblocks: (django.po)
+#. Eden: Transltion that I Found From GitHub ( by Google search: ' edx: "some-translation-string" po ')
+# Translation that I found on branch edx-proctoring
+# module: Proctored exams with time limits
+#: templates/timed_exam/submitted.html
+msgid ""
+"\n"
+"                You have submitted your timed exam.\n"
+"            "
+msgstr ""
+"\n"
+"                הגשת את המבחן המתוזמן שלך.\n"
+"            "
+
+#. Eden: Xblock-ORA:
+#. Referance: origin/GlugovGrGlib-patch-1 branch
+#: openassessment/templates/openassessmentblock/response/oa_response.html:91
+msgid ""
+"\n"
+"                        You can save your progress and return to complete your response at any time before the due date\n"
+"                      "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:167
+msgid "Team Response "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:169
+msgid "Your Response "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:173
+#: openassessment/templates/openassessmentblock/response/oa_response.html:244
+msgid "(Required)"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:175
+#: openassessment/templates/openassessmentblock/response/oa_response.html:246
+msgid "(Optional)"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:242
+msgid "File Uploads "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:84
+msgid ""
+"To add more file extensions, select Custom File Types and enter the full "
+"list of acceptable file extensions to be included."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:278
+msgid "Supported file types: "
+msgstr ""
+
+#: lms/templates/learner_dashboard/_dashboard_incomplete_profile_notification.html
+msgid "Your profile has missing fields!"
+msgstr "חסרים מספר נתונים בהגדרת החשבון שלך!"
+
+#. Eden: Xblock poll:
+#. Referance: OpenCraft-Poll repo
+#: poll/public/handlebars/survey_results.handlebars
+msgid "Results gathered from {total} respondent"
+msgid_plural "Results gathered from {total} respondents."
+msgstr[0] "-תוצאות שנאספו מ{total} משיבים"
+msgstr[1] "-תוצאות שנאספו מ{total} משיבים"
+msgstr[2] "-תוצאות שנאספו מ{total} משיבים"
+msgstr[3] "-תוצאות שנאספו מ{total} משיבים"
+
+#: poll/public/handlebars/survey_results.handlebars
+msgid "Results"
+msgstr "תוצאות"
+
+#: poll/poll.py
+msgid "Survey"
+msgstr "סקר"
+
+#. Eden: Xblock-Staf-Graded-Assigment
+#. Referance: edx-sga repo (Mit office of digital Learning)
+#: edx_sga/sga.py edx_sga/templates/staff_graded_assignment/show.html
+
+#: edx_sga/sga.py edx_sga/templates/staff_graded_assignment/show.html
+msgid "Staff Graded Assignment"
+msgstr "קביעת דירוג למטלה"
+
+#: edx_sga/sga.py edx_sga/templates/staff_graded_assignment/show.html
+msgid "Download all submissions"
+msgstr "הורדת כל ההגשות"
+
+#: edx_sga/sga.py
+msgid "This name appears in the horizontal navigation at the top of the page."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid ""
+"Defines the number of points each problem is worth. If the value is not set,"
+" the problem is worth the sum of the option point values."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Maximum score"
+msgstr "ציון מקסימלי"
+
+#: edx_sga/sga.py
+msgid "Maximum grade score given to assignment by staff."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Score assigned by non-instructor staff"
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Score will need to be approved by instructor before being published."
+msgstr ""
+
+#: edx_sga/sga.py edx_sga/templates/staff_graded_assignment/show.html
+msgid "Instructor comment"
+msgstr "הערות הבודק"
+
+#: edx_sga/sga.py
+msgid "Feedback given to student by instructor."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Annotated SHA1"
+msgstr ""
+
+#: edx_sga/sga.py
+msgid ""
+"sha1 of the annotated file uploaded by the instructor for this assignment."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Annotated file name"
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "The name of the annotated file uploaded for this assignment."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Mime type of annotated file"
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "The mimetype of the annotated file uploaded for this assignment."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Timestamp"
+msgstr "חותמת זמן"
+
+#: edx_sga/sga.py
+msgid "When the annotated file was uploaded"
+msgstr ""
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "File uploaded"
+msgstr "הקובץ שהועלה"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "No file has been uploaded."
+msgstr "אף קובץ לא נבחר להעלאה"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+#, python-format
+msgid "Your score is %(graded_score)s / %(max_score)s"
+msgstr "הציון שלך %(graded_score)s / %(max_score)s"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Annotated file from instructor"
+msgstr "מצורף קובץ עם הערות ה בודק"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "This assignment has not yet been graded."
+msgstr "טרם הוגדר ציון למטלה זו"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Upload your assignment"
+msgstr "העלאת מטלה"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Select a file"
+msgstr "בחירת קובץ"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Filename"
+msgstr "שם הקובץ"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Instructor's comments"
+msgstr "הערות מנחה כיתה"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Annotated"
+msgstr "הערות הבודק"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Awaiting instructor approval"
+msgstr "בהמתנה לאישור מנחה הכיתה"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Approve grade"
+msgstr "אישור ציון"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Upload annotated file"
+msgstr "העלאת הגשה עם הערות בודק"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Grade Submissions"
+msgstr "דירוג הגשות"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Loading..."
+msgstr "בטענה..."
+
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "is_released"
+msgstr ""
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Enter Grade"
+msgstr "קבע ציון"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+#, python-format
+msgid "Grade for %(student_name)s"
+msgstr "ציון עבור %(student_name)"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Grade:"
+msgstr "ציון"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Comment:"
+msgstr "הערכת הבודק:"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Remove grade"
+msgstr "מחק ציון"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Upload a different file"
+msgstr "העלה קובץ אחר"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "This assignment has not yet been graded."
+msgstr "טרם התקבל ציון להגשה זו"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "Your score is"
+msgstr "הציון שלך הוא"
+
+#. Eden: xblock-drag-and-drop-v2
+#. Referance: xblock-drag-and-drop-v2/drag_and_drop_v2/translations/ru/LC_MESSAGES/text.po
+
+#: utils.py:56
+#, python-brace-format
+msgid "Your highest score is {score}"
+msgstr "הציון הגבוהה ביותר הוא {score}"

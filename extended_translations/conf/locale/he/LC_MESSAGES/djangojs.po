@@ -187,11 +187,13 @@ msgstr ""
 msgid ""
 "Please enter your log-in or recovery email address below and we will send "
 "you an email with instructions."
-msgstr ""
+msgstr "יש להזין מטה את כתובת הדוא\"ל שאיתה נרשמת לאתר או כתובת דוא
+
+ל נוספת לשחזור (במידה והגדרת כזו), ואנו נשלח לך הנחיות לקביעת סיסמה חדשה."
 
 #: lms/templates/student_account/password_reset.underscore
 msgid "Recover my password"
-msgstr ""
+msgstr "שחזר את הסיסמה שלי"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Need other help signing in?"
@@ -207,7 +209,7 @@ msgstr "קמפוס IL יכולים לראות את"
 #: common/static/bundles/ProblemBlockPreview.js
 msgid "{num_points} point possible (ungraded)"
 msgid_plural "{num_points} points possible (ungraded)"
-msgstr[0] "נקודות אפשריות (שלא דורגו) {num_points}"
+msgstr[0] "(שלא דורגה) {num_points} נקודה אפשרית אחת"
 msgstr[1] "נקודות אפשריות (שלא דורגו) {num_points}"
 msgstr[2] "נקודות אפשריות (שלא דורגו) {num_points}"
 msgstr[3] "נקודות אפשריות (שלא דורגו) {num_points}"
@@ -264,3 +266,64 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
+
+#. Eden: Xblock-Proctored exams with time limits (djangojs.po)
+#. Referance: edx-proctoring branch
+
+#: templates/timed_exam/submitted.html
+msgid ""
+"\n"
+"                You have submitted your timed exam.\n"
+"            "
+msgstr ""
+"\n"
+"                הגשת את המבחן המתוזמן שלך.\n"
+"            "
+
+#. Eden: Xblock-Staf-Graded-Assigment
+#. Referance: edx-sga repo (Mit office of digital Learning)
+#: edx_sga/sga.py edx_sga/templates/staff_graded_assignment/show.html
+
+#: edx_sga/static/js/src/edx_sga.js
+msgid "Upload %(file_name)s"
+msgstr "הקובץ שהועלה %(file_name)s"
+
+#: edx_sga/static/js/src/edx_sga.js
+msgid "Uploading..."
+msgstr "הקובץ בתהליך העלאה..."
+
+#: edx_sga/static/js/src/edx_sga.js
+msgid "The file you are trying to upload is too large."
+msgstr "הקובץ שאת/ה מנסה להעלות גדול מידיי"
+
+#: edx_sga/static/js/src/edx_sga.js
+msgid "There was an error uploading your file."
+msgstr "קרתה שגיאה בהעלאת הקובץ שלך"
+
+#: edx_sga/static/js/src/edx_sga.js
+msgid "Uploading... %(percent)s %"
+msgstr "הקובץ בתהליך העלאה ... %(percent)s %"
+
+#: edx_sga/static/js/src/edx_sga.js
+msgid "Grade must be a number."
+msgstr ".הציון חייב להיות מספר"
+
+#: edx_sga/static/js/src/edx_sga.js
+msgid "Grade must be an integer."
+msgstr "הציון חייב להיות מספר שלם"
+
+#: edx_sga/static/js/src/edx_sga.js
+msgid "Grade must be positive."
+msgstr "הציון חייב להיות מספר חיובי"
+
+#: edx_sga/static/js/src/edx_sga.js
+msgid "Maximum score is %(max_score)s"
+msgstr "הציון המקסימלי הוא %(max_score)s"
+
+#: edx_sga/static/js/src/edx_sga.js
+msgid "No grade to remove."
+msgstr "אין ציון להסרה"
+
+#: edx_sga/static/js/src/edx_sga.js
+msgid "Student submission file ready for download"
+msgstr "קובץ הגשות התלמידים מוכן להורדה"
