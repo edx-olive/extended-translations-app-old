@@ -8196,14 +8196,6 @@ msgid "Sign in"
 msgstr "כניסה"
 
 #: lms/djangoapps/courseware/views/views.py
-#, python-brace-format
-msgid ""
-"You must be enrolled in the course to see course "
-"content.                             {enroll_link_start}Enroll "
-"now{enroll_link_end}."
-msgstr "עליך להירשם לקורס כדי לראות את התוכן שלו"
-
-#: lms/djangoapps/courseware/views/views.py
 #: openedx/features/course_experience/views/course_home_messages.py
 msgid "You must be enrolled in the course to see course content."
 msgstr "עליך להירשם לקורס כדי לראות את התוכן שלו."
@@ -12136,14 +12128,6 @@ msgstr "הירשם"
 msgid "There was an error receiving your login information. Please email us."
 msgstr ""
 "אירעה שגיאה בזמן קבלת מידע התחברות. אנא צרו איתנו קשר באמצעות דואר אלקטרוני."
-
-#: openedx/core/djangoapps/user_authn/views/login.py
-#, python-brace-format
-msgid ""
-"To protect your account, it’s been temporarily locked. Try again in "
-"{locked_out_period} minutes.{li_start}To be on the safe side, you can reset "
-"your password {link_start}here{link_end} before you try again."
-msgstr "כדי להגן על החשבון שלך, הוא ננעל זמנית. "
 
 #: openedx/core/djangoapps/user_authn/views/login.py
 #, python-brace-format
