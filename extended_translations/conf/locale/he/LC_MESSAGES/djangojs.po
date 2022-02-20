@@ -218,6 +218,22 @@ msgstr[3] "נקודות אפשריות (שלא דורגו) {num_points}"
 msgid "Certificate exceptions group selection"
 msgstr "בחירת קבוצת לימוד ליצירת תעודה"
 
+#: cms/static/js/views/settings/grading.js
+msgid "Failed"
+msgstr "נכשל"
+
+#: cms/static/js/views/settings/grading.js
+msgid "Fail"
+msgstr "נכשל"
+
+#: cms/static/js/views/settings/grading.js
+msgid "Pass"
+msgstr "עבר"
+
+#: lms/static/js/instructor_dashboard/extensions.js
+msgid "Error changing due date"
+msgstr "שגיאה בשינוי תאריך היעד"
+
 
 
 #. Eden: Xblock-Proctored exams with time limits (djangojs.po)

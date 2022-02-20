@@ -1294,6 +1294,10 @@ msgstr "עדכון ציון"
 msgid "Choose the graded subsection:"
 msgstr "בחירת תת-פרק מְצוּיְנָּן:"
 
+#: lms/templates/instructor/instructor_dashboard_2/extensions.html
+msgid "Choose one"
+msgstr "בחר אחד"
+
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "To gain insights into student enrollment and participation"
 msgstr "על מנת לקבל תובנות אודות רישום והשתתפות סטודנטים"
