@@ -294,7 +294,7 @@ msgstr "הודעה"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:57
 msgid "Submit"
-msgstr "שלח"
+msgstr "הגשה"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:59
 msgid "Required Fields"
@@ -344,15 +344,15 @@ msgid "Honor Code"
 msgstr "כולל תעודה"
 
 msgid ""
-"In order to sign in, you need to activate your account.<br /><br />We just "
-"sent an activation link to <strong>{email}</strong>.  If you do not receive "
-"an email, check your spam folders or <a href=\"{support_url}\">contact "
-"{platform} Support</a>."
+"In order to sign in, you need to activate your account.{line_break}{line_break}"
+"We just sent an activation link to {strong_start} {email} {strong_end}. If "
+" you do not receive an email, check your spam folders or "
+" {anchorStart}contact {platform_name} Support{anchorEnd}."
 msgstr ""
-"בכדי להירשם, עליך להפעיל קודם את חשבונך.<br /><br />הרגע נשלח אליך מייל "
-"ל<strong>{email}</strong> ובו קישור להפעלה. אם אינך רואה את המייל, מומלץ "
-"לבדוקאת תיקיות הספאם שלך או <a href=\"{support_url}\">ליצור קשר עם תמיכת "
-"{platform}</a>."
+"בכדי להירשם, עליך להפעיל קודם את חשבונך{line_break}{line_break}"
+"הרגע נשלח אליך מייל {strong_start} {email} {strong_end}. ובו קישור להפעלה "
+"אם אינך רואה את המייל, מומלץ לבדוק את תיקיית הספאם שלך או "
+"{anchorStart}ליצור קשר עם  {platform_name} התמיכה הטכנית{anchorEnd}."
 
 #: lms/djangoapps/ccx/utils.py
 msgid ""
@@ -2008,6 +2008,19 @@ msgid ""
 msgstr ""
 "חשבון זה ננעל כתוצאה ממספר רב של נסיונת, באפשרותך לאפס את הסיסמה כדי להתחבר "
 "לחשבון."
+
+#: openedx/core/djangoapps/user_authn/views/login.py
+#, python-brace-format
+msgid ""
+"Email or password is incorrect.{li_start}You have {remaining_attempts} more "
+"sign-in attempts before your account is temporarily "
+"locked.{li_end}{li_start}If you've forgotten your password, click "
+"{link_start}here{link_end} to reset.{li_end}"
+msgstr ""
+"הדוא\"ל או הסיסמה שהזנת שגויים. {li_start}נותרו לך עוד {remaining_attempts} ניסיונות"
+"לפני שהחשבון שלך ינעל "
+"זמנית. {li_end}{li_start}במידה ושכחת את הסיסמה שלך, יש ללחוץ"
+"{link_start}כאן{link_end} כדי לבצע איפוס.{li_end}"
 
 # Translation that I found on branch edx-proctoring
 # module: Proctored exams with time limits
@@ -11933,6 +11946,12 @@ msgstr ""
 msgid "Email or password is incorrect."
 msgstr "דואר אלקטרוני או סיסמה שגויים."
 
+#: openedx/core/djangoapps/user_api/accounts/views.py
+#: openedx/core/djangoapps/user_authn/views/login.py
+#: lms/templates/provider_login.html
+msgid "User does not exist."
+msgstr "חשבון לא קיים."
+
 #: openedx/core/djangoapps/user_api/admin.py
 #: wiki/templates/wiki/permission_denied.html
 msgid "Permission Denied"
@@ -12138,7 +12157,7 @@ msgid ""
 "here{link_end} before you try again.\n"
 msgstr ""
 "כדי להגן על החשבון שלך, הוא ננעל באופן זמני למשך {locked_out_period} דקות.\n"
-"ליתר בטחון, באפשרותך לאפס את הסיסמה שלך {link_start}heכאן{link_end}.\n"
+"ליתר בטחון, באפשרותך לאפס את הסיסמה שלך {link_start}כאן{link_end}.\n"
 
 #: openedx/core/djangoapps/user_authn/views/login.py
 msgid "Too many failed login attempts. Try again later."
@@ -22536,7 +22555,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Archived Courses"
-msgstr ""
+msgstr "קורסים בארכיון"
 
 #: cms/templates/index.html
 msgid "Libraries"
@@ -25191,6 +25210,96 @@ msgstr ""
 #: edx_proctoring_proctortrack/backends/proctortrack_rest.py
 msgid "Click on the \"Start Proctored Exam\" button below to continue."
 msgstr "יש ללחוץ על הכפתור „התחלת מבחן תחת פיקוד” להלן כדי להמשיך."
+
+
+#. Eden: Launch checklists
+
+#: cms/templates/checklists.html
+msgid "Launch Checklist"
+msgstr "פתחו רשימת תיוג"   
+
+
+#: cms/templates/checklists.html
+msgid "{completed}/{total} completed"
+msgstr "{completed}/{total} הושלם"   
+
+
+#: cms/templates/checklists.html
+msgid "Add a Welcome Message"
+msgstr "הוסיפו מסר ברכה לנכנסים"   
+
+#: cms/templates/checklists.html
+msgid "Personally welcome learners into your course and prepare learners for a positive course experience."
+msgstr "ברכו באופן אישי את הלומדים המצטרפים לקורס שלכם והכינו את הלומדים לקראת חוויית קורס חיובית."   
+
+#: cms/templates/checklists.html
+msgid "Create Your Course Grading Policy"
+msgstr "צרו את מדיניות הציונים בקורס שלכם"   
+
+#: cms/templates/checklists.html
+msgid "Establish your grading policy, including assignment types and passing score. All assignments add up to 100%."
+msgstr "קבעו את מדיניות הציונים שלכם, לרבות סוגי המטלות והגדרת ציון עובר. סכום כל המטלות יחדיו הוא 100%."   
+
+#: cms/templates/checklists.html
+msgid "Enable Your Certificate"
+msgstr "אפשרו הפקת תעודה"   
+
+#: cms/templates/checklists.html
+msgid "Make sure that all text is correct, signatures have been uploaded, and the certificate has been activated."
+msgstr "ודאו שכל המלל נכון, שהחתימות הועלו ושהאישור הופעל"   
+
+#: cms/templates/checklists.html
+msgid "Set Important Course Dates"
+msgstr "קבעו תאריכים חשובים בקורס"   
+
+#: cms/templates/checklists.html
+msgid "Establish your course schedule, including when the course starts and ends."
+msgstr "קבעו את לוח הזמנים לקורס שלכם, כולל מועדי תחילת הקורס וסיומו."   
+
+#: cms/templates/checklists.html
+msgid "Validate Assignment Deadlines"
+msgstr "תקפו את המועדים האחרונים להגשת המטלות"   
+
+#: cms/templates/checklists.html
+msgid "Ensure all assignment deadlines are between course start and end dates."
+msgstr "ודאו שכל מועדי ההגשה למשימות נמצאים בין תאריך תחילת הקורס לתאריך סוף הקורס."   
+
+#: cms/templates/checklists.html
+msgid "Best Practices Checklist"
+msgstr "רשימת תיוג לפרקטיקות הטובות ביותר"   
+
+#: cms/templates/checklists.html
+msgid "Check Video Duration"
+msgstr "בדקו את אורך סרטוני הווידאו"   
+
+#: cms/templates/checklists.html
+msgid "Learners engage best with short videos followed by opportunities to practice. Ensure that 80% or more of course videos are less than 10 minutes long."
+msgstr "לומדים מגיבים בצורה הטובה ביותר לסרטונים קצרים שאחריהם יש להם הזדמנות לתרגול. ודאו שאורכם של 80% או יותר מן הסרטונים בקורס פחות מ-10 דקות."   
+
+#: cms/templates/checklists.html
+msgid "Create Mobile-Friendly Video"
+msgstr "צרו סרטוני וידאו ידידותיים לנייד"   
+
+#: cms/templates/checklists.html
+msgid "Mobile-friendly videos can be viewed across all supported devices. Ensure that at least 90% of course videos are mobile friendly by uploading course videos to the edX video pipeline."
+msgstr "ניתן לצפות בסרטוני וידאו ידידותיים לנייד מכל המכשירים הנתמכים. ודאו שלפחות 90% מסרטוני הקורס ידידותיים לנייד על ידי העלאת סרטוני הקורס לצינור הווידאו של edX."   
+
+#: cms/templates/checklists.html
+msgid "Build Diverse Learning Sequences"
+msgstr "בנו רצפי לימוד מגוונים"   
+
+#: cms/templates/checklists.html
+msgid "Research shows that a diverse content experience drives learner engagement. We recommend that 80% or more of your learning sequences or subsections include multiple content types (such as video, discussion, or problem)."
+msgstr "מחקרים מראים שחוויית תוכן מגוונת מניעה את מעורבות הלומדים. אנחנו ממליצים ש-80% או יותר מרצפי הלימוד שלכם או מיחידות המשנה שלהם יכללו כמה סוגי תוכן (כגון סרטון וידאו, דיון או בעיה)."   
+
+#: cms/templates/checklists.html
+msgid "Manage Unit Depth"
+msgstr "נהלו את עומק היחידה"   
+
+#: cms/templates/checklists.html
+msgid "Breaking up course content into manageable pieces promotes learner engagement. We recommend units contain no more than three components."
+msgstr "פירוק תוכן הקורס לחתיכות קטנות מעודד מעורבות לומדים. אנחנו ממליצים שהיחידות לא יכללו יותר משלושה רכיבים."   
+
 
 #~ msgid "Academic Planning"
 #~ msgstr "תכנון אקדמי"
