@@ -217,6 +217,22 @@ msgstr[3] "נקודות אפשריות (שלא דורגו) {num_points}"
 msgid "Certificate exceptions group selection"
 msgstr "בחירת קבוצת לימוד ליצירת תעודה"
 
+#: cms/static/js/views/settings/grading.js
+msgid "Failed"
+msgstr "נכשל"
+
+#: cms/static/js/views/settings/grading.js
+msgid "Fail"
+msgstr "נכשל"
+
+#: cms/static/js/views/settings/grading.js
+msgid "Pass"
+msgstr "עבר"
+
+#: lms/static/js/instructor_dashboard/extensions.js
+msgid "Error changing due date"
+msgstr "שגיאה בשינוי תאריך היעד"
+
 #. Translators: {num_points} is the number of points possible (examples: 1, 3,
 #. 10).;
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
@@ -264,18 +280,6 @@ msgstr[0] "{earned}/{possible} נקודה (ungraded)"
 msgstr[1] "{earned}/{possible} נקודות (ungraded)"
 msgstr[2] "{earned}/{possible} נקודות (ungraded)"
 msgstr[3] "{earned}/{possible} נקודות (ungraded)"
-
-#. Eden: Xblock-Proctored exams with time limits (djangojs.po)
-#. Referance: edx-proctoring branch
-#: templates/timed_exam/submitted.html
-msgid ""
-"\n"
-"                You have submitted your timed exam.\n"
-"            "
-msgstr ""
-"\n"
-"                הגשת את המבחן המתוזמן שלך.\n"
-"            "
 
 #. Eden: Xblock-Staf-Graded-Assigment
 #. Referance: edx-sga repo (Mit office of digital Learning)

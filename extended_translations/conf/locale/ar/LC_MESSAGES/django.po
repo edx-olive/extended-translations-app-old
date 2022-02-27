@@ -779,7 +779,7 @@ msgstr "لراحتك، قمنا بإعداد مقاطع فيديو إرشادي�
 
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/subject.txt
 msgid "Obtaining permission to open a class from a course on the IL campus"
-msgstr "الحصول على إذن لفتح فصل دراسي من دورة داخل الحرم الجامعي"
+msgstr "الحصول على إذن لفتح فصل دراسي من دورة مساق في كامبوس IL"
 
 
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/subject.txt
@@ -797,6 +797,19 @@ msgstr "تحت اسم %(course_name)s"
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
 msgid "The class will appear in your personal area at the following link:"
 msgstr "سيظهر الفصل في منطقتك الشخصية على الرابط التالي:"
+
+#: lms/templates/instructor/edx_ace/addbetatester/email/body.html
+#: lms/templates/instructor/edx_ace/addbetatester/email/body.txt
+#: lms/templates/instructor/edx_ace/allowedenroll/email/body.html
+#: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt
+#: lms/templates/instructor/edx_ace/allowedunenroll/email/body.html
+#: lms/templates/instructor/edx_ace/allowedunenroll/email/body.txt
+#: lms/templates/instructor/edx_ace/removebetatester/email/body.html
+#: lms/templates/instructor/edx_ace/removebetatester/email/body.txt
+#, python-format
+msgid ""
+"If you need further assistance, {start_tag}contact us technical support{end_tag}."
+msgstr "لمعلومات اضافية يمكنكم التوجه الى {start_tag}الطاقم التقني{end_tag} الخاص بنا."
 
 #~ msgid "Academic Planning"
 #~ msgstr "التخطيط الدراسي"
