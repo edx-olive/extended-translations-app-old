@@ -743,6 +743,19 @@ msgid ""
 "This email was automatically sent from %(site_name)s to %(email_address)s"
 msgstr "הודעת מייל זו נשלחה באופן אוטומטי מ-%(site_name)s ל-%(email_address)s"
 
+#: lms/templates/instructor/edx_ace/addbetatester/email/body.html
+#: lms/templates/instructor/edx_ace/addbetatester/email/body.txt
+#: lms/templates/instructor/edx_ace/allowedenroll/email/body.html
+#: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt
+#: lms/templates/instructor/edx_ace/allowedunenroll/email/body.html
+#: lms/templates/instructor/edx_ace/allowedunenroll/email/body.txt
+#: lms/templates/instructor/edx_ace/removebetatester/email/body.html
+#: lms/templates/instructor/edx_ace/removebetatester/email/body.txt
+#, python-format
+msgid ""
+"If you need further assistance, {start_tag}contact us technical support{end_tag}."
+msgstr "למידע נוסף ניתן לפנות ל{start_tag}תמיכה{end_tag} שלנו."
+
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt
 #, python-format
 msgid ""

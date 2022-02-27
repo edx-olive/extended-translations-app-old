@@ -798,6 +798,19 @@ msgstr "تحت اسم %(course_name)s"
 msgid "The class will appear in your personal area at the following link:"
 msgstr "سيظهر الفصل في منطقتك الشخصية على الرابط التالي:"
 
+#: lms/templates/instructor/edx_ace/addbetatester/email/body.html
+#: lms/templates/instructor/edx_ace/addbetatester/email/body.txt
+#: lms/templates/instructor/edx_ace/allowedenroll/email/body.html
+#: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt
+#: lms/templates/instructor/edx_ace/allowedunenroll/email/body.html
+#: lms/templates/instructor/edx_ace/allowedunenroll/email/body.txt
+#: lms/templates/instructor/edx_ace/removebetatester/email/body.html
+#: lms/templates/instructor/edx_ace/removebetatester/email/body.txt
+#, python-format
+msgid ""
+"If you need further assistance, {start_tag}contact us technical support{end_tag}."
+msgstr "لمعلومات اضافية يمكنكم التوجه الى {start_tag}الطاقم التقني{end_tag} الخاص بنا."
+
 #~ msgid "Academic Planning"
 #~ msgstr "التخطيط الدراسي"
 
