@@ -2050,8 +2050,8 @@ msgid "Obtaining permission to open a class from a course on the Campus IL"
 msgstr "קבלת הרשאה לפתיחת כיתה מתוך קורס בקמפוס IL"
 
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/subject.txt
-msgid "A class has been opened for you for a CampusIL course: %(root_course_name)s"
-msgstr "נפתחה עבורך כיתה מתוך קורס %(root_course_name)s בקמפוסIL"
+msgid "A class has been opened for you from a course on the Campus IL"
+msgstr "נפתחה עבורך כיתה מתוך קורס בקמפוסIL"
 
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
 msgid ""
@@ -25107,89 +25107,89 @@ msgstr "יש ללחוץ על הכפתור „התחלת מבחן תחת פיקו
 
 #: cms/templates/checklists.html
 msgid "Launch Checklist"
-msgstr "פתחו רשימת תיוג"   
+msgstr "פתחו רשימת תיוג"
 
 
 #: cms/templates/checklists.html
 msgid "{completed}/{total} completed"
-msgstr "{completed}/{total} הושלם"   
+msgstr "{completed}/{total} הושלם"
 
 
 #: cms/templates/checklists.html
 msgid "Add a Welcome Message"
-msgstr "הוסיפו מסר ברכה לנכנסים"   
+msgstr "הוסיפו מסר ברכה לנכנסים"
 
 #: cms/templates/checklists.html
 msgid "Personally welcome learners into your course and prepare learners for a positive course experience."
-msgstr "ברכו באופן אישי את הלומדים המצטרפים לקורס שלכם והכינו את הלומדים לקראת חוויית קורס חיובית."   
+msgstr "ברכו באופן אישי את הלומדים המצטרפים לקורס שלכם והכינו את הלומדים לקראת חוויית קורס חיובית."
 
 #: cms/templates/checklists.html
 msgid "Create Your Course Grading Policy"
-msgstr "צרו את מדיניות הציונים בקורס שלכם"   
+msgstr "צרו את מדיניות הציונים בקורס שלכם"
 
 #: cms/templates/checklists.html
 msgid "Establish your grading policy, including assignment types and passing score. All assignments add up to 100%."
-msgstr "קבעו את מדיניות הציונים שלכם, לרבות סוגי המטלות והגדרת ציון עובר. סכום כל המטלות יחדיו הוא 100%."   
+msgstr "קבעו את מדיניות הציונים שלכם, לרבות סוגי המטלות והגדרת ציון עובר. סכום כל המטלות יחדיו הוא 100%."
 
 #: cms/templates/checklists.html
 msgid "Enable Your Certificate"
-msgstr "אפשרו את האישור שלכם"   
+msgstr "אפשרו את האישור שלכם"
 
 #: cms/templates/checklists.html
 msgid "Make sure that all text is correct, signatures have been uploaded, and the certificate has been activated."
-msgstr "ודאו שכל המלל נכון, שהחתימות הועלו ושהאישור הופעל"   
+msgstr "ודאו שכל המלל נכון, שהחתימות הועלו ושהאישור הופעל"
 
 #: cms/templates/checklists.html
 msgid "Set Important Course Dates"
-msgstr "קבעו תאריכים חשובים בקורס"   
+msgstr "קבעו תאריכים חשובים בקורס"
 
 #: cms/templates/checklists.html
 msgid "Establish your course schedule, including when the course starts and ends."
-msgstr "קבעו את לוח הזמנים לקורס שלכם, כולל מועדי תחילת הקורס וסיומו."   
+msgstr "קבעו את לוח הזמנים לקורס שלכם, כולל מועדי תחילת הקורס וסיומו."
 
 #: cms/templates/checklists.html
 msgid "Validate Assignment Deadlines"
-msgstr "תקפו את המועדים האחרונים להגשת המטלות"   
+msgstr "תקפו את המועדים האחרונים להגשת המטלות"
 
 #: cms/templates/checklists.html
 msgid "Ensure all assignment deadlines are between course start and end dates."
-msgstr "ודאו שכל מועדי ההגשה למשימות נמצאים בין תאריך תחילת הקורס לתאריך סוף הקורס."   
+msgstr "ודאו שכל מועדי ההגשה למשימות נמצאים בין תאריך תחילת הקורס לתאריך סוף הקורס."
 
 #: cms/templates/checklists.html
 msgid "Best Practices Checklist"
-msgstr "רשימת תיוג לפרקטיקות הטובות ביותר"   
+msgstr "רשימת תיוג לפרקטיקות הטובות ביותר"
 
 #: cms/templates/checklists.html
 msgid "Check Video Duration"
-msgstr "בדקו את אורך סרטוני הווידאו"   
+msgstr "בדקו את אורך סרטוני הווידאו"
 
 #: cms/templates/checklists.html
 msgid "Learners engage best with short videos followed by opportunities to practice. Ensure that 80% or more of course videos are less than 10 minutes long."
-msgstr "לומדים מגיבים בצורה הטובה ביותר לסרטונים קצרים שאחריהם יש להם הזדמנות לתרגול. ודאו שאורכם של 80% או יותר מן הסרטונים בקורס פחות מ-10 דקות."   
+msgstr "לומדים מגיבים בצורה הטובה ביותר לסרטונים קצרים שאחריהם יש להם הזדמנות לתרגול. ודאו שאורכם של 80% או יותר מן הסרטונים בקורס פחות מ-10 דקות."
 
 #: cms/templates/checklists.html
 msgid "Create Mobile-Friendly Video"
-msgstr "צרו סרטוני וידאו ידידותיים לנייד"   
+msgstr "צרו סרטוני וידאו ידידותיים לנייד"
 
 #: cms/templates/checklists.html
 msgid "Mobile-friendly videos can be viewed across all supported devices. Ensure that at least 90% of course videos are mobile friendly by uploading course videos to the edX video pipeline."
-msgstr "ניתן לצפות בסרטוני וידאו ידידותיים לנייד מכל המכשירים הנתמכים. ודאו שלפחות 90% מסרטוני הקורס ידידותיים לנייד על ידי העלאת סרטוני הקורס לצינור הווידאו של edX."   
+msgstr "ניתן לצפות בסרטוני וידאו ידידותיים לנייד מכל המכשירים הנתמכים. ודאו שלפחות 90% מסרטוני הקורס ידידותיים לנייד על ידי העלאת סרטוני הקורס לצינור הווידאו של edX."
 
 #: cms/templates/checklists.html
 msgid "Build Diverse Learning Sequences"
-msgstr "בנו רצפי לימוד מגוונים"   
+msgstr "בנו רצפי לימוד מגוונים"
 
 #: cms/templates/checklists.html
 msgid "Research shows that a diverse content experience drives learner engagement. We recommend that 80% or more of your learning sequences or subsections include multiple content types (such as video, discussion, or problem)."
-msgstr "מחקרים מראים שחוויית תוכן מגוונת מניעה את מעורבות הלומדים. אנחנו ממליצים ש-80% או יותר מרצפי הלימוד שלכם או מיחידות המשנה שלהם יכללו כמה סוגי תוכן (כגון סרטון וידאו, דיון או בעיה)."   
+msgstr "מחקרים מראים שחוויית תוכן מגוונת מניעה את מעורבות הלומדים. אנחנו ממליצים ש-80% או יותר מרצפי הלימוד שלכם או מיחידות המשנה שלהם יכללו כמה סוגי תוכן (כגון סרטון וידאו, דיון או בעיה)."
 
 #: cms/templates/checklists.html
 msgid "Manage Unit Depth"
-msgstr "נהלו את עומק היחידה"   
+msgstr "נהלו את עומק היחידה"
 
 #: cms/templates/checklists.html
 msgid "Breaking up course content into manageable pieces promotes learner engagement. We recommend units contain no more than three components."
-msgstr "פירוק תוכן הקורס לחתיכות קטנות מעודד מעורבות לומדים. אנחנו ממליצים שהיחידות לא יכללו יותר משלושה רכיבים."   
+msgstr "פירוק תוכן הקורס לחתיכות קטנות מעודד מעורבות לומדים. אנחנו ממליצים שהיחידות לא יכללו יותר משלושה רכיבים."
 
 
 #~ msgid "Academic Planning"
@@ -25471,9 +25471,9 @@ msgstr "חשבון זה ננעל כתוצאה ממספר רב של נסיונת,
 
 
 #. Eden: All Xblocks: (django.po)
-#. Eden: Transltion that I Found From GitHub ( by Google search: ' edx: "some-translation-string" po ') 
+#. Eden: Transltion that I Found From GitHub ( by Google search: ' edx: "some-translation-string" po ')
 # Translation that I found on branch edx-proctoring
-# module: Proctored exams with time limits 
+# module: Proctored exams with time limits
 #: templates/timed_exam/submitted.html
 msgid ""
 "\n"
