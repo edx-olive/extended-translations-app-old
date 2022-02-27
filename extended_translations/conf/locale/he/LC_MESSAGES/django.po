@@ -343,6 +343,7 @@ msgstr "אנא {link_start} סיימ/י למלא את הגדרות החשבון 
 msgid "Honor Code"
 msgstr "כולל תעודה"
 
+#: lms/static/js/student_account/views/LoginView.js
 msgid ""
 "In order to sign in, you need to activate your account.{line_break}{line_break}"
 "We just sent an activation link to {strong_start} {email} {strong_end}. If "
@@ -350,9 +351,9 @@ msgid ""
 " {anchorStart}contact {platform_name} Support{anchorEnd}."
 msgstr ""
 "בכדי להירשם, עליך להפעיל קודם את חשבונך{line_break}{line_break}"
-"הרגע נשלח אליך מייל {strong_start} {email} {strong_end}. ובו קישור להפעלה "
+"הרגע נשלח אליך מייל {strong_start} {email} {strong_end} ובו קישור להפעלה. "
 "אם אינך רואה את המייל, מומלץ לבדוק את תיקיית הספאם שלך או "
-"{anchorStart}ליצור קשר עם  {platform_name} התמיכה הטכנית{anchorEnd}."
+"{anchorStart}ליצור קשר עם תמיכת {platform_name} {anchorEnd}."
 
 #: lms/djangoapps/ccx/utils.py
 msgid ""
@@ -12156,8 +12157,8 @@ msgid ""
 "To be on the safe side, you can reset your password {link_start}"
 "here{link_end} before you try again.\n"
 msgstr ""
-"כדי להגן על החשבון שלך, הוא ננעל באופן זמני למשך {locked_out_period} דקות.\n"
-"ליתר בטחון, באפשרותך לאפס את הסיסמה שלך {link_start}כאן{link_end}.\n"
+"חשבונכם ננעל זמנית כדי להגן עליו. נסו שוב בעוד {locked_out_period} דקות.\n"
+"ליתר בטחון, באפשרותכם לאפס את הסיסמה שלכם {link_start}פה{link_end} לפני שתנסו שוב.\n"
 
 #: openedx/core/djangoapps/user_authn/views/login.py
 msgid "Too many failed login attempts. Try again later."
@@ -25242,7 +25243,7 @@ msgstr "קבעו את מדיניות הציונים שלכם, לרבות סוג�
 
 #: cms/templates/checklists.html
 msgid "Enable Your Certificate"
-msgstr "אפשרו הפקת תעודה"   
+msgstr "אפשרו את האישור שלכם"   
 
 #: cms/templates/checklists.html
 msgid "Make sure that all text is correct, signatures have been uploaded, and the certificate has been activated."

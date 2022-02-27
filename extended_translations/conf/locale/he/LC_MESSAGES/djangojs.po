@@ -3907,6 +3907,10 @@ msgid ""
 "these for your records before proceeding with deletion, follow the "
 "instructions for {htmlStart}printing or downloading a certificate{htmlEnd}."
 msgstr ""
+"ייתכן גם שתאבדו את הגישה שלכם לתעודות מאומתות ולאישורים "
+"אחרים בתוכנית כמו תעודות MicroMasters. אם ברצונכם להכין העתקים "
+"של אלו עבור התיעוד שלכם לפני שתמחקו את חשבונכם, פעלו בהתאם "
+"להוראות כיצד {htmlStart}להדפיס או להוריד תעודות{htmlEnd}."
 
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
@@ -3928,6 +3932,8 @@ msgstr ""
 msgid ""
 "{htmlStart}Want to change your email, name, or password instead?{htmlEnd}"
 msgstr ""
+"{htmlStart}האם תרצו לשנות את כתובת הדואר האלקטרוני שלכם, את השם שלכם או את הסיסמה שלכם במקום?{htmlEnd}"
+
 
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
@@ -3938,6 +3944,10 @@ msgid ""
 "{strongStart}you will no longer be able to use the same email on "
 "{platformName}.{strongEnd}"
 msgstr ""
+"{strongStart}אזהרה: מחיקת חשבון היא פעולה לצמיתות.{strongEnd} אנא קראו "
+"בעיון את המידע לעיל לפני שאתם ממשיכים. זוהי פעולה שלא ניתן לבטלה "
+"{strongStart}ולא תוכלו עוד להשתמש באותה כתובת דואר אלקטרוני ב "
+"{platformName}.{strongEnd}"
 
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
@@ -3947,6 +3957,9 @@ msgid ""
 "cannot be undone. {platformName} will not be able to recover your account or "
 "the data that is deleted."
 msgstr ""
+"לתשומת לבכם: מחיקת חשבונכם והמידע האישי שלכם היא פעולה לצמיתות "
+"שלא ניתן לבטלה. {platformName} לא יוכל לשחזר את חשבונכם "
+"או את הנתונים שלכם שנמחקו."
 
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
@@ -3955,6 +3968,8 @@ msgid ""
 "Once your account is deleted, you cannot use it to take courses on the "
 "{platformName} app, {siteName}, or any other site hosted by {platformName}."
 msgstr ""
+"מרגע שחשבונכם יימחק, לא תוכלו עוד להשתמש בו כדי להיכנס לקורסים ביישומון (באפליקציית) "
+"{platformName}, לקורסים באתר {siteName}, או בכל אתר אחר מיסוד {platformName}."
 
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
@@ -3964,12 +3979,14 @@ msgid ""
 "This includes access to {siteName} from your employer’s or university’s "
 "system{additionalSiteSpecificDeletionText}."
 msgstr ""
+"הדבר כולל גם כניסה לאתר {siteName} דרך המערכת של המעסיק שלכם או של האוניברסיטה שלכם "
+" וכן כניסה לאתרים פרטיים המוצעים מטעם{additionalSiteSpecificDeletionText}."
 
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid "We’re sorry to see you go!"
-msgstr ""
+msgstr "צר לנו לראות אתכם עוזבים!"
 
 #: common/static/bundles/StudentAccountDeletion.js
 #: common/static/bundles/StudentAccountDeletionInitializer.js
@@ -6468,7 +6485,7 @@ msgstr "שם מלא"
 msgid ""
 "The name that is used for ID verification and that appears on your "
 "certificates."
-msgstr ""
+msgstr "השם המשמש לאימות תעודת זהות והמופיע על גבי התעודות שלכם. "
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Country or Region of Residence"
@@ -6491,8 +6508,8 @@ msgid ""
 "The name that identifies you on {platform_name}. You cannot change your "
 "username."
 msgstr ""
-"שם המשתמש שבאמצעותו מתבצע זיהוי ב {platform_name}. לא ניתן עוד לבצע בו "
-"שינויים"
+"השם המזהה אתכם ב {platform_name}. אינכם יכולים לשנות את שם המשתמש "
+"שלכם."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: lms/templates/student_account/account.underscore
@@ -9381,7 +9398,7 @@ msgstr "אירעה שגיאה. נא טען מחדש את העמוד."
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Other sign-in issues"
-msgstr "פנייה לתמיכה טכנית"
+msgstr "בעיות אחרות בכניסה לאתר"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Create an account"
