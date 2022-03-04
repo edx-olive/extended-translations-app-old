@@ -14,6 +14,10 @@ Unreleased
 
 *
 
+[0.0.10] - 2021-03-04
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Transfer translations from github
+
 [0.0.9] - 2021-02-18
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Add translations form the client
