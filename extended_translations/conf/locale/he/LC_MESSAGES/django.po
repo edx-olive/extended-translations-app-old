@@ -2027,6 +2027,19 @@ msgstr ""
 "זמנית. {li_end}{li_start}במידה ושכחת את הסיסמה שלך, יש ללחוץ"
 "{link_start}כאן{link_end} כדי לבצע איפוס.{li_end}"
 
+#: openedx/core/djangoapps/user_authn/views/login.py
+#, python-brace-format
+msgid ""
+"Email or password is incorrect.{li_start}You have {remaining_attempts} more "
+"sign-in attempts before your account is temporarily "
+"locked.{li_end}{li_start}If you've forgotten your password, click "
+"{link_start}here{link_end} to reset.{li_end}"
+msgstr ""
+"הדוא\"ל או הסיסמה שהזנת שגויים. {li_start}נותרו לך עוד {remaining_attempts} ניסיונות"
+"לפני שהחשבון שלך ינעל "
+"זמנית. {li_end}{li_start}במידה ושכחת את הסיסמה שלך, יש ללחוץ"
+"{link_start}כאן{link_end} כדי לבצע איפוס.{li_end}"
+
 # Translation that I found on branch edx-proctoring
 # module: Proctored exams with time limits
 #. Eden: All Xblocks: (django.po)
@@ -25431,14 +25444,45 @@ msgstr ""
 "                הגשת את המבחן המתוזמן שלך.\n"
 "            "
 
+#. Eden: Xblock-ORA:
+#. Referance: origin/GlugovGrGlib-patch-1 branch
+#: openassessment/templates/openassessmentblock/response/oa_response.html:91
+msgid ""
+"\n"
+"                        You can save your progress and return to complete your response at any time before the due date\n"
+"                      "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:167
+msgid "Team Response "
+msgstr ""
+
 #: openassessment/templates/openassessmentblock/response/oa_response.html:169
 msgid "Your Response "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:173
+#: openassessment/templates/openassessmentblock/response/oa_response.html:244
+msgid "(Required)"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:175
+#: openassessment/templates/openassessmentblock/response/oa_response.html:246
+msgid "(Optional)"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:242
+msgid "File Uploads "
 msgstr ""
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:84
 msgid ""
 "To add more file extensions, select Custom File Types and enter the full "
 "list of acceptable file extensions to be included."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:278
+msgid "Supported file types: "
 msgstr ""
 
 #: lms/templates/learner_dashboard/_dashboard_incomplete_profile_notification.html
@@ -25475,16 +25519,71 @@ msgid "Download all submissions"
 msgstr "הורדת כל ההגשות"
 
 #: edx_sga/sga.py
+msgid "This name appears in the horizontal navigation at the top of the page."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid ""
+"Defines the number of points each problem is worth. If the value is not set,"
+" the problem is worth the sum of the option point values."
+msgstr ""
+
+#: edx_sga/sga.py
 msgid "Maximum score"
 msgstr "ציון מקסימלי"
+
+#: edx_sga/sga.py
+msgid "Maximum grade score given to assignment by staff."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Score assigned by non-instructor staff"
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Score will need to be approved by instructor before being published."
+msgstr ""
 
 #: edx_sga/sga.py edx_sga/templates/staff_graded_assignment/show.html
 msgid "Instructor comment"
 msgstr "הערות הבודק"
 
 #: edx_sga/sga.py
+msgid "Feedback given to student by instructor."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Annotated SHA1"
+msgstr ""
+
+#: edx_sga/sga.py
+msgid ""
+"sha1 of the annotated file uploaded by the instructor for this assignment."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Annotated file name"
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "The name of the annotated file uploaded for this assignment."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Mime type of annotated file"
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "The mimetype of the annotated file uploaded for this assignment."
+msgstr ""
+
+#: edx_sga/sga.py
 msgid "Timestamp"
 msgstr "חותמת זמן"
+
+#: edx_sga/sga.py
+msgid "When the annotated file was uploaded"
+msgstr ""
 
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "No file has been uploaded."
@@ -25498,6 +25597,10 @@ msgstr "הציון שלך %(graded_score)s / %(max_score)s"
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Annotated file from instructor"
 msgstr "מצורף קובץ עם הערות ה בודק"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "This assignment has not yet been graded."
+msgstr "טרם הוגדר ציון למטלה זו"
 
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Upload your assignment"
@@ -25539,9 +25642,19 @@ msgstr "דירוג הגשות"
 msgid "Loading..."
 msgstr "בטענה..."
 
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "is_released"
+msgstr ""
+
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Enter Grade"
 msgstr "קבע ציון"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+#, python-format
+msgid "Grade for %(student_name)s"
+msgstr "ציון עבור %(student_name)"
 
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Grade:"
