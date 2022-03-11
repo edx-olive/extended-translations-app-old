@@ -14,6 +14,10 @@ Unreleased
 
 *
 
+[0.0.11] - 2021-03-11
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Fix RTL Platform name mirroring
+
 [0.0.10] - 2021-03-04
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Transfer translations from github
