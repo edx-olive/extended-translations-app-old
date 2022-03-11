@@ -576,6 +576,45 @@ msgstr ""
 "{start_anchor_web}%(support_url)s{end_anchor} או בדואל "
 "{start_anchor_email}%(support_email)s{end_anchor}."
 
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+#: common/templates/student/edx_ace/accountactivation/email/body.txt
+#, python-format
+msgid "Enjoy learning with {platform_name_tag}."
+msgstr "מאחלים לכם למידה מהנה ב {platform_name_tag}."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+#: common/templates/student/edx_ace/accountactivation/email/body.txt
+#, python-format
+msgid ""
+"You're almost there! Use the link below to activate your account to access "
+"engaging, high-quality {platform_name_tag} courses. Note that you will not be "
+"able to log back into your account until you have activated it."
+msgstr ""
+"הי,\n"
+"עוד קליק אחד ואתם מתחילים ללמוד ב{platform_name_tag}! \n"
+"בכדי להפעיל את החשבון שלכם, לחצו על הלינק הבא:\n"
+"אנחנו עושים את זה בכדי שנדע בביטחון שזה אתם!"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+#: common/templates/student/edx_ace/accountactivation/email/body.txt
+#, python-format
+msgid ""
+"This email message was automatically sent by {lms_url} because someone "
+"attempted to create an account on {platform_name_tag} using this email address."
+msgstr ""
+"הודעה זו נשלחה באופן אוטומטי על ידי {lms_url}, לאחר שנוצר חשבון ב"
+"{platform_name_tag} באמצעות כתובת דוא\"ל זו."
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.txt
+#, python-format
+msgid ""
+"This is to confirm that you have successfully changed your password "
+"associated with %(platform_name_tag)s account. Please sign-in to your account."
+msgstr ""
+"מטרת ההודעה הזאת היא לאשר ששינית בהצלחה את הסיסמה שלך שמשויכת לחשבון באתר "
+"%(platform_name_tag)s. נא להיכנס לחשבון שלך."
+
 #: common/templates/student/edx_ace/accountrecovery/email/body.html
 msgid "Create Password"
 msgstr ""
@@ -585,16 +624,16 @@ msgstr ""
 #, python-format
 msgid ""
 "You're receiving this e-mail because you requested to create a password for "
-"your user account at %(platform_name)s."
+"your user account at %(platform_name_tag)s."
 msgstr ""
 "אתה מקבל דואר אלקטרוני זה מפני שביקשת איפוס סיסמה עבור חשבון המשתמש שלך ב"
-"%(platform_name)s."
+"%(platform_name_tag)s."
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt
 #, python-format
 msgid ""
-"We've restored access to your %(platform_name)s account using the recovery "
+"We've restored access to your %(platform_name_tag)s account using the recovery "
 "email you provided at registration."
 msgstr ""
 
@@ -603,7 +642,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Once you've created a password [below], you will be able to log in to "
-"%(platform_name)s with this email (%(email)s) and your new password."
+"%(platform_name_tag)s with this email (%(email)s) and your new password."
 msgstr ""
 
 #: common/templates/student/edx_ace/accountrecovery/email/subject.txt
@@ -620,10 +659,10 @@ msgstr ""
 #, python-format
 msgid ""
 "We received a request to change the e-mail associated with your "
-"%(platform_name)s account from %(old_email)s to %(new_email)s. If this is "
+"%(platform_name_tag)s account from %(old_email)s to %(new_email)s. If this is "
 "correct, please confirm your new e-mail address by visiting:"
 msgstr ""
-"התקבלה בקשה לשנות את כתובת הדואר האלקטרוני המקושרת לחשבון %(platform_name)s "
+"התקבלה בקשה לשנות את כתובת הדואר האלקטרוני המקושרת לחשבון %(platform_name_tag)s "
 "שלך מ-%(old_email)s ל-%(new_email)s. אם זה אכן נכון, נא אשר את כתובת הדואר "
 "האלקטרוני החדשה שלך באמצעות ביקור ב:"
 
@@ -637,10 +676,10 @@ msgstr ""
 msgid ""
 "If you didn't request this, you don't need to do anything; you won't receive "
 "any more email from us. Please do not reply to this e-mail; if you require "
-"assistance, check the help section of the %(platform_name)s web site."
+"assistance, check the help section of the %(platform_name_tag)s web site."
 msgstr ""
 "אם לא ביקשת זאת, אין צורך לעשות דבר; לא תקבל עוד הודעות מאיתנו. נא לא להגיב "
-"להודעה זו; אם אתה זקוק לעזרה, בדוק את עמוד העזרה באתר %(platform_name)s. "
+"להודעה זו; אם אתה זקוק לעזרה, בדוק את עמוד העזרה באתר %(platform_name_tag)s. "
 
 #: common/templates/student/edx_ace/emailchange/email/subject.txt
 #, python-format
@@ -650,7 +689,7 @@ msgstr "בקש לשנות את כתובת הדואר האקטרוני המקוש
 #: common/templates/student/edx_ace/emailchangeconfirmation/email/body.html
 #: common/templates/student/edx_ace/emailchangeconfirmation/email/subject.txt
 #, python-format
-msgid "Email Change Confirmation for %(platform_name)s"
+msgid "Email Change Confirmation for %(platform_name_tag)s"
 msgstr ""
 
 #: common/templates/student/edx_ace/emailchangeconfirmation/email/body.html
@@ -658,12 +697,12 @@ msgstr ""
 #, python-format
 msgid ""
 "This is to confirm that you changed the e-mail associated with "
-"%(platform_name)s from %(old_email)s to %(new_email)s. If you did not make "
+"%(platform_name_tag)s from %(old_email)s to %(new_email)s. If you did not make "
 "this request, please contact us immediately. Contact information is listed "
 "at:"
 msgstr ""
 "זוהי הודעה לאשר כי החלפת את כתובת הדואר האלקטרוני המקושרת לחשבון "
-"%(platform_name)s מ-%(old_email)s ל-%(new_email)s. אם לא ביקשת את השינוי הנ"
+"%(platform_name_tag)s מ-%(old_email)s ל-%(new_email)s. אם לא ביקשת את השינוי הנ"
 "\"ל, נא צור עמנו קשר באופן מיידי. דרכי קשר רשומות ב:"
 
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html
@@ -673,7 +712,7 @@ msgstr ""
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.txt
 #, python-format
-msgid "You've registered this recovery email address for %(platform_name)s."
+msgid "You've registered this recovery email address for %(platform_name_tag)s."
 msgstr ""
 
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html
@@ -940,6 +979,16 @@ msgid ""
 msgstr ""
 "אתה מקבל דואר אלקטרוני זה מפני שביקשת איפוס סיסמה עבור חשבון המשתמש שלך ב"
 "%(platform_name)s."
+
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
+#, python-format
+msgid ""
+"You're receiving this e-mail because you requested a password reset for your "
+"user account at %(platform_name_tag)s."
+msgstr ""
+"אתה מקבל דואר אלקטרוני זה מפני שביקשת איפוס סיסמה עבור חשבון המשתמש שלך ב"
+"%(platform_name_tag)s."
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
 msgid "Change my Password"
