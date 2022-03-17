@@ -180,7 +180,7 @@ msgstr "שכחתי סיסמה"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Sign in with your company or school"
-msgstr ""
+msgstr "התחברות עם חשבון בית הספר או הארגון שלך"
 
 #: lms/templates/student_account/password_reset.underscore
 msgid ""
@@ -6489,7 +6489,7 @@ msgstr "שם מלא"
 msgid ""
 "The name that is used for ID verification and that appears on your "
 "certificates."
-msgstr "השם המשמש לאימות תעודת זהות והמופיע על גבי התעודות שלכם. "
+msgstr "השם המשמש לאימות זהותך, הוא זה שיוצג על גבי התעודות שלך "
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Country or Region of Residence"
@@ -9451,6 +9451,7 @@ msgstr ""
 msgid ""
 "You already have an edX account with your {enterprise_name} email address."
 msgstr ""
+"קיים כבר חשבון באתר {enterprise_name} עם מייל זה."
 
 #: lms/templates/student_account/login.underscore
 msgid ""
