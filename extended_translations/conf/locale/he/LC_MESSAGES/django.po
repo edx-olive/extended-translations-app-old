@@ -603,18 +603,12 @@ msgstr "הפעלת חשבון של"
 msgid "Just one more click and you'll begin your studies!"
 msgstr "עוד קליק אחד ואתם מתחילים ללמוד!"
 
-#: common/templates/student/edx_ace/accountactivation/email/body.html
-#: common/templates/student/edx_ace/accountactivation/email/body.txt
-#, python-format
-msgid "Enjoy learning with %(platform_name)s."
-msgstr "מאחלים לכם למידה מהנה ב %(platform_name)s."
-
 # Eden- New Mail Template By CampusIL_V_2022_KOA
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid "Enjoy learning with %(platform_name)s."
-msgstr ""
+msgstr "מאחלים לכם למידה מהנה ב %(platform_name)s."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #, python-format, python-brace-format
@@ -814,14 +808,10 @@ msgstr "הזמנה זו נשלחה על ידי חבר/ה מצוות הקורס"
 msgid "The course's staff is pleased to invite you to help improve the learning experience and thank you in advance :-)"
 msgstr "צוות הקורס שמח להזמין אותך לסייע בשיפור חוויית הלמידה, ומודה לך מראש (-:"
 
-#: lms/templates/instructor/edx_ace/addbetatester/email/body.html
-msgid "To start accessing course materials, please visit:"
-msgstr "למעבר אל הקורס יש להיכנס ל:"
-
 # eden- New Mail Template By CampusIL_V_2022_KOA #LINES_NOT_INCLUDE
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "To start accessing course materials, please visit:"
-msgstr ""
+msgstr "למעבר אל הקורס יש להיכנס ל:"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "To enroll in this course and begin the beta test:"
@@ -15690,11 +15680,6 @@ msgstr ""
 #: lms/templates/api_admin/catalogs/edit.html
 msgid "Edit {catalog_name}"
 msgstr "ערוך {catalog_name}"
-
-#: lms/templates/api_admin/catalogs/edit.html
-#: lms/templates/api_admin/catalogs/list.html
-msgid "Download CSV"
-msgstr "הורד CSV"
 
 #: lms/templates/api_admin/catalogs/edit.html
 msgid "Delete this catalog"
