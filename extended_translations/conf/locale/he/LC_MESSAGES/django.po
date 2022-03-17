@@ -301,7 +301,6 @@ msgstr "הודעה"
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:57
 #: poll/public/html/poll.html
 #: poll/public/html/survey.html
-
 msgid "Submit"
 msgstr "הגשה"
 
@@ -2186,6 +2185,10 @@ msgstr "קבלת הרשאה לפתיחת כיתה מתוך קורס בקמפוס
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/subject.txt
 msgid "A class has been opened for you from a course on the Campus IL"
 msgstr "נפתחה עבורך כיתה מתוך קורס בקמפוסIL"
+
+#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/subject.txt
+msgid "A class has been opened for you for a CampusIL course: %(root_course_name)s"
+msgstr "נפתחה עבורך כיתה מתוך קורס %(root_course_name)s בקמפוסIL"
 
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
 msgid ""
