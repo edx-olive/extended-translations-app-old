@@ -20,28 +20,28 @@ msgstr ""
 #: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:18
 #, fuzzy
 msgid "Academic Education"
-msgstr "التعويضات"
+msgstr "التعليم الأكاديمي"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:26
 msgid "High School Education"
-msgstr ""
+msgstr "التعليم الثانوي"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:34
 msgid "Employment"
-msgstr ""
+msgstr "توظيف"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:42
 msgid "Government Courses"
-msgstr ""
+msgstr "مساقات حكوميّة"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:52
 msgid "More about this site"
-msgstr "المزيد من المعلومات عن هذا الموقع"
+msgstr "المزيد من المعلومات حول هذا الموقع"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/course.html:13
 #: edx-platform/israelxedu.gov.il/lms/templates/program.html:13
 msgid "LEARN MORE"
-msgstr "اطلع على المزيد"
+msgstr "تعلّم المزيد"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/course.html:39
 msgid "Starts"
@@ -70,7 +70,15 @@ msgstr "اتصل بنا"
 msgid "Support"
 msgstr "الدعم"
 
-#: edx-platform/israelxedu.gov.il/lms/templates/footer.html:32
+#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. Translators: This is a legal document users must agree to
+#. in order to register a new account.
+#: lms/djangoapps/branding/api.py
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
+#: cms/templates/widgets/footer.html lms/templates/static_templates/tos.html
+#: themes/red-theme/lms/templates/footer.html
+#: themes/stanford-style/lms/templates/footer.html
+#: themes/stanford-style/lms/templates/static_templates/tos.html
 msgid "Terms of Service"
 msgstr "شروط الاستخدام"
 
@@ -82,7 +90,7 @@ msgstr "عالمي"
 #: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_courses.html:9
 #: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_programs.html:8
 msgid "Dashboard"
-msgstr "لوحة المعلومات"
+msgstr "مساقاتي"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:55
 msgid "Profile"
@@ -100,18 +108,24 @@ msgstr "تسجيل الخروج"
 msgid "Create Account"
 msgstr "إنشاء حساب"
 
-#: edx-platform/israelxedu.gov.il/lms/templates/header.html:65
-#, fuzzy
+#: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html
+#: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
+#: cms/templates/widgets/header.html
 msgid "Sign In"
 msgstr "تسجيل الدخول"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:79
 msgid "Choose Language"
-msgstr "اختر لغة"
+msgstr "اختر اللغة"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:99
+msgctxt "header menu"
 msgid "Courses"
-msgstr "الدورات التعليمية"
+msgstr "مساقاتي"
+#: cms/templates/index.html
+msgctxt "studio tabs"
+msgid "Courses"
+msgstr "المساقات"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:102
 msgid "About Us"
@@ -123,18 +137,18 @@ msgstr ""
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:16
 msgid "Want to purchase this course for a group?"
-msgstr "هل ترغب في شراء هذه الدورة التعليمية لعدة أفراد؟"
+msgstr "هل ترغب في شراء هذا المساق التعليمي لمجموعة؟"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:17
 msgid ""
 "You can purchase enrollment codes for this course to distribute to your "
 "team"
-msgstr "يمكنك شراء رموز التسجيل الخاصة بهذه الدورة التعليمية لتوزيعها على فريقك"
+msgstr "يمكنك شراء رموز التسجيل الخاصة بهذا المساق لتوزيعها على فريقك"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:19
 #, fuzzy
 msgid "Purchase for a Group"
-msgstr "هل ترغب في شراء هذه الدورة التعليمية لعدة أفراد؟"
+msgstr "الشراء لمجموعة"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:22
 msgid ""
@@ -145,7 +159,7 @@ msgstr ""
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:31
 #, fuzzy
 msgid "Email Us"
-msgstr "البريد الإلكتروني"
+msgstr "تواصلوا معنا"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:7
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button_program.html:9
@@ -154,32 +168,34 @@ msgstr "قم بالتسجيل الان"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:14
 msgid "Go to Course"
-msgstr "الانتقال الى الدورة"
+msgstr "الانتقال الى المساق"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:20
 msgid "You are enrolled in this course"
-msgstr ""
+msgstr "أنت مُسجّل في هذا المساق"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:26
 msgid "Course is full"
-msgstr ""
+msgstr "المساق مُمتلىء"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:31
 msgid "Enrollment in this course is by invitation only"
-msgstr ""
+msgstr "التسجيل في هذا المساق عن طريق الدعوة فقط"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:36
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button_program.html:20
 msgid "Enrollment is Closed"
 msgstr "التسجيل مغلق"
 
-#: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button_program.html:14
+#: lms/templates/courseware/course_about.html
+#: lms/templates/dashboard/_dashboard_course_resume.html
+#: themes/edx.org/lms/templates/dashboard/_dashboard_course_resume.html
 msgid "View Course"
-msgstr ""
+msgstr "عرض المساق"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button_program.html:17
 msgid "View Archived Course"
-msgstr ""
+msgstr "عرض المساق المؤرشف"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:85
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:123
@@ -193,7 +209,7 @@ msgid ""
 "in this course. You may need to {start_logout_tag}log out{end_tag} then "
 "try the enroll button again. Please visit the {start_help_tag}help "
 "page{end_tag} for a possible solution."
-msgstr ""
+msgstr "لحلول مُحتملة. {end_tag} صفحة المساعدة {start_help_tag} وحاول مرة أخرى للتسجيل في المساق. الرجاء زيارة  {end_tag} تسجيل الخروج {start_logout_tag} المستخدم المُسجّل حاليًا لا يملك تصريح للتسجيل في هذا المساق. رُبّما تحتاج إلى "
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:242
 msgid "Start Date"
@@ -209,7 +225,7 @@ msgstr "السعر"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:270
 msgid "Course Description"
-msgstr "وصف الدورة التعليمية"
+msgstr "وصف المساق"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:275
 msgid "What You Will Learn"
@@ -217,7 +233,7 @@ msgstr "ما ستتعلمه"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:286
 msgid "Instructors"
-msgstr "المدربون"
+msgstr "المحاضرون"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:354
 msgid "Enroll"
@@ -233,16 +249,16 @@ msgstr "تسجيل"
 #: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_programs.html:11
 #, fuzzy
 msgid "My Courses"
-msgstr "الدورات التعليمية"
+msgstr "مساقاتي"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_courses.html:16
 #: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_programs.html:14
 msgid "My Programs"
-msgstr ""
+msgstr "برامجي التعليمية"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/about.html:44
 msgid "Mission Statement"
-msgstr ""
+msgstr "بيان المهمة"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:25
 msgid "Email"
@@ -259,7 +275,7 @@ msgstr "نوع الاستفسار"
 #. Translators: It is texts for inquiry type selection
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:39
 msgid "Select"
-msgstr "تحديد"
+msgstr "إختر"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:41
 msgid "Payments"
@@ -295,6 +311,8 @@ msgid "Message"
 msgstr "رسالة"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:57
+#: poll/public/html/poll.html
+#: poll/public/html/survey.html
 msgid "Submit"
 msgstr "إرسال"
 
@@ -306,11 +324,18 @@ msgstr "الحقول المطلوبة"
 msgid "Thank you for your inquiry"
 msgstr "شكرًا على استفسارك"
 
-#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/privacy.html:7
-#: edx-platform/israelxedu.gov.il/lms/templates/static_templates/privacy.html:10
-#, fuzzy
+#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. Translators: A 'Privacy Policy' is a legal document/statement describing a
+#. website's use of personal information
+#: lms/djangoapps/branding/api.py lms/djangoapps/certificates/views/webview.py
+#: cms/templates/widgets/footer.html
+#: lms/templates/static_templates/privacy.html
+#: themes/edx.org/lms/templates/certificates/_accomplishment-footer.html
+#: themes/red-theme/lms/templates/footer.html
+#: themes/stanford-style/lms/templates/footer.html
+#: themes/stanford-style/lms/templates/static_templates/tos.html
 msgid "Privacy Policy"
-msgstr "تغيير سياسة الخصوصية لدينا"
+msgstr "سياسة الخصوصية"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:58
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:83
@@ -321,7 +346,7 @@ msgstr "تغيير سياسة الخصوصية لدينا"
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:331
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/tos.html:352
 msgid "Back to top"
-msgstr "عودة للأعلى"
+msgstr "عودة إلى الأعلى"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/student_account/login_and_register.html:10
 msgid "Sign in or Create Account"
@@ -334,6 +359,63 @@ msgstr "ينقصك بعض البيانات في إعداد حسابك!"
 #: lms/templates/learner_dashboard/_dashboard_incomplete_profile_notification.html
 msgid "Please {link_start}complete your profile{link_end}."
 msgstr "يرجى منك {link_start} الانتهاء من ملء إعدادات حسابك {link_end}"
+msgid "Honor Code"
+msgstr "يحتوي على شهادة"
+
+#: lms/static/js/student_account/views/LoginView.js
+msgid ""
+"In order to sign in, you need to activate your account.{line_break}{line_break}"
+"We just sent an activation link to {strong_start} {email} {strong_end}. If "
+" you do not receive an email, check your spam folders or "
+" {anchorStart}contact {platform_name} Support{anchorEnd}."
+msgstr ""
+"لكي تستطيع التسجيل, عليك تفعيل حسابك{line_break}{line_break}"
+"في هذه اللحظة أرسلنا اليك رابط للتفعيل {strong_start} {email} {strong_end}. "
+"إذا لم يصلك بريد إلكتروني, من المفضل فحص ملف البريد الغير مرغوب به أو "
+"{anchorStart}تواصل مع فريق الدعم {platform_name} {anchorEnd}."
+
+#: lms/static/js/student_account/views/LoginView.js
+msgid ""
+"In order to sign in, you need to activate your account.{blank_lines}We just "
+"sent an activation link to {email_strong}. If you do not receive an email, "
+"check your spam folders or {link_start}contact {platform_name} "
+"Support{link_end}."
+msgstr ""
+"لكي تستطع تسجيل الدخول, عليك تفعيل الحساب أولًا.{blank_lines} في هذه اللحظة "
+"أرسلنا إليك بريد الكتروني {email_strong} يحتوي على رابط للتفعيل."
+"إذا لم يصلك البريد الالكتروني من المفضل فحص ملف البريد الغير مرغوب به  {link_start}التواصل مع فريق الدعم {platform_name} "
+"{link_end}."
+
+#: lms/djangoapps/ccx/utils.py
+msgid ""
+"A CCX can only be created on this course through an external service. "
+"Contact a course admin to give you access."
+msgstr ""
+"يمكنك فتح صف في هذا المساق عن طريق خدمة خارجيّة. تواصل مع طاقم المساق لكي تستطع فتح الصف"
+
+#: lms/djangoapps/ccx/views.py
+msgid ""
+"You cannot create a CCX from a course using a deprecated id. Please create a "
+"rerun of this course in the studio to allow this action."
+msgstr ""
+"لا يمكنك إنشاء صف من المساق باستخدام مُعَرَّف قديم. الرجاء إنشاء "
+"أعد تشغيل هذا المساق في الاستوديو للسماح بهذا الإجراء."
+
+msgid ""
+"It looks like {email_address} belongs to an existing account. Try again with "
+"a different email address."
+msgstr ""
+"يبدو أن {email_address} تابع لحساب موجود. جرّب مرةً أخرى عن طريق بريد الكتروني "
+"آخر."
+
+#. Translators: These instructions appear on the login form, immediately
+#. below a field meant to hold the user's email address.
+#. Translators: These instructions appear on the password reset form,
+#. immediately below a field meant to hold the user's email address.
+#. pylint: disable=no-member
+#: openedx/core/djangoapps/user_authn/views/login_form.py
+#: openedx/core/djangoapps/user_authn/views/password_reset.py
+#, python-brace-format
 
 msgid "The email address you used to register with {platform_name}"
 msgstr "عنوان البريد الإلكتروني الذي قمت بالتسجيل به {platform_name}."
@@ -341,20 +423,38 @@ msgstr "عنوان البريد الإلكتروني الذي قمت بالتس�
 msgid "Remember me"
 msgstr "تذكرني"
 
-msgid "This is what you will use to login."
+msgid "هذا ما ستستخدمه لتسجيل الدخول."
 msgstr "سيتم استخدام عنوان البريد الإلكتروني لتسجيل الدخول."
 
 msgid "Jane Q. Learner"
 msgstr "إذن ما هو اسمك?"
+#. Translators: These instructions appear on the registration form,
+#. immediately
+#. below a field meant to hold the user's full name.
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
 
 msgid "This name will be used on any certificates that you earn."
 msgstr "هذا هو الاسم الذي سيظهر على جميع شهادات التخرج الخاصة بك."
+#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. Translators: This label appears above a field on the registration form
+#. meant to hold the user's public username.
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
+#: lms/templates/signup_modal.html
+#: themes/stanford-style/lms/templates/register-form.html
+#: themes/stanford-style/lms/templates/register-shib.html
+msgid "Public Username"
+msgstr "שם משתמש"
 
+#. Translators: These instructions appear on the registration form,
+#. immediately
+#. below a field meant to hold the user's public username.
+#: openedx/core/djangoapps/user_authn/views/registration_form.py
 msgid ""
 "The name that will identify you in your courses. It cannot be changed later."
-msgstr ""
-"سيكون هذا هو لقبك ومعرفك في الدورات. لا يمكن تغييره لاحقا."
-
+msgstr "سيكون هذا هو الإسم التعريفي لك في المساقات. لا يمكن تغييره لاحقا."
+#. Translators: This example username is used as a placeholder in
+#. a field on the registration form meant to hold the user's username.
+#: openedx/core/djangoapps/user_api/views.py
 msgid "Jane_Q_Learner"
 msgstr "إذن ما هو اسمك?"
 
@@ -367,7 +467,23 @@ msgstr "يجب أن توافق على {terms_of_service} ل- {platform_name}"
 msgid "Review the Terms of Service"
 msgstr "راجع شروط الاستخدام"
 
-#: lms/templates/courseware/info.html
+msgid "You should see your new email in your {link_start}dashboard{link_end}."
+msgstr ""
+"يُمكنك رؤية البريد الالكتروني الجديد الخاص بك في{link_start}مساقاتي{link_end}."
+
+#: lms/templates/courseware/course_about.html
+msgctxt "self"
+msgid "Enroll"
+msgstr "التسجيل"
+
+#: lms/templates/courseware/course_about.html
+msgctxt "self"
+msgid "enroll"
+msgstr "التسجيل"
+
+#: lms/templates/login.html
+msgid "We couldn't log you in."
+msgstr "لم نتمكن من تسجيل دخولك"
 msgid "Welcome to {org}'s {course_title}!"
 msgstr "مرحبًا بك في المساق {course_title} التابع للمؤسسة {org}!"
 
@@ -378,7 +494,72 @@ msgstr "أهلاً وسهلاً بكم في المساق {course_title}!"
 #: lms/templates/courseware/progress.html
 msgid "Course Progress for '{username}' ({email})"
 msgstr "مستوى التقدم في المساق ل '{username}' ({email})"
+#: lms/templates/courseware/progress.html
+msgid "Completed by {date}"
+msgstr "إنتهى ب {date}"
 
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+#: common/templates/student/edx_ace/accountactivation/email/body.txt
+#, python-format
+msgid ""
+"You're almost there! Use the link below to activate your account to access "
+"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"able to log back into your account until you have activated it."
+msgstr ""
+"مرحبًا,\n"
+"كبسة زر وأخيرة وسنبدأ في التعلُّم ב%(platform_name)s! \n"
+"لكي نستطيع تفعيل الحساب, إضغطوا على الزر التالي:\n"
+"نحنُ نفعل هذا لكي نحافظ على أمانكم!"
+
+# Eden- New Mail Template By CampusIL_V_2022_KOA
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+#: common/templates/student/edx_ace/accountactivation/email/body.txt
+#, python-format
+msgid ""
+"Click the button to activate your %(platform_name)s account "
+"We are doing this to protect your security!"
+msgstr ""
+"إضغطوا على الزر لكي تُفعلّوا حسابكم في %(platform_name)s. "
+"نحن نقوم بذلك لكي نحميكم!"
+
+#: common/templates/student/edx_ace/accountactivation/email/body.txt
+#, python-format
+msgid ""
+"If you need help, please use our web form at %(support_url)s or email "
+"%(support_email)s."
+msgstr ""
+"تحتاج إلى مساعدة? يسرُّنا الرد عليكم عبر هذا الرابط: %(support_url)s أو البريد الاكتروني "
+"%(support_email)s."
+
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+#: common/templates/student/edx_ace/accountactivation/email/body.txt
+#, python-format
+msgid ""
+"This email message was automatically sent by %(lms_url)s because someone "
+"attempted to create an account on %(platform_name)s using this email address."
+msgstr ""
+"هذا البريد الالكتروني أُرسلَ اليك بشكل تلقائي عبر %(lms_url)s,بعد أن تم إنشاء حساب في"
+"%(platform_name)s بواسطة هذا البريد الالكتروني."
+
+#eden- New Mail Template By CampusIL_V_2022_KOA.
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+#: common/templates/student/edx_ace/accountactivation/email/body.txt
+#, python-format
+msgid ""
+"This email message was automatically sent by %(lms_url)s, after a"
+"%(platform_name) account with this email address was created."
+msgstr ""
+"هذا البريد الالكتروني أُرسلَ اليك بشكل تلقائي عبر %(lms_url)s,بعد أن تم إنشاء حساب في"
+"%(platform_name)s بواسطة هذا البريد الالكتروني."
+
+
+#: common/templates/student/edx_ace/accountactivation/email/subject.txt
+#, python-format
+msgid "Action Required: Activate your %(platform_name)s account"
+msgstr "الإجراء المطلوب: قم بتنشيط حسابك %(platform_name)s"
+
+#: common/djangoapps/student/views/dashboard.py
+#, python-brace-format
 msgid ""
 "Check your {email_start}{email}{email_end} inbox for an account activation "
 "link from {platform_name}. If you need help, contact "
@@ -404,8 +585,7 @@ msgstr ""
 msgid ""
 "Contains information protected under the Protection of Privacy Law - the "
 "wrongful transgressor commits an offense"
-msgstr ""
-"يحوي معلومات محمية بموجب قانون حماية الخصوصية - المخالف يعاقب"
+msgstr "يحوي معلومات محمية بموجب قانون حماية الخصوصية - المخالف يعاقب"
 
 #: openedx/features/learner_profile/templates/learner_profile/learner-achievements-fragment.html
 msgid "Completed {completion_date_html}"
@@ -428,6 +608,10 @@ msgstr "د. الخصوصية"
 
 msgid "E. Official publications of the State of Israel"
 msgstr "ﮪ. المطبوعات الرسمية لدولة إسرائيل"
+# Eden- New Mail Template By CampusIL_V_2022_KOA
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+msgid "Just one more click and you'll begin your studies!"
+msgstr "كبسة زر أخيرة وسنبدأ في التعلُّم!"
 
 msgid "F. Use of Cookie files"
 msgstr "و. استخدام ملفات \"Cookies\""
@@ -440,6 +624,13 @@ msgstr "ح. الاستفسارات المتعلقة بالموقع"
 
 msgid "Headquarters for the National Digital Israel Initiative in Ministry of Social Equality of the State of Israel (hereinafter, \"the Ministry\") offers the information and online services in this Internet site (hereinafter, \"the Service\" or \"the Website\") subject to the following terms:"
 msgstr "أ. عام  مقر المشروع القومي \"إسرائيل الرقمية\" التابع لوزارة المساواة الاجتماعية , دولة إسرائيل (فيما يلي: \"الوزارة\") يقدم المعلومات والخدمات عبر الإنترنت على هذا الموقع (فيما يلي: \"الخدمة\" أو \"الموقع\") وفقا للشروط التالية"
+#eden- New Mail Template By CampusIL_V_2022_KOA
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+#, python-format, python-brace-format
+msgid ""
+"We wish you an enjoyable learning experience at %(platform_name)s"
+msgstr ""
+"نتمنّى لكم تعليم ممتع في %(platform_name)s"
 
 msgid "The meaning of the terms \"User\" is any person who makes contact and/or communicates with the Website."
 msgstr " يعني مصطلح \"المستخدم\" أدناه الشخص الذي يقوم بالاتصال و / أو التواصل مع الموقع"
@@ -503,6 +694,10 @@ msgstr "من بين أمور أخرى, يحق لنا , نحن المؤسسات �
 
 msgid "To enable us and the Educational Institutes to provide, manage and improve the courses."
 msgstr "من أجل تمكيننا والمؤسسات التعليمية من توفير الدورات, وإدارتها وتحسينها."
+# eden- New Mail Template By CampusIL_V_2022_KOA
+#: lms/templates/instructor/edx_ace/addbetatester/email/body.html
+msgid "The course's staff is pleased to invite you to help improve the learning experience and thank you in advance :-)"
+msgstr "يسُر طاقم المساق أن يدعوك للانضمام إلى تحسين جودة التعليم, ويشكرك على ذلك مُسبقًا :-)"
 
 msgid "To assist us and the Educational Institutes to better the Website's value proposal, either individually (e.g. by a course staff when working with a student), or collectively and male the experience personalized and for the purpose of evaluating the access to and use of the Website as well as its impact on the Israeli and international educational community."
 msgstr "من أجل مساعدتنا والمؤسسات التعليمية على تحسين القيمة المقترحة للموقع, سواء على المستوى الفردي (على سبيل المثال, من خلال فريق العمل أثناء العمل مع أحد الطلاب), ولجعل التجربة أكثر خصوصية وتقييم إمكانية الوصول إلى موقع استخدامها وأثره على مجتمع التعليم الإسرائيلي والمجتمع التعليمي الدولي."
@@ -524,12 +719,33 @@ msgstr "من أجل مراقبة الحضور الفردي والشامل, وا�
 
 msgid "To send you updates regarding on-line courses we or educational institutes offer or about other events."
 msgstr "من أجل مراقبة وتحديد انتهاكات قانون الشرف أو شروط الخدمة, وكذلك إساءة استخدام أو سوء استخدام الموقع. "
+# Eden- New Mail Template By CampusIL_V_2022_KOA
+#: lms/templates/instructor/edx_ace/addbetatester/email/body.html
+#: lms/templates/instructor/edx_ace/addbetatester/email/body.txt
+#: lms/templates/instructor/edx_ace/allowedenroll/email/body.html
+#: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt
+#: lms/templates/instructor/edx_ace/allowedunenroll/email/body.html
+#: lms/templates/instructor/edx_ace/allowedunenroll/email/body.txt
+#: lms/templates/instructor/edx_ace/removebetatester/email/body.html
+#: lms/templates/instructor/edx_ace/removebetatester/email/body.txt
+#, python-format
+msgid ""
+"This message was automatically sent by %(site_name)s, after a campus.il account with this email address was created."
+msgstr ""
+"هذه الرسالة أرسلت بشكل تلقائي عن طريق %(site_name)s, بعد ان أنشأت حساب في كامبوس IL بواسطة هذا البريد الالكتروني."
 
 msgid "To archive this information and/or use it in future communications with you."
 msgstr "من أجل نشر المعلومات التي تم جمعها, ولكن ليس المعلومات الشخصية المتعلقة بالوصول إلى الموقع , واستخدامه , وتأثير الطلاب وأداءهم."
 
 msgid "To preserve and improve the performance of the Website, software, systems and network and their security."
 msgstr "من أجل الحفاظ على وتحسين أداء الموقع , وبرامجنا, وأنظمتنا وشبكاتنا, وتأمينها."
+# Eden- New Mail Template By CampusIL_V_2022_KOA
+#: lms/templates/instructor/edx_ace/addbetatester/email/body.txt
+#, python-format
+msgid ""
+"You have been invited to be a beta tester for the course %(course_name)s"
+msgstr ""
+"تمّت دعوتك لتكون من المجرّبين في المساق %(course_name)s"
 
 msgid "For the purposes described in various places in this privacy policy (including, e.g., sharing with a third party.)"
 msgstr "للأغراض المذكورة في أماكن مختلفة في هذه الخصوصية (بما في ذلك، على سبيل المثال, ومشاركة طرف ثالثة)."
@@ -596,6 +812,10 @@ msgstr "يستخدم هذا الموقع تحليل ݘوݘل, وهو أحد من
 
 msgid "Use of Cookie files can be cancelled by selecting the appropriate option in the browser's settings, but in such a case, it is possible that some of the information appearing in the Website will not be available."
 msgstr "يمكنك تعطيل استخدام ملفات \"Cookies\" عن طريق تحديد الخيار المناسب في إعدادات المتصفح الخاص بك , ولكن في هذه الحالة قد لا تكون كافة المعلومات الموجودة على الموقع متوفرة."
+#Eden-New Mail Template By CampusIL_V_2022_KOA
+#: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
+msgid "Great, take me to the course"
+msgstr "رائع, أنقلوني إلى المساق!"
 
 msgid "For further information on the way to cancel sending information to Google Analytics"
 msgstr "لمزيد من المعلومات حول كيفية إلغاء إرسال المعلومات إلى برنامج- Google Analytics"
@@ -6395,6 +6615,10 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 msgid "Activate Your Account"
 msgstr "قم بتفعيل حسابك "
+# Eden- New Mail Template By CampusIL_V_2022_KOA
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+msgid "Click Me"
+msgstr "إضغطوا هنا"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
@@ -22099,7 +22323,7 @@ msgstr "المعلومات المطلوبة لإنشاء تشغيل ثانٍ ل�
 #. filling out the form to create a new course.
 #: cms/templates/course-create-rerun.html cms/templates/index.html
 msgid "e.g. Introduction to Computer Science"
-msgstr "مثلًا، مقدّمة لعلوم الكمبيوتر"
+msgstr "مثلًا، مقدّمة لعلوم الحاسوب"
 
 #: cms/templates/course-create-rerun.html
 msgid ""
@@ -26429,6 +26653,23 @@ msgstr ""
 #: edx_proctoring_proctortrack/backends/proctortrack_rest.py
 msgid "Click on the \"Start Proctored Exam\" button below to continue."
 msgstr "أُنقر على زر \"بدء الامتحان المراقب\" أدناه للمتابعة."
+#. Eden: Launch checklists
+
+#: cms/templates/checklists.html
+msgid "Launch Checklist"
+msgstr "إفتحوا قائمة بناء المساق"
+#: cms/templates/checklists.html
+msgid "{completed}/{total} completed"
+msgstr "{completed}/{total} إكتمل"
+#: cms/templates/checklists.html
+msgid "Add a Welcome Message"
+msgstr "أضيفوا رسالة ترحيب للطلاب" 
+#: cms/templates/checklists.html
+msgid "Personally welcome learners into your course and prepare learners for a positive course experience."
+msgstr "رحّبوا بشكل شخصي الطلاب الذين إنضموا إلى المساق وجهّزوا الطلاب للتعلّم بشكل إيجابي في المساق" 
+#: cms/templates/checklists.html
+msgid "Create Your Course Grading Policy"
+msgstr "أإنشاء سياسة تقدير للمساق الخاص بكم" 
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 msgid "Choose one"
