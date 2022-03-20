@@ -1087,7 +1087,11 @@ msgstr ""
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
 msgid "Change my Password"
-msgstr ""
+msgstr "איפוס סיסמה"
+
+#: EdxCampus\edx-platform\lms\static\js\spec\student_account\login_spec.js
+msgid "Password Reset Success "
+msgstr "איפוס הסיסמה הושלם"
 
 msgid "Terms of Use"
 msgstr "תנאי שימוש"
