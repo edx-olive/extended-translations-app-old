@@ -613,11 +613,11 @@ msgstr "מאחלים לכם למידה מהנה ב %(platform_name)s."
 #, python-format, python-brace-format
 msgid ""
 "If you need help, please use our web form at "
-"{start_anchor_web}%(support_url)s{end_anchor} or email "
+"{start_anchor_web}{support_url}{end_anchor} or email "
 "{start_anchor_email}%(support_email)s{end_anchor}."
 msgstr ""
 "זקוקים לעזרה? נשמח לענות לכם בלינק: "
-"{start_anchor_web}%(support_url)s{end_anchor} או בדואל "
+"{start_anchor_web}{support_url}{end_anchor} או בדואל "
 "{start_anchor_email}%(support_email)s{end_anchor}."
 
 #eden- New Mail Template By CampusIL_V_2022_KOA
