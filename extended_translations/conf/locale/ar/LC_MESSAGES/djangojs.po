@@ -105,19 +105,42 @@ msgstr "هل هذه هي المرة الأولى بالنسبة لك?"
 
 msgid "Support education research by providing additional information"
 msgstr "من أجل البحث وتحسين التعلّم يسرنا مشاركتك في بعض البيانات الإضافية عنك"
+#: common/static/bundles/VerticalStudentView.js
+#: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmark_button.js
+msgid "Bookmark this page"
+msgstr "علِّم هذه الصفحة"
 
+#. Translators: This string is appended to optional field labels on the
+#. student login, registration, and
+#. profile forms.
+#: lms/static/js/student_account/views/FormView.js
 msgid "(optional)"
 msgstr "(اختياري)"
 
 msgid "Sign In"
 msgstr "تسجيل الدخول"
+#: lms/static/js/student_account/views/LoginView.js
+msgid ""
+"{paragraphStart}You entered {boldStart}{email}{boldEnd}. If this email "
+"address is associated with your {platform_name} account, we will send a "
+"message with password recovery instructions to this email address."
+"{paragraphEnd}{paragraphStart}If you do not receive a password reset message "
+"after 1 minute, verify that you entered the correct email address, or check "
+"your spam folder.{paragraphEnd}{paragraphStart}If you need further "
+"assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
+msgstr ""
+"{paragraphStart}الذي أدخلته {boldStart}{email}{boldEnd}. إذا كان البريد الالكتروني"
+"\"لم تتعرّف على بريدك الالكتروني {platform_name} لك, سيُرسل إليك بريد لتغيير كلمة السر "
+".{paragraphEnd}{paragraphStart}إذا لم يصلك البريد الالكتروني لتغيير كلمة السر, من المفضل "
+"التأكد أنك كتبت البريد الالكتروني بالشكل الصحيح, أو فحص ملف البريد الغير مرغوب به."
+"{paragraphEnd}{paragraphStart}لدعم إضافي, {anchorStart}يمكنكم التوجّه إلينا "
+"{anchorEnd}.{paragraphEnd}"
 
-msgid "Sign in."
-msgstr "تسجيل الدخول"
-
+#: lms/templates/student_account/register.underscore
 msgid "Create an account using"
 msgstr "انشاء حساب بمساعدة"
-
+msgid "An error occurred. Try loading the page again."
+msgstr "حدث خطأ. حاول إعادة تحميل الصفحة."
 msgid "or create a new one here"
 msgstr "أو لإنشاء حساب جديد هنا"
 
@@ -152,8 +175,8 @@ msgstr "العدد الفعلي"
 msgid ""
 "The actual number of subsections in the course that contain problems of this"
 " assignment type."
-msgstr ""
-"العدد الفعلي للفصول الفرعية التي تحتوي على هذه الأنواع من المشاكل في سياق هذه المهمة"
+msgstr "العدد الفعلي للفصول الفرعية التي تحتوي على هذه الأنواع من المشاكل في سياق هذه المهمة"
+
 
 # #-#-#-#-#  djangojs-partial.po (0.1a)  #-#-#-#-#
 # edX translation file.
@@ -244,6 +267,50 @@ msgstr ""
 "Generated-By: Babel 2.9.0\n"
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+#: lms/templates/instructor/instructor_dashboard_2/certificate-white-list.underscore
+msgid "Certificate exceptions group selection"
+msgstr "حدد مجموعة دراسة لإنشاء شهادة"
+#: cms/static/js/views/settings/grading.js
+msgid "Failed"
+msgstr "فشل"
+#: cms/static/js/views/settings/grading.js
+msgid "Pass"
+msgstr "نجح"
+#: lms/static/js/instructor_dashboard/extensions.js
+msgid "Error changing due date"
+msgstr "خطأ في تغيير تاريخ الاستحقاق"
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+#: common/static/bundles/ProblemBlockPreview.js
+msgid "{num_points} point possible (graded, results hidden)"
+msgid_plural "{num_points} points possible (graded, results hidden)"
+msgstr[0] "{num_points} نقطة محتملة (graded, results hidden)"
+msgstr[1] "{num_points} النقاط المحتملة (graded, results hidden)"
+msgstr[2] "{num_points} النقاط المحتملة (graded, results hidden)"
+msgstr[3] "{num_points} النقاط المحتملة (graded, results hidden)"
+#. Translators: {num_points} is the number of points possible (examples: 1, 3,
+#. 10).;
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+#: common/static/bundles/ProblemBlockPreview.js
+msgid "{num_points} point possible (ungraded, results hidden)"
+msgid_plural "{num_points} points possible (ungraded, results hidden)"
+msgstr[0] "{num_points} نقطة محتملة (ungraded, results hidden)"
+msgstr[1] "{num_points} النقاط المحتملة (ungraded, results hidden)"
+msgstr[2] "{num_points} النقاط المحتملة (ungraded, results hidden)"
+msgstr[3] "{num_points} النقاط المحتملة (ungraded, results hidden)"
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points);
+#: common/lib/xmodule/xmodule/js/src/capa/display.js
+#: common/static/bundles/ProblemBlockPreview.js
+msgid "{earned}/{possible} point (graded)"
+msgid_plural "{earned}/{possible} points (graded)"
+msgstr[0] "{earned}/{possible} نقطة (graded)"
+msgstr[1] "{earned}/{possible} نقاط (graded)"
+msgstr[2] "{earned}/{possible} نقاط (graded)"
+msgstr[3] "{earned}/{possible} نقاط (graded)"
 
 #: cms/static/cms/js/main.js cms/static/js/views/active_video_upload_list.js
 #: cms/static/js/views/video_transcripts.js
@@ -12100,8 +12167,8 @@ msgstr "الوقت المخصَّص (HH:MM): "
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "Select a time allotment for the exam. If it is over 24 hours, type in the "
-"amount of time. You can grant individual learners extra time to complete the"
-" exam through the Instructor Dashboard."
+"amount of time. You can grant individual learners extra time to complete the "
+"exam through the Instructor Dashboard."
 msgstr ""
 "اختر فترة زمنية مخصّصة لإجراء الامتحان. إذا زادت القيمة عن 24 ساعة،أدخل "
 "مقدارًا من الوقت. يمكنك منح طلّاب محددين زمنًا إضافيًا لإجراء الامتحان من "
@@ -12273,8 +12340,8 @@ msgstr "إضافة روابط للنسخات الإضافية"
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore
 msgid ""
-"To be sure all students can access the video, we recommend providing both an"
-" .mp4 and a .webm version of your video. Click below to add a URL for "
+"To be sure all students can access the video, we recommend providing both"
+"an .mp4 and a .webm version of your video. Click below to add a URL for"
 "another version. These URLs cannot be YouTube URLs. The first listed video "
 "that's compatible with the student's computer will play."
 msgstr ""
@@ -12295,7 +12362,7 @@ msgstr "تضارب ضمن النص محدَّد التوقيت"
 #: cms/templates/js/video/transcripts/messages/transcripts-choose.underscore
 msgid ""
 "The timed transcript for the first video file does not appear to be the same"
-" as the timed transcript for the second video file."
+"as the timed transcript for the second video file."
 msgstr ""
 "يبدو أنّ النص محدَّد التوقيت لملف الفيديو الأوّل يختلف عن النص محدَّد "
 "التوقيت لملف الفيديو الثاني."

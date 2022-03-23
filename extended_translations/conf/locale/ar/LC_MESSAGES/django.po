@@ -1008,14 +1008,10 @@ msgstr "لراحتك، قمنا بإعداد مقاطع فيديو إرشادي�
 msgid "Obtaining permission to open a class from a course on the IL campus"
 msgstr "الحصول على إذن لفتح فصل دراسي من دورة مساق في كامبوس IL"
 
-#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/subject.txt
-msgid "Receiving permission to open a class for a CampusIL course: %(course_name)s"
-msgstr "الحصول على إذن لفتح فصل دراسي كجزء من مساق في كامبوسIL"
-
 
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/subject.txt
-msgid "A class has been opened for you for a CampusIL course: %(root_course_name)s"
-msgstr "تم فتح فصل دراسي لك كجزء من مساق في كامبوسIL"
+msgid "A class has been opened for you from a course on the IL campus"
+msgstr "تم فتح فصل دراسي لك من دورة في حرم IL"
 
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
 msgid "Per your request, a new class was opened for you for the course %(root_course_name)s"
@@ -1041,136 +1037,6 @@ msgstr "سيظهر الفصل في منطقتك الشخصية على الراب
 msgid ""
 "If you need further assistance, {start_tag}contact us technical support{end_tag}."
 msgstr "لمعلومات اضافية يمكنكم التوجه الى {start_tag}الطاقم التقني{end_tag} الخاص بنا."
-
-#: common/templates/student/edx_ace/accountactivation/email/body.html
-#: common/templates/student/edx_ace/accountactivation/email/body.txt
-#, python-format
-msgid "Enjoy learning with {platform_name_tag}."
-msgstr "استمتع بالتعلم مع {platform_name_tag}."
-
-#: common/templates/student/edx_ace/accountactivation/email/body.html
-#: common/templates/student/edx_ace/accountactivation/email/body.txt
-#, python-format
-msgid ""
-"You're almost there! Use the link below to activate your account to access "
-"engaging, high-quality {platform_name_tag} courses. Note that you will not be "
-"able to log back into your account until you have activated it."
-msgstr ""
-"أنت على وشك الانتهاء! استخدم الرابط أدناه لتنشيط حسابك للوصول إلى مساقات "
-"{platform_name_tag} التعليمية عالية الجودة. الرجاء الملاحظة أن لا يمكن تسجيل "
-"الدخول مرة أخرى إلى حسابك حتى تقوم بتنشيطه."
-
-#: common/templates/student/edx_ace/accountactivation/email/body.html
-#: common/templates/student/edx_ace/accountactivation/email/body.txt
-#, python-format
-msgid ""
-"This email message was automatically sent by {lms_url} because someone "
-"attempted to create an account on {platform_name_tag} using this email "
-"address."
-msgstr ""
-"تم إرسال رسالة البريد الإلكتروني هذه تلقائيًا بواسطة {lms_url} لأن شخصًا "
-"ما حاول إنشاء حساب على {platform_name_tag} باستخدام عنوان البريد الإلكتروني "
-"هذا."
-
-#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
-#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
-#, python-format
-msgid ""
-"You're receiving this e-mail because you requested a password reset for your"
-" user account at %(platform_name_tag)s."
-msgstr ""
-"وصلتك رسالة البريد الالكتروني هذه بناءً على طلبك بتغيير كلمة المرور لحسابك "
-"على %(platform_name_tag)s."
-
-#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
-#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.txt
-#, python-format
-msgid ""
-"This is to confirm that you have successfully changed your password "
-"associated with %(platform_name_tag)s account. Please sign-in to your account."
-msgstr ""
-"هذه الرسالة لتأكيد تغيير كلمة مرورك المرتبطة بحسابك في "
-"%(platform_name_tag)sبنجاح، يرجى تسجيل الدخول إلى حسابك."
-
-#: common/templates/student/edx_ace/emailchange/email/body.html
-#: common/templates/student/edx_ace/emailchange/email/body.txt
-#, python-format
-msgid ""
-"We received a request to change the e-mail associated with your "
-"%(platform_name_tag)s account from %(old_email)s to %(new_email)s. If this is "
-"correct, please confirm your new e-mail address by visiting:"
-msgstr ""
-"تلقينا طلبًا لتغيير البريد الإلكتروني المرتبط بحساب %(platform_name_tag)sالخاص "
-"بك من %(old_email)s الى %(new_email)s. إذا كان هذا صحيحًا، فيرجى تأكيد عنوان"
-" بريدك الإلكتروني الجديد من خلال زيارة:"
-
-#: common/templates/student/edx_ace/emailchange/email/body.html
-#: common/templates/student/edx_ace/emailchange/email/body.txt
-#, python-format
-msgid ""
-"If you didn't request this, you don't need to do anything; you won't receive"
-" any more email from us. Please do not reply to this e-mail; if you require "
-"assistance, check the help section of the %(platform_name_tag)s web site."
-msgstr ""
-"إذا لم تطلب هذا، فلست بحاجة إلى القيام بأي شيء؛ لن تتلقى أي بريد إلكتروني "
-"آخر منا. الرجاء عدم الرد على هذا البريد؛ إذا كنت بحاجة إلى مساعدة، فتحقق من "
-"قسم المساعدة في موقع %(platform_name_tag)s"
-
-#: common/templates/student/edx_ace/emailchangeconfirmation/email/body.html
-#: common/templates/student/edx_ace/emailchangeconfirmation/email/subject.txt
-#, python-format
-msgid "Email Change Confirmation for %(platform_name_tag)s"
-msgstr "تأكيد تغيير البريد الإلكتروني لـ %(platform_name_tag)s"
-
-#: common/templates/student/edx_ace/emailchangeconfirmation/email/body.html
-#: common/templates/student/edx_ace/emailchangeconfirmation/email/body.txt
-#, python-format
-msgid ""
-"This is to confirm that you changed the e-mail associated with "
-"%(platform_name_tag)s from %(old_email)s to %(new_email)s. If you did not make "
-"this request, please contact us immediately. Contact information is listed "
-"at:"
-msgstr ""
-"هذا لتأكيد أنك قمت بتغيير البريد الإلكتروني المرتبط بـ %(platform_name_tag)s من "
-"%(old_email)s الى %(new_email)s. إذا لم تكن قد قدمت هذا الطلب، فيرجى الاتصال"
-" بنا على الفور. معلومات الاتصال مدرجة في:"
-
-#: common/templates/student/edx_ace/recoveryemailcreate/email/body.html
-#: common/templates/student/edx_ace/recoveryemailcreate/email/body.txt
-#, python-format
-msgid "You've registered this recovery email address for %(platform_name_tag)s."
-msgstr ""
-"لقد قمت بتسجيل عنوان البريد الإلكتروني المخصص للاسترداد لـ %(platform_name_tag)s"
-
-#: common/templates/student/edx_ace/accountrecovery/email/body.html
-#: common/templates/student/edx_ace/accountrecovery/email/body.txt
-#, python-format
-msgid ""
-"You're receiving this e-mail because you requested to create a password for "
-"your user account at %(platform_name_tag)s."
-msgstr ""
-"أنت تتلقى هذا البريد الإلكتروني لأنك طلبت إنشاء كلمة مرور لحساب المستخدم "
-"الخاص بك على %(platform_name_tag)s"
-
-#: common/templates/student/edx_ace/accountrecovery/email/body.html
-#: common/templates/student/edx_ace/accountrecovery/email/body.txt
-#, python-format
-msgid ""
-"We've restored access to your %(platform_name_tag)s account using the recovery "
-"email you provided at registration."
-msgstr ""
-"لقد أعدنا الدخول إلى حساب %(platform_name_tag)s الخاص بك باستخدام البريد "
-"الإلكتروني المخصص للاستراد الذي قدمته عند التسجيل."
-
-#: common/templates/student/edx_ace/accountrecovery/email/body.html
-#: common/templates/student/edx_ace/accountrecovery/email/body.txt
-#, python-format
-msgid ""
-"Once you've created a password [below], you will be able to log in to "
-"%(platform_name_tag)s with this email (%(email)s) and your new password."
-msgstr ""
-"بمجرد إنشاء كلمة مرور [أدناه] ، ستتمكن من تسجيل الدخول إلى %(platform_name_tag)s"
-" بواسطة هذا البريد (%(email)s) وكلمة مرورك الجديدة."
 
 #~ msgid "Academic Planning"
 #~ msgstr "التخطيط الدراسي"

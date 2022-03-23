@@ -18,19 +18,19 @@ msgstr ""
 #: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:18
 #, fuzzy
 msgid "Academic Education"
-msgstr "שיפוי"
+msgstr "השכלה אקדמית"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:26
 msgid "High School Education"
-msgstr ""
+msgstr "השכלה תיכונית"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:34
 msgid "Employment"
-msgstr ""
+msgstr "תעסוקה"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:42
 msgid "Government Courses"
-msgstr ""
+msgstr "קורסים ממשלתיים"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:52
 msgid "More about this site"
@@ -54,7 +54,7 @@ msgstr "אודות"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/footer.html:22
 msgid "About this Site"
-msgstr "החזון"
+msgstr "אודות אתר זה"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/footer.html:23
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:11
@@ -88,7 +88,7 @@ msgstr "גלובלי"
 #: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_courses.html:9
 #: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_programs.html:8
 msgid "Dashboard"
-msgstr "לוח בקרה"
+msgstr "קורסים שלי"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:55
 msgid "Profile"
@@ -100,7 +100,7 @@ msgstr "חשבון"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:57
 msgid "Sign Out"
-msgstr "יציאה"
+msgstr "התנתק"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:62
 msgid "Create Account"
@@ -110,7 +110,7 @@ msgstr "צור חשבון"
 #: themes/red-theme/lms/templates/ace_common/edx_ace/common/base_body.html
 #: cms/templates/widgets/header.html
 msgid "Sign In"
-msgstr "התחבר/י"
+msgstr "התחברות"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:79
 msgid "Choose Language"
@@ -119,7 +119,7 @@ msgstr "בחר שפה"
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:99
 msgctxt "header menu"
 msgid "Courses"
-msgstr "אזור אישי"
+msgstr "קורסים שלי"
 
 #: cms/templates/index.html
 msgctxt "studio tabs"
@@ -146,7 +146,7 @@ msgstr "באפשרותך לרכוש קודי רישום עבור קורס זה �
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:19
 #, fuzzy
 msgid "Purchase for a Group"
-msgstr "האם ברצונך לרכוש קורס זה עבור קבוצה?"
+msgstr "רכישה לקבוצה"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:22
 msgid ""
@@ -157,7 +157,7 @@ msgstr ""
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_bulk_purchase_button.html:31
 #, fuzzy
 msgid "Email Us"
-msgstr "דואר אלקטרוני"
+msgstr "צור קשר"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button.html:7
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/_enroll_button_program.html:9
@@ -200,6 +200,13 @@ msgstr "צפייה בארכיון הקורס"
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:145
 msgid "An error occurred. Please try again later."
 msgstr "אירעה שגיאה. נסה שוב מאוחר יותר."
+#: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:107
+msgid ""
+"The currently logged-in user account does not have permission to enroll "
+"in this course. You may need to {start_logout_tag}log out{end_tag} then "
+"try the enroll button again. Please visit the {start_help_tag}help "
+"page{end_tag} for a possible solution."
+msgstr "לפתרונות אפשריים. {end_tag} עמוד תמיכה{start_help_tag} לאחר מכן לנסות להירשם שוב. בבקשה בקר {end_tag} להתנתק  {start_logout_tag} המשתמש המחובר אין לה הרשאה להירשם לקורס. ייתכן תצטרך "
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:242
 msgid "Start Date"
@@ -219,11 +226,11 @@ msgstr "תיאור הקורס"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:275
 msgid "What You Will Learn"
-msgstr "מה שתלמד"
+msgstr "מה נלמד"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:286
 msgid "Instructors"
-msgstr "מנחים"
+msgstr "מרצים"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/courseware/course_about.html:354
 msgid "Enroll"
@@ -234,19 +241,21 @@ msgstr "הירשם"
 msgid "enroll"
 msgstr "הירשם"
 
-#: lms/templates/learner_dashboard/_dashboard_navigation_courses.html
-#: themes/edx.org/lms/templates/dashboard.html
+#: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_courses.html:13
+#: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_courses.html:20
+#: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_programs.html:11
+#, fuzzy
 msgid "My Courses"
 msgstr "הקורסים שלי"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_courses.html:16
 #: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_programs.html:14
 msgid "My Programs"
-msgstr ""
+msgstr "התוכניות לימוד שלי"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/about.html:44
 msgid "Mission Statement"
-msgstr ""
+msgstr "הצהרת משימה"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:25
 msgid "Email"
@@ -301,6 +310,7 @@ msgstr "הודעה"
 #: edx-platform/israelxedu.gov.il/lms/templates/static_templates/contact.html:57
 #: poll/public/html/poll.html
 #: poll/public/html/survey.html
+
 msgid "Submit"
 msgstr "הגשה"
 
@@ -339,6 +349,9 @@ msgstr "חזרה למעלה"
 #: edx-platform/israelxedu.gov.il/lms/templates/student_account/login_and_register.html:10
 msgid "Sign in or Create Account"
 msgstr "היכנס או צור חשבון"
+#: lms/templates/learner_dashboard/_dashboard_incomplete_profile_notification.html
+msgid "Your profile has missing fields!"
+msgstr "חסר כמה שדות בפרופיל שלך!"
 
 #: lms/templates/learner_dashboard/_dashboard_incomplete_profile_notification.html
 msgid "Please {link_start}complete your profile{link_end}."
@@ -409,7 +422,7 @@ msgid "Remember me"
 msgstr "זכרו אותי"
 
 msgid "This is what you will use to login."
-msgstr "כתובת האי מייל תשמש אותך להתחברות."
+msgstr "זה מה שתשתמש כדי להתחבר."
 
 msgid "Jane Q. Learner"
 msgstr "אז איך אמרת שקוראים לך?"
@@ -447,6 +460,8 @@ msgstr "אז איך אמרת שקוראים לך?"
 
 msgid "I agree to the {platform_name} {terms_of_service}"
 msgstr "קראתי והסכמתי ל{terms_of_service} של {platform_name}"
+msgid "You must agree to the {platform_name} {terms_of_service}"
+msgstr "חובה לאשר את {terms_of_service} של {platform_name}"
 
 msgid "Review the Terms of Service"
 msgstr "לקריאת תנאי השימוש"
@@ -472,9 +487,13 @@ msgstr "לא הצלחנו לרשום אותך."
 
 msgid "Welcome to {org}'s {course_title}!"
 msgstr "ברוכים הבאים אל הקורס {course_title} של {org}!"
+#: lms/templates/courseware/info.html
 
 msgid "Welcome to {course_title}!"
 msgstr "ברוכים הבאים אל הקורס {course_title}!"
+#: lms/templates/courseware/progress.html
+msgid "Course Progress for '{username}' ({email})"
+msgstr "התקדמות בקורס ל- '{username}' ({email})"
 
 #: lms/templates/courseware/progress.html
 msgid "Completed by {date}"
@@ -602,12 +621,18 @@ msgstr "הפעלת חשבון של"
 msgid "Just one more click and you'll begin your studies!"
 msgstr "עוד קליק אחד ואתם מתחילים ללמוד!"
 
-# Eden- New Mail Template By CampusIL_V_2022_KOA
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid "Enjoy learning with %(platform_name)s."
 msgstr "מאחלים לכם למידה מהנה ב %(platform_name)s."
+
+# Eden- New Mail Template By CampusIL_V_2022_KOA
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+#: common/templates/student/edx_ace/accountactivation/email/body.txt
+#, python-format
+msgid "Enjoy learning with %(platform_name)s."
+msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #, python-format, python-brace-format
@@ -676,16 +701,16 @@ msgstr ""
 #, python-format
 msgid ""
 "You're receiving this e-mail because you requested to create a password for "
-"your user account at %(platform_name_tag)s."
+"your user account at %(platform_name)s."
 msgstr ""
 "אתה מקבל דואר אלקטרוני זה מפני שביקשת איפוס סיסמה עבור חשבון המשתמש שלך ב"
-"%(platform_name_tag)s."
+"%(platform_name)s."
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html
 #: common/templates/student/edx_ace/accountrecovery/email/body.txt
 #, python-format
 msgid ""
-"We've restored access to your %(platform_name_tag)s account using the recovery "
+"We've restored access to your %(platform_name)s account using the recovery "
 "email you provided at registration."
 msgstr ""
 
@@ -694,7 +719,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Once you've created a password [below], you will be able to log in to "
-"%(platform_name_tag)s with this email (%(email)s) and your new password."
+"%(platform_name)s with this email (%(email)s) and your new password."
 msgstr ""
 
 #: common/templates/student/edx_ace/accountrecovery/email/subject.txt
@@ -711,10 +736,10 @@ msgstr ""
 #, python-format
 msgid ""
 "We received a request to change the e-mail associated with your "
-"%(platform_name_tag)s account from %(old_email)s to %(new_email)s. If this is "
+"%(platform_name)s account from %(old_email)s to %(new_email)s. If this is "
 "correct, please confirm your new e-mail address by visiting:"
 msgstr ""
-"התקבלה בקשה לשנות את כתובת הדואר האלקטרוני המקושרת לחשבון %(platform_name_tag)s "
+"התקבלה בקשה לשנות את כתובת הדואר האלקטרוני המקושרת לחשבון %(platform_name)s "
 "שלך מ-%(old_email)s ל-%(new_email)s. אם זה אכן נכון, נא אשר את כתובת הדואר "
 "האלקטרוני החדשה שלך באמצעות ביקור ב:"
 
@@ -728,10 +753,10 @@ msgstr ""
 msgid ""
 "If you didn't request this, you don't need to do anything; you won't receive "
 "any more email from us. Please do not reply to this e-mail; if you require "
-"assistance, check the help section of the %(platform_name_tag)s web site."
+"assistance, check the help section of the %(platform_name)s web site."
 msgstr ""
 "אם לא ביקשת זאת, אין צורך לעשות דבר; לא תקבל עוד הודעות מאיתנו. נא לא להגיב "
-"להודעה זו; אם אתה זקוק לעזרה, בדוק את עמוד העזרה באתר %(platform_name_tag)s. "
+"להודעה זו; אם אתה זקוק לעזרה, בדוק את עמוד העזרה באתר %(platform_name)s. "
 
 #: common/templates/student/edx_ace/emailchange/email/subject.txt
 #, python-format
@@ -741,7 +766,7 @@ msgstr "בקש לשנות את כתובת הדואר האקטרוני המקוש
 #: common/templates/student/edx_ace/emailchangeconfirmation/email/body.html
 #: common/templates/student/edx_ace/emailchangeconfirmation/email/subject.txt
 #, python-format
-msgid "Email Change Confirmation for %(platform_name_tag)s"
+msgid "Email Change Confirmation for %(platform_name)s"
 msgstr ""
 
 #: common/templates/student/edx_ace/emailchangeconfirmation/email/body.html
@@ -749,12 +774,12 @@ msgstr ""
 #, python-format
 msgid ""
 "This is to confirm that you changed the e-mail associated with "
-"%(platform_name_tag)s from %(old_email)s to %(new_email)s. If you did not make "
+"%(platform_name)s from %(old_email)s to %(new_email)s. If you did not make "
 "this request, please contact us immediately. Contact information is listed "
 "at:"
 msgstr ""
 "זוהי הודעה לאשר כי החלפת את כתובת הדואר האלקטרוני המקושרת לחשבון "
-"%(platform_name_tag)s מ-%(old_email)s ל-%(new_email)s. אם לא ביקשת את השינוי הנ"
+"%(platform_name)s מ-%(old_email)s ל-%(new_email)s. אם לא ביקשת את השינוי הנ"
 "\"ל, נא צור עמנו קשר באופן מיידי. דרכי קשר רשומות ב:"
 
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html
@@ -764,7 +789,7 @@ msgstr ""
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.txt
 #, python-format
-msgid "You've registered this recovery email address for %(platform_name_tag)s."
+msgid "You've registered this recovery email address for %(platform_name)s."
 msgstr ""
 
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html
@@ -807,10 +832,14 @@ msgstr "הזמנה זו נשלחה על ידי חבר/ה מצוות הקורס"
 msgid "The course's staff is pleased to invite you to help improve the learning experience and thank you in advance :-)"
 msgstr "צוות הקורס שמח להזמין אותך לסייע בשיפור חוויית הלמידה, ומודה לך מראש (-:"
 
-# eden- New Mail Template By CampusIL_V_2022_KOA #LINES_NOT_INCLUDE
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "To start accessing course materials, please visit:"
 msgstr "למעבר אל הקורס יש להיכנס ל:"
+
+# eden- New Mail Template By CampusIL_V_2022_KOA #LINES_NOT_INCLUDE
+#: lms/templates/instructor/edx_ace/addbetatester/email/body.html
+msgid "To start accessing course materials, please visit:"
+msgstr ""
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "To enroll in this course and begin the beta test:"
@@ -1107,7 +1136,7 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
 #, python-format
 msgid ""
-"We have received your request to reset the password of your "
+"We have received your request to reset the password of your " 
 "%(platform_name)s user account."
 msgstr ""
 "קבלנו ממך בקשה לאפס את סיסמת חשבון המשתמש שלך ב-"
@@ -2204,6 +2233,15 @@ msgstr "בשם %(course_name)s"
 msgid "The class will appear in your personal area at the following link:"
 msgstr "הכיתה תופיע באזור האישי שלך בלינק הבא:"
 
+#: openedx/core/djangoapps/user_api/accounts/views.py
+#: openedx/core/djangoapps/user_authn/views/login.py
+msgid ""
+"This account has been temporarily locked due to excessive login failures. "
+"Try again later."
+msgstr ""
+"חשבון זה ננעל כתוצאה ממספר רב של נסיונת, באפשרותך לאפס את הסיסמה כדי להתחבר "
+"לחשבון."
+
 #: openedx/core/djangoapps/user_authn/views/login.py
 #, python-brace-format
 msgid ""
@@ -2234,6 +2272,10 @@ msgstr ""
 msgid "Team Response "
 msgstr ""
 
+#: openassessment/templates/openassessmentblock/response/oa_response.html:169
+msgid "Your Response "
+msgstr ""
+
 #: openassessment/templates/openassessmentblock/response/oa_response.html:173
 #: openassessment/templates/openassessmentblock/response/oa_response.html:244
 msgid "(Required)"
@@ -2245,6 +2287,12 @@ msgstr "(רשות)"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:242
 msgid "File Uploads "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:84
+msgid ""
+"To add more file extensions, select Custom File Types and enter the full "
+"list of acceptable file extensions to be included."
 msgstr ""
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:278
@@ -7073,7 +7121,7 @@ msgid ""
 "If you did not request this change, you may ignore this email. "
 "We have not reset your password yet."
 msgstr ""
-"אם לא ביקשת את השינוי הזה, ניתן להתעלם מהאימייל, "
+"אם לא ביקשת את השינוי הזה, ניתן להתעלם מהאימייל, " 
 "עדיין לא איפסנו את הסיסמה שלך."
 
 
@@ -8746,6 +8794,10 @@ msgid ""
 "The {report_type} report is being created. To view the status of the report, "
 "see Pending Tasks below."
 msgstr ""
+
+#: lms/djangoapps/instructor/views/api.py
+msgid "User does not exist."
+msgstr "משתמש אינו קיים."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -12266,6 +12318,15 @@ msgstr "מספר נסיונות חיבור רב מדי. אנא נסה מאוחר
 #: openedx/core/djangoapps/user_authn/views/login.py
 #, python-brace-format
 msgid ""
+"Email or password is incorrect.{li_start}You have {remaining_attempts} more "
+"sign-in attempts before your account is temporarily locked.{li_end}{li_start}"
+"If you've forgotten your password, click {link_start}here{link_end} to reset."
+"{li_end}"
+msgstr ""
+
+#: openedx/core/djangoapps/user_authn/views/login.py
+#, python-brace-format
+msgid ""
 "Email or password is incorrect.\n"
 "You have {remaining_attempts} more sign-in attempts before your account is "
 "temporarily locked.\n"
@@ -15683,6 +15744,11 @@ msgstr ""
 #: lms/templates/api_admin/catalogs/edit.html
 msgid "Edit {catalog_name}"
 msgstr "ערוך {catalog_name}"
+
+#: lms/templates/api_admin/catalogs/edit.html
+#: lms/templates/api_admin/catalogs/list.html
+msgid "Download CSV"
+msgstr "הורד CSV"
 
 #: lms/templates/api_admin/catalogs/edit.html
 msgid "Delete this catalog"
@@ -25298,89 +25364,89 @@ msgstr "יש ללחוץ על הכפתור „התחלת מבחן תחת פיקו
 
 #: cms/templates/checklists.html
 msgid "Launch Checklist"
-msgstr "פתחו רשימת תיוג"
+msgstr "פתחו רשימת תיוג"   
 
 
 #: cms/templates/checklists.html
 msgid "{completed}/{total} completed"
-msgstr "{completed}/{total} הושלם"
+msgstr "{completed}/{total} הושלם"   
 
 
 #: cms/templates/checklists.html
 msgid "Add a Welcome Message"
-msgstr "הוסיפו מסר ברכה לנכנסים"
+msgstr "הוסיפו מסר ברכה לנכנסים"   
 
 #: cms/templates/checklists.html
 msgid "Personally welcome learners into your course and prepare learners for a positive course experience."
-msgstr "ברכו באופן אישי את הלומדים המצטרפים לקורס שלכם והכינו את הלומדים לקראת חוויית קורס חיובית."
+msgstr "ברכו באופן אישי את הלומדים המצטרפים לקורס שלכם והכינו את הלומדים לקראת חוויית קורס חיובית."   
 
 #: cms/templates/checklists.html
 msgid "Create Your Course Grading Policy"
-msgstr "צרו את מדיניות הציונים בקורס שלכם"
+msgstr "צרו את מדיניות הציונים בקורס שלכם"   
 
 #: cms/templates/checklists.html
 msgid "Establish your grading policy, including assignment types and passing score. All assignments add up to 100%."
-msgstr "קבעו את מדיניות הציונים שלכם, לרבות סוגי המטלות והגדרת ציון עובר. סכום כל המטלות יחדיו הוא 100%."
+msgstr "קבעו את מדיניות הציונים שלכם, לרבות סוגי המטלות והגדרת ציון עובר. סכום כל המטלות יחדיו הוא 100%."   
 
 #: cms/templates/checklists.html
 msgid "Enable Your Certificate"
-msgstr "אפשרו את האישור שלכם"
+msgstr "אפשרו את האישור שלכם"   
 
 #: cms/templates/checklists.html
 msgid "Make sure that all text is correct, signatures have been uploaded, and the certificate has been activated."
-msgstr "ודאו שכל המלל נכון, שהחתימות הועלו ושהאישור הופעל"
+msgstr "ודאו שכל המלל נכון, שהחתימות הועלו ושהאישור הופעל"   
 
 #: cms/templates/checklists.html
 msgid "Set Important Course Dates"
-msgstr "קבעו תאריכים חשובים בקורס"
+msgstr "קבעו תאריכים חשובים בקורס"   
 
 #: cms/templates/checklists.html
 msgid "Establish your course schedule, including when the course starts and ends."
-msgstr "קבעו את לוח הזמנים לקורס שלכם, כולל מועדי תחילת הקורס וסיומו."
+msgstr "קבעו את לוח הזמנים לקורס שלכם, כולל מועדי תחילת הקורס וסיומו."   
 
 #: cms/templates/checklists.html
 msgid "Validate Assignment Deadlines"
-msgstr "תקפו את המועדים האחרונים להגשת המטלות"
+msgstr "תקפו את המועדים האחרונים להגשת המטלות"   
 
 #: cms/templates/checklists.html
 msgid "Ensure all assignment deadlines are between course start and end dates."
-msgstr "ודאו שכל מועדי ההגשה למשימות נמצאים בין תאריך תחילת הקורס לתאריך סוף הקורס."
+msgstr "ודאו שכל מועדי ההגשה למשימות נמצאים בין תאריך תחילת הקורס לתאריך סוף הקורס."   
 
 #: cms/templates/checklists.html
 msgid "Best Practices Checklist"
-msgstr "רשימת תיוג לפרקטיקות הטובות ביותר"
+msgstr "רשימת תיוג לפרקטיקות הטובות ביותר"   
 
 #: cms/templates/checklists.html
 msgid "Check Video Duration"
-msgstr "בדקו את אורך סרטוני הווידאו"
+msgstr "בדקו את אורך סרטוני הווידאו"   
 
 #: cms/templates/checklists.html
 msgid "Learners engage best with short videos followed by opportunities to practice. Ensure that 80% or more of course videos are less than 10 minutes long."
-msgstr "לומדים מגיבים בצורה הטובה ביותר לסרטונים קצרים שאחריהם יש להם הזדמנות לתרגול. ודאו שאורכם של 80% או יותר מן הסרטונים בקורס פחות מ-10 דקות."
+msgstr "לומדים מגיבים בצורה הטובה ביותר לסרטונים קצרים שאחריהם יש להם הזדמנות לתרגול. ודאו שאורכם של 80% או יותר מן הסרטונים בקורס פחות מ-10 דקות."   
 
 #: cms/templates/checklists.html
 msgid "Create Mobile-Friendly Video"
-msgstr "צרו סרטוני וידאו ידידותיים לנייד"
+msgstr "צרו סרטוני וידאו ידידותיים לנייד"   
 
 #: cms/templates/checklists.html
 msgid "Mobile-friendly videos can be viewed across all supported devices. Ensure that at least 90% of course videos are mobile friendly by uploading course videos to the edX video pipeline."
-msgstr "ניתן לצפות בסרטוני וידאו ידידותיים לנייד מכל המכשירים הנתמכים. ודאו שלפחות 90% מסרטוני הקורס ידידותיים לנייד על ידי העלאת סרטוני הקורס לצינור הווידאו של edX."
+msgstr "ניתן לצפות בסרטוני וידאו ידידותיים לנייד מכל המכשירים הנתמכים. ודאו שלפחות 90% מסרטוני הקורס ידידותיים לנייד על ידי העלאת סרטוני הקורס לצינור הווידאו של edX."   
 
 #: cms/templates/checklists.html
 msgid "Build Diverse Learning Sequences"
-msgstr "בנו רצפי לימוד מגוונים"
+msgstr "בנו רצפי לימוד מגוונים"   
 
 #: cms/templates/checklists.html
 msgid "Research shows that a diverse content experience drives learner engagement. We recommend that 80% or more of your learning sequences or subsections include multiple content types (such as video, discussion, or problem)."
-msgstr "מחקרים מראים שחוויית תוכן מגוונת מניעה את מעורבות הלומדים. אנחנו ממליצים ש-80% או יותר מרצפי הלימוד שלכם או מיחידות המשנה שלהם יכללו כמה סוגי תוכן (כגון סרטון וידאו, דיון או בעיה)."
+msgstr "מחקרים מראים שחוויית תוכן מגוונת מניעה את מעורבות הלומדים. אנחנו ממליצים ש-80% או יותר מרצפי הלימוד שלכם או מיחידות המשנה שלהם יכללו כמה סוגי תוכן (כגון סרטון וידאו, דיון או בעיה)."   
 
 #: cms/templates/checklists.html
 msgid "Manage Unit Depth"
-msgstr "נהלו את עומק היחידה"
+msgstr "נהלו את עומק היחידה"   
 
 #: cms/templates/checklists.html
 msgid "Breaking up course content into manageable pieces promotes learner engagement. We recommend units contain no more than three components."
-msgstr "פירוק תוכן הקורס לחתיכות קטנות מעודד מעורבות לומדים. אנחנו ממליצים שהיחידות לא יכללו יותר משלושה רכיבים."
+msgstr "פירוק תוכן הקורס לחתיכות קטנות מעודד מעורבות לומדים. אנחנו ממליצים שהיחידות לא יכללו יותר משלושה רכיבים."   
 
 
 #~ msgid "Academic Planning"
@@ -25662,9 +25728,9 @@ msgstr "חשבון זה ננעל כתוצאה ממספר רב של נסיונת,
 
 
 #. Eden: All Xblocks: (django.po)
-#. Eden: Transltion that I Found From GitHub ( by Google search: ' edx: "some-translation-string" po ')
+#. Eden: Transltion that I Found From GitHub ( by Google search: ' edx: "some-translation-string" po ') 
 # Translation that I found on branch edx-proctoring
-# module: Proctored exams with time limits
+# module: Proctored exams with time limits 
 #: templates/timed_exam/submitted.html
 msgid ""
 "\n"
@@ -25675,14 +25741,45 @@ msgstr ""
 "                הגשת את המבחן המתוזמן שלך.\n"
 "            "
 
+#. Eden: Xblock-ORA:
+#. Referance: origin/GlugovGrGlib-patch-1 branch
+#: openassessment/templates/openassessmentblock/response/oa_response.html:91
+msgid ""
+"\n"
+"                        You can save your progress and return to complete your response at any time before the due date\n"
+"                      "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:167
+msgid "Team Response "
+msgstr ""
+
 #: openassessment/templates/openassessmentblock/response/oa_response.html:169
 msgid "Your Response "
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:173
+#: openassessment/templates/openassessmentblock/response/oa_response.html:244
+msgid "(Required)"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:175
+#: openassessment/templates/openassessmentblock/response/oa_response.html:246
+msgid "(Optional)"
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:242
+msgid "File Uploads "
 msgstr ""
 
 #: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:84
 msgid ""
 "To add more file extensions, select Custom File Types and enter the full "
 "list of acceptable file extensions to be included."
+msgstr ""
+
+#: openassessment/templates/openassessmentblock/response/oa_response.html:278
+msgid "Supported file types: "
 msgstr ""
 
 #: lms/templates/learner_dashboard/_dashboard_incomplete_profile_notification.html
@@ -25719,16 +25816,71 @@ msgid "Download all submissions"
 msgstr "הורדת כל ההגשות"
 
 #: edx_sga/sga.py
+msgid "This name appears in the horizontal navigation at the top of the page."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid ""
+"Defines the number of points each problem is worth. If the value is not set,"
+" the problem is worth the sum of the option point values."
+msgstr ""
+
+#: edx_sga/sga.py
 msgid "Maximum score"
 msgstr "ציון מקסימלי"
+
+#: edx_sga/sga.py
+msgid "Maximum grade score given to assignment by staff."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Score assigned by non-instructor staff"
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Score will need to be approved by instructor before being published."
+msgstr ""
 
 #: edx_sga/sga.py edx_sga/templates/staff_graded_assignment/show.html
 msgid "Instructor comment"
 msgstr "הערות הבודק"
 
 #: edx_sga/sga.py
+msgid "Feedback given to student by instructor."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Annotated SHA1"
+msgstr ""
+
+#: edx_sga/sga.py
+msgid ""
+"sha1 of the annotated file uploaded by the instructor for this assignment."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Annotated file name"
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "The name of the annotated file uploaded for this assignment."
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "Mime type of annotated file"
+msgstr ""
+
+#: edx_sga/sga.py
+msgid "The mimetype of the annotated file uploaded for this assignment."
+msgstr ""
+
+#: edx_sga/sga.py
 msgid "Timestamp"
 msgstr "חותמת זמן"
+
+#: edx_sga/sga.py
+msgid "When the annotated file was uploaded"
+msgstr ""
 
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "No file has been uploaded."
@@ -25742,6 +25894,10 @@ msgstr "הציון שלך %(graded_score)s / %(max_score)s"
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Annotated file from instructor"
 msgstr "מצורף קובץ עם הערות ה בודק"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "This assignment has not yet been graded."
+msgstr "טרם הוגדר ציון למטלה זו"
 
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Upload your assignment"
@@ -25783,9 +25939,19 @@ msgstr "דירוג הגשות"
 msgid "Loading..."
 msgstr "בטענה..."
 
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+msgid "is_released"
+msgstr ""
+
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Enter Grade"
 msgstr "קבע ציון"
+
+#: edx_sga/templates/staff_graded_assignment/show.html
+#, python-format
+msgid "Grade for %(student_name)s"
+msgstr "ציון עבור %(student_name)"
 
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Grade:"
