@@ -10150,13 +10150,15 @@ msgstr "הסימניה מופעלת"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid "You have not bookmarked any courseware pages yet"
-msgstr ""
+msgstr "עדיין לא סימנת דפי לימוד באף אחד מהקורסים שלך"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid ""
 "Use bookmarks to help you easily return to courseware pages. To bookmark a "
 "page, click \"Bookmark this page\" under the page title."
 msgstr ""
+"ניתן להשתמש בסימניות כדי לחזור בקלות לדפי הלימוד בקורסים שלך. כדי לסמן "
+"דף לימוד מסויים, יש ללחוץ על \"סמן עמוד זה\" מתחת ללשוניות הקורס
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
