@@ -10158,7 +10158,7 @@ msgid ""
 "page, click \"Bookmark this page\" under the page title."
 msgstr ""
 "ניתן להשתמש בסימניות כדי לחזור בקלות לדפי הלימוד בקורסים שלך. כדי לסמן "
-"דף לימוד מסויים, יש ללחוץ על \"סמן עמוד זה\" מתחת ללשוניות הקורס
+"דף לימוד מסויים, יש ללחוץ על \"סמן עמוד זה\" מתחת ללשוניות הקורס"
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
