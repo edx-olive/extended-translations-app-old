@@ -12364,8 +12364,7 @@ msgstr "לא ניתן לאפס את סיסמת חשבון המשתמש המשו�
 msgid ""
 "Your previous request is in progress, please try again in a few moments."
 msgstr ""
-"בקשתך לאיפוס סיסמה נקלטה במערכת, יש לנסות להתחבר שוב בעוד מספר דקות"
-
+"בקשתך לאיפוס סיסמה נקלטה במערכת, יש לנסות להתחבר שוב בעוד מספר דקות."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
 msgid "Password reset unsuccessful"
