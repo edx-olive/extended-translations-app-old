@@ -389,6 +389,17 @@ msgstr ""
 "إذا كان لديك أي مشكلة , فإن فريق الدعم لدينا في خدمتك: "
 "{link_start}{platform_name} الدعم{link_end}"
 
+#: common/templates/student/edx_ace/accountactivation/email/body.html
+#, python-format, python-brace-format
+msgid ""
+"If you need help, please use our web form at "
+"{start_anchor_web}{support_url}{end_anchor} or email "
+"{start_anchor_email}%(support_email)s{end_anchor}."
+msgstr ""
+"إذا كنت بحاجة إلى مساعدة، يرجى الاستعانة بالاستمارة عبر الويب على "
+"{start_anchor_web}{support_url}{end_anchor} أو البريد الإلكتروني "
+"{start_anchor_email}%(support_email)s {end_anchor}."
+
 #: lms/templates/instructor/instructor_dashboard_2/sensitive_data_download_msg.txt
 msgid ""
 "Contains information protected under the Protection of Privacy Law - the "
