@@ -14,6 +14,10 @@ Unreleased
 
 *
 
+[0.0.15] - 2021-03-11
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Compile Campus translations from github
+
 [0.0.12] - 2021-03-11
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Merge in Campus team translations
