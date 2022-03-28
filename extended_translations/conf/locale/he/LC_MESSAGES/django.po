@@ -12220,6 +12220,11 @@ msgid ""
 "If you{quote}ve forgotten your password, click {link_start}here{link_end} to "
 "reset.\n"
 msgstr ""
+"הדוא\"ל או הסיסמה שהזנת שגויים.\n"
+"נותרו לך עוד {remaining_attempts} ניסיונות התחברות לפני שהחשבון שלך"
+"ינעל זמנית.\n"
+"במידה ושכחת {quote}ve את הסיסמה שלך, יש ללחוץ {link_start}כאן{link_end} כדי לבצע "
+"איפוס.\n"
 
 #: openedx/core/djangoapps/user_authn/views/login.py
 #, python-brace-format
