@@ -2215,12 +2215,6 @@ msgstr "בשם %(course_name)s"
 msgid "The class will appear in your personal area at the following link:"
 msgstr "הכיתה תופיע באזור האישי שלך בלינק הבא:"
 
-#: openedx/core/djangoapps/user_api/accounts/views.py
-#: openedx/core/djangoapps/user_authn/views/login.py
-msgid ""
-"This account has been temporarily locked due to excessive login failures. "
-"Try again later."
-
 #: openedx/core/djangoapps/user_authn/views/login.py
 #, python-brace-format
 msgid ""
@@ -25355,15 +25349,6 @@ msgstr ""
 "                הגשת את המבחן המתוזמן שלך.\n"
 "            "
 
-#. Eden: Xblock-ORA:
-#. Referance: origin/GlugovGrGlib-patch-1 branch
-#: openassessment/templates/openassessmentblock/response/oa_response.html:91
-msgid ""
-"\n"
-"                        You can save your progress and return to complete your response at any time before the due date\n"
-"                      "
-msgstr ""
-
 #. Eden: Xblock poll:
 #. Referance: OpenCraft-Poll repo
 #: poll/public/handlebars/survey_results.handlebars
@@ -25472,10 +25457,6 @@ msgstr "הציון שלך %(graded_score)s / %(max_score)s"
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Annotated file from instructor"
 msgstr "מצורף קובץ עם הערות ה בודק"
-
-#: edx_sga/templates/staff_graded_assignment/show.html
-msgid "This assignment has not yet been graded."
-msgstr "טרם הוגדר ציון למטלה זו"
 
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Upload your assignment"
