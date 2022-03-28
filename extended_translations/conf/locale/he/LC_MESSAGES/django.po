@@ -25510,7 +25510,7 @@ msgstr "קבע ציון"
 #: edx_sga/templates/staff_graded_assignment/show.html
 #, python-format
 msgid "Grade for %(student_name)s"
-msgstr "ציון עבור %(student_name)"
+msgstr "ציון עבור %(student_name)s"
 
 #: edx_sga/templates/staff_graded_assignment/show.html
 msgid "Grade:"
