@@ -15,11 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 1.3\n"
 
-#: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:18
-#, fuzzy
-msgid "Academic Education"
-msgstr "השכלה אקדמית"
-
 #: edx-platform/israelxedu.gov.il/lms/templates/about_site.html:26
 msgid "High School Education"
 msgstr "השכלה תיכונית"
@@ -460,8 +455,6 @@ msgstr "אז איך אמרת שקוראים לך?"
 
 msgid "I agree to the {platform_name} {terms_of_service}"
 msgstr "קראתי והסכמתי ל{terms_of_service} של {platform_name}"
-msgid "You must agree to the {platform_name} {terms_of_service}"
-msgstr "חובה לאשר את {terms_of_service} של {platform_name}"
 
 msgid "Review the Terms of Service"
 msgstr "לקריאת תנאי השימוש"
@@ -626,13 +619,6 @@ msgstr "עוד קליק אחד ואתם מתחילים ללמוד!"
 #, python-format
 msgid "Enjoy learning with %(platform_name)s."
 msgstr "מאחלים לכם למידה מהנה ב %(platform_name)s."
-
-# Eden- New Mail Template By CampusIL_V_2022_KOA
-#: common/templates/student/edx_ace/accountactivation/email/body.html
-#: common/templates/student/edx_ace/accountactivation/email/body.txt
-#, python-format
-msgid "Enjoy learning with %(platform_name)s."
-msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #, python-format, python-brace-format
@@ -835,11 +821,6 @@ msgstr "צוות הקורס שמח להזמין אותך לסייע בשיפור
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "To start accessing course materials, please visit:"
 msgstr "למעבר אל הקורס יש להיכנס ל:"
-
-# eden- New Mail Template By CampusIL_V_2022_KOA #LINES_NOT_INCLUDE
-#: lms/templates/instructor/edx_ace/addbetatester/email/body.html
-msgid "To start accessing course materials, please visit:"
-msgstr ""
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html
 msgid "To enroll in this course and begin the beta test:"
@@ -1137,7 +1118,7 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
 #, python-format
 msgid ""
-"We have received your request to reset the password of your " 
+"We have received your request to reset the password of your "
 "%(platform_name)s user account."
 msgstr ""
 "קבלנו ממך בקשה לאפס את סיסמת חשבון המשתמש שלך ב-"
@@ -1654,8 +1635,6 @@ msgstr ""
 "לפי הסכם למתן שירותים שנחתם ביננו (מטה המיזם הלאומי \"ישראל דיגיטלית\") לבין "
 "EdX.inc :"
 
-# msgid "\"EdX shall use such Learner Data only to the extent required to in order to carry out tasks in compliance with this Agreement. EdX will ensure that it will not share Learner Data with any third parties unless edX has NDB written prior consent or that edX is required to share such information, provided that appropriate confidentiality and security measures are taken. EdX will comply with all applicable laws, policies, and regulations relating to its use of Learner Data.\""
-# msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד. \""
 msgid ""
 "\"EdX shall use such Learner Data only to the extent required to in order to "
 "carry out tasks in compliance with this Agreement. EdX will ensure that it "
@@ -2117,8 +2096,6 @@ msgstr ""
 "לפי הסכם למתן שירותים שנחתם ביננו (מטה המיזם הלאומי \"ישראל דיגיטלית\") לבין "
 "EdX.inc :"
 
-# msgid "The Site is hosted and The Data on it stored, on Amazon’s Dublin, Ireland data center (AWS). For AWS' privacy policy Terms of use, please go to:"
-# msgstr "\"EdX תעשה שימוש בנתוני לומד כאלה רק במידה שהדבר הכרחי לצורך ביצוע המשימות בהתאם להסכם זה. EdX תבטיח שלא תחלוק את נתוני הלומד עם צד ג' אלא אם יש קיבלה אישור בכתב ומראש ממטה ישראל דיגיטליתאו במקרה ש-EdX נדרשת לחלוק את המידע, וזאת בתנאי שתנקוט אמצעי בטיחות וחשאיות ראויים. EdX תפעל על פי כל החוקים, כללי המדיניות והתקנות החלים עליה והנוגעים לשימוש שהיא מבצעת בנתוני הלומד.\""
 msgid ""
 "The Site is hosted and The Data on it stored, on Amazon’s Dublin, Ireland "
 "data center (AWS). For AWS' privacy policy Terms of use, please go to:"
@@ -2243,9 +2220,6 @@ msgstr "הכיתה תופיע באזור האישי שלך בלינק הבא:"
 msgid ""
 "This account has been temporarily locked due to excessive login failures. "
 "Try again later."
-msgstr ""
-"חשבון זה ננעל כתוצאה ממספר רב של נסיונת, באפשרותך לאפס את הסיסמה כדי להתחבר "
-"לחשבון."
 
 #: openedx/core/djangoapps/user_authn/views/login.py
 #, python-brace-format
@@ -2303,73 +2277,6 @@ msgstr ""
 #: openassessment/templates/openassessmentblock/response/oa_response.html:278
 msgid "Supported file types: "
 msgstr ""
-
-#. Eden: Xblock-Staf-Graded-Assigment
-#. Referance: edx-sga repo (Mit office of digital Learning)
-
-#: edx_sga/sga.py
-msgid "This name appears in the horizontal navigation at the top of the page."
-msgstr ""
-
-#: edx_sga/sga.py
-msgid ""
-"Defines the number of points each problem is worth. If the value is not set, "
-"the problem is worth the sum of the option point values."
-msgstr ""
-
-#: edx_sga/sga.py
-msgid "Maximum grade score given to assignment by staff."
-msgstr ""
-
-#: edx_sga/sga.py
-msgid "Score assigned by non-instructor staff"
-msgstr ""
-
-#: edx_sga/sga.py
-msgid "Score will need to be approved by instructor before being published."
-msgstr ""
-
-#: edx_sga/sga.py
-msgid "Feedback given to student by instructor."
-msgstr ""
-
-#: edx_sga/sga.py
-msgid "Annotated SHA1"
-msgstr ""
-
-#: edx_sga/sga.py
-msgid ""
-"sha1 of the annotated file uploaded by the instructor for this assignment."
-msgstr ""
-
-#: edx_sga/sga.py
-msgid "Annotated file name"
-msgstr ""
-
-#: edx_sga/sga.py
-msgid "The name of the annotated file uploaded for this assignment."
-msgstr ""
-
-#: edx_sga/sga.py
-msgid "Mime type of annotated file"
-msgstr ""
-
-#: edx_sga/sga.py
-msgid "The mimetype of the annotated file uploaded for this assignment."
-msgstr ""
-
-#: edx_sga/sga.py
-msgid "When the annotated file was uploaded"
-msgstr ""
-
-#: edx_sga/templates/staff_graded_assignment/show.html
-msgid "is_released"
-msgstr ""
-
-#: edx_sga/templates/staff_graded_assignment/show.html
-#, python-format
-msgid "Grade for %(student_name)s"
-msgstr "ציון עבור %(student_name)s"
 
 #. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 #. Translators: 'Discussion' refers to the tab in the courseware that leads to
@@ -7126,7 +7033,7 @@ msgid ""
 "If you did not request this change, you may ignore this email. "
 "We have not reset your password yet."
 msgstr ""
-"אם לא ביקשת את השינוי הזה, ניתן להתעלם מהאימייל, " 
+"אם לא ביקשת את השינוי הזה, ניתן להתעלם מהאימייל, "
 "עדיין לא איפסנו את הסיסמה שלך."
 
 
@@ -12092,12 +11999,6 @@ msgstr ""
 msgid "Email or password is incorrect."
 msgstr "דואר אלקטרוני או סיסמה שגויים."
 
-#: openedx/core/djangoapps/user_api/accounts/views.py
-#: openedx/core/djangoapps/user_authn/views/login.py
-#: lms/templates/provider_login.html
-msgid "User does not exist."
-msgstr "חשבון לא קיים."
-
 #: openedx/core/djangoapps/user_api/admin.py
 #: wiki/templates/wiki/permission_denied.html
 msgid "Permission Denied"
@@ -12315,15 +12216,6 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/views/login.py
 msgid "Too many failed login attempts. Try again later."
 msgstr "מספר נסיונות חיבור רב מדי. אנא נסה מאוחר יותר."
-
-#: openedx/core/djangoapps/user_authn/views/login.py
-#, python-brace-format
-msgid ""
-"Email or password is incorrect.{li_start}You have {remaining_attempts} more "
-"sign-in attempts before your account is temporarily locked.{li_end}{li_start}"
-"If you've forgotten your password, click {link_start}here{link_end} to reset."
-"{li_end}"
-msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/login.py
 #, python-brace-format
@@ -15748,11 +15640,6 @@ msgid "Edit {catalog_name}"
 msgstr "ערוך {catalog_name}"
 
 #: lms/templates/api_admin/catalogs/edit.html
-#: lms/templates/api_admin/catalogs/list.html
-msgid "Download CSV"
-msgstr "הורד CSV"
-
-#: lms/templates/api_admin/catalogs/edit.html
 msgid "Delete this catalog"
 msgstr "מחק קטלוג זה"
 
@@ -16883,10 +16770,6 @@ msgstr "{course_number} התקדמות"
 #: lms/templates/courseware/progress.html
 msgid "View Grading in studio"
 msgstr "צפה בתהליך מתן הציונים בסטודיו"
-
-#: lms/templates/courseware/progress.html
-msgid "Course Progress for '{username}' ({email})"
-msgstr "התקדמות הקורס עבור '{username}' ({email})"
 
 #: lms/templates/courseware/progress.html
 msgid "View Certificate"
@@ -25366,360 +25249,89 @@ msgstr "יש ללחוץ על הכפתור „התחלת מבחן תחת פיקו
 
 #: cms/templates/checklists.html
 msgid "Launch Checklist"
-msgstr "פתחו רשימת תיוג"   
+msgstr "פתחו רשימת תיוג"
 
 
 #: cms/templates/checklists.html
 msgid "{completed}/{total} completed"
-msgstr "{completed}/{total} הושלם"   
+msgstr "{completed}/{total} הושלם"
 
 
 #: cms/templates/checklists.html
 msgid "Add a Welcome Message"
-msgstr "הוסיפו מסר ברכה לנכנסים"   
+msgstr "הוסיפו מסר ברכה לנכנסים"
 
 #: cms/templates/checklists.html
 msgid "Personally welcome learners into your course and prepare learners for a positive course experience."
-msgstr "ברכו באופן אישי את הלומדים המצטרפים לקורס שלכם והכינו את הלומדים לקראת חוויית קורס חיובית."   
+msgstr "ברכו באופן אישי את הלומדים המצטרפים לקורס שלכם והכינו את הלומדים לקראת חוויית קורס חיובית."
 
 #: cms/templates/checklists.html
 msgid "Create Your Course Grading Policy"
-msgstr "צרו את מדיניות הציונים בקורס שלכם"   
+msgstr "צרו את מדיניות הציונים בקורס שלכם"
 
 #: cms/templates/checklists.html
 msgid "Establish your grading policy, including assignment types and passing score. All assignments add up to 100%."
-msgstr "קבעו את מדיניות הציונים שלכם, לרבות סוגי המטלות והגדרת ציון עובר. סכום כל המטלות יחדיו הוא 100%."   
+msgstr "קבעו את מדיניות הציונים שלכם, לרבות סוגי המטלות והגדרת ציון עובר. סכום כל המטלות יחדיו הוא 100%."
 
 #: cms/templates/checklists.html
 msgid "Enable Your Certificate"
-msgstr "אפשרו את האישור שלכם"   
+msgstr "אפשרו את האישור שלכם"
 
 #: cms/templates/checklists.html
 msgid "Make sure that all text is correct, signatures have been uploaded, and the certificate has been activated."
-msgstr "ודאו שכל המלל נכון, שהחתימות הועלו ושהאישור הופעל"   
+msgstr "ודאו שכל המלל נכון, שהחתימות הועלו ושהאישור הופעל"
 
 #: cms/templates/checklists.html
 msgid "Set Important Course Dates"
-msgstr "קבעו תאריכים חשובים בקורס"   
+msgstr "קבעו תאריכים חשובים בקורס"
 
 #: cms/templates/checklists.html
 msgid "Establish your course schedule, including when the course starts and ends."
-msgstr "קבעו את לוח הזמנים לקורס שלכם, כולל מועדי תחילת הקורס וסיומו."   
+msgstr "קבעו את לוח הזמנים לקורס שלכם, כולל מועדי תחילת הקורס וסיומו."
 
 #: cms/templates/checklists.html
 msgid "Validate Assignment Deadlines"
-msgstr "תקפו את המועדים האחרונים להגשת המטלות"   
+msgstr "תקפו את המועדים האחרונים להגשת המטלות"
 
 #: cms/templates/checklists.html
 msgid "Ensure all assignment deadlines are between course start and end dates."
-msgstr "ודאו שכל מועדי ההגשה למשימות נמצאים בין תאריך תחילת הקורס לתאריך סוף הקורס."   
+msgstr "ודאו שכל מועדי ההגשה למשימות נמצאים בין תאריך תחילת הקורס לתאריך סוף הקורס."
 
 #: cms/templates/checklists.html
 msgid "Best Practices Checklist"
-msgstr "רשימת תיוג לפרקטיקות הטובות ביותר"   
+msgstr "רשימת תיוג לפרקטיקות הטובות ביותר"
 
 #: cms/templates/checklists.html
 msgid "Check Video Duration"
-msgstr "בדקו את אורך סרטוני הווידאו"   
+msgstr "בדקו את אורך סרטוני הווידאו"
 
 #: cms/templates/checklists.html
 msgid "Learners engage best with short videos followed by opportunities to practice. Ensure that 80% or more of course videos are less than 10 minutes long."
-msgstr "לומדים מגיבים בצורה הטובה ביותר לסרטונים קצרים שאחריהם יש להם הזדמנות לתרגול. ודאו שאורכם של 80% או יותר מן הסרטונים בקורס פחות מ-10 דקות."   
+msgstr "לומדים מגיבים בצורה הטובה ביותר לסרטונים קצרים שאחריהם יש להם הזדמנות לתרגול. ודאו שאורכם של 80% או יותר מן הסרטונים בקורס פחות מ-10 דקות."
 
 #: cms/templates/checklists.html
 msgid "Create Mobile-Friendly Video"
-msgstr "צרו סרטוני וידאו ידידותיים לנייד"   
+msgstr "צרו סרטוני וידאו ידידותיים לנייד"
 
 #: cms/templates/checklists.html
 msgid "Mobile-friendly videos can be viewed across all supported devices. Ensure that at least 90% of course videos are mobile friendly by uploading course videos to the edX video pipeline."
-msgstr "ניתן לצפות בסרטוני וידאו ידידותיים לנייד מכל המכשירים הנתמכים. ודאו שלפחות 90% מסרטוני הקורס ידידותיים לנייד על ידי העלאת סרטוני הקורס לצינור הווידאו של edX."   
+msgstr "ניתן לצפות בסרטוני וידאו ידידותיים לנייד מכל המכשירים הנתמכים. ודאו שלפחות 90% מסרטוני הקורס ידידותיים לנייד על ידי העלאת סרטוני הקורס לצינור הווידאו של edX."
 
 #: cms/templates/checklists.html
 msgid "Build Diverse Learning Sequences"
-msgstr "בנו רצפי לימוד מגוונים"   
+msgstr "בנו רצפי לימוד מגוונים"
 
 #: cms/templates/checklists.html
 msgid "Research shows that a diverse content experience drives learner engagement. We recommend that 80% or more of your learning sequences or subsections include multiple content types (such as video, discussion, or problem)."
-msgstr "מחקרים מראים שחוויית תוכן מגוונת מניעה את מעורבות הלומדים. אנחנו ממליצים ש-80% או יותר מרצפי הלימוד שלכם או מיחידות המשנה שלהם יכללו כמה סוגי תוכן (כגון סרטון וידאו, דיון או בעיה)."   
+msgstr "מחקרים מראים שחוויית תוכן מגוונת מניעה את מעורבות הלומדים. אנחנו ממליצים ש-80% או יותר מרצפי הלימוד שלכם או מיחידות המשנה שלהם יכללו כמה סוגי תוכן (כגון סרטון וידאו, דיון או בעיה)."
 
 #: cms/templates/checklists.html
 msgid "Manage Unit Depth"
-msgstr "נהלו את עומק היחידה"   
+msgstr "נהלו את עומק היחידה"
 
 #: cms/templates/checklists.html
 msgid "Breaking up course content into manageable pieces promotes learner engagement. We recommend units contain no more than three components."
-msgstr "פירוק תוכן הקורס לחתיכות קטנות מעודד מעורבות לומדים. אנחנו ממליצים שהיחידות לא יכללו יותר משלושה רכיבים."   
-
-
-#~ msgid "Academic Planning"
-#~ msgstr "תכנון אקדמי"
-
-#~ msgid "Registration"
-#~ msgstr "רישום"
-
-#~ msgid "Finances"
-#~ msgstr "כספים"
-
-#~ msgid "Collaboration Policy"
-#~ msgstr "מדיניות שיתוף פעולה"
-
-#~ msgid "Honor Code Pledge"
-#~ msgstr "קוד אתי ליושרה אקדמית"
-
-#~ msgid "Changing the Honor Code"
-#~ msgstr "שינוי הקוד האתי"
-
-#~ msgid "usernames and postings"
-#~ msgstr "שמות משתמשים ופרסומים"
-
-#~ msgid "consent to processing outside home country"
-#~ msgstr "הסכמה לעיבוד מחוץ למדינת המגורים"
-
-#~ msgid "personal information"
-#~ msgstr "מידע אישי"
-
-#~ msgid "information we collect and how we use it"
-#~ msgstr "מידע שאנו אוספים וכיצד אנו משתמשים בו"
-
-#~ msgid "use and disclosure to third parties"
-#~ msgstr "שימוש וחשיפה לצדדים שלישיים"
-
-#~ msgid "use for personalization and pedagogical improvementsy"
-#~ msgstr "שימוש להתאמה אישית ושיפורים פדגוגיים"
-
-#~ msgid "links to other websites"
-#~ msgstr "קישורים לאתרי אינטרנט אחרים"
-
-#~ msgid "security"
-#~ msgstr "אבטחה"
-
-#~ msgid "minors"
-#~ msgstr "קטינים"
-
-#~ msgid "privacy concerns"
-#~ msgstr "חששות בנוגע לפרטיות"
-
-#~ msgid "rules for online conduct"
-#~ msgstr "כללים בנוגע להתנהגות מקוונת"
-
-#~ msgid "prohibited content"
-#~ msgstr "תוכן אסור"
-
-#~ msgid "user accounts and authority"
-#~ msgstr "חשבונות וסמכות המשתמש"
-
-#~ msgid "your right to use content on the site"
-#~ msgstr "הזכות שלך להשתמש בתוכן שבאתר"
-
-#~ msgid "user postings"
-#~ msgstr "פרסומי המשתמש"
-
-#~ msgid "certificates of completion"
-#~ msgstr "תעודות השלמה"
-
-#~ msgid "trademarks"
-#~ msgstr "סימני מסחר"
-
-#~ msgid "digital millennium copyright act"
-#~ msgstr "חוק זכויות היוצרים של המילניום הדיגיטלי"
-
-#~ msgid "miscellaneous"
-#~ msgstr "שונות"
-
-#~ msgid "the following types of content are strictly prohibited on the site:"
-#~ msgstr "חל איסור מוחלט לפרסם את סוגי התוכן הבאים באתר:"
-
-#~ msgid "View All"
-#~ msgstr "הצג הכל"
-
-#~ msgid "More about"
-#~ msgstr "מידע נוסף"
-
-#~ msgid "Watch video"
-#~ msgstr "צפה בסרטון ווידאו"
-
-#~ msgid "All Courses"
-#~ msgstr "כל הקורסים"
-
-#~ msgid "Credentials"
-#~ msgstr "הרשאות"
-
-#~ msgid "Report unethical or harassing conduct"
-#~ msgstr "דווח על התנהגות לא אתית או מטרידה"
-
-#~ msgid "Questions about accessibility for students with disabilities"
-#~ msgstr "שאלות בנוגע לנגישות הסטודנטים בעלי המוגבלויות"
-
-#~ msgid "Links to Other Sites"
-#~ msgstr "קישורים לאתרים אחרים"
-
-#~ msgid "Governing Law and Disputes"
-#~ msgstr "החוק החל וערעורים"
-
-#~ msgid "Explore our most popular courses"
-#~ msgstr "גלה את הקורסים הפופולריים ביותר שלנו"
-
-#~ msgid "FAQ's"
-#~ msgstr "שאלות נפוצות"
-
-#~ msgid "General FAQs"
-#~ msgstr "שאלות נפוצות כלליות"
-
-#~ msgid "Blogs"
-#~ msgstr "בלוגים"
-
-#~ msgid "I am a"
-#~ msgstr "אני"
-
-#~ msgid "Learner"
-#~ msgstr "לומד"
-
-#~ msgid "Teacher"
-#~ msgstr "אחר"
-
-#~ msgid "We'll get back to you within 24 hours."
-#~ msgstr "נחזור אליך ב-24 השעות הקרובות."
-
-#~ msgid "License"
-#~ msgstr "רישיון"
-
-#~ msgid "Ownership"
-#~ msgstr "בעלות"
-
-#~ msgid "Subscription Term"
-#~ msgstr "מונח בנושא הרשמה"
-
-#~ msgid "Permitted Uses and Prohibitions"
-#~ msgstr "שימושים מותרים ואיסורים"
-
-#~ msgid "Restriction Against Transfer"
-#~ msgstr "הגבלה כנגד העברה"
-
-#~ msgid "Use Of Professional Judgment"
-#~ msgstr "שימוש בשיפוט מקצועי"
-
-#~ msgid "No Warranty"
-#~ msgstr "ללא אחריות"
-
-#~ msgid "Limitation Of Liability"
-#~ msgstr "הגבלת חבות"
-
-#~ msgid "General"
-#~ msgstr "כללי"
-
-#~ msgid "Privacy Statement"
-#~ msgstr "הצהרת פרטיות"
-
-#~ msgid "General Statement"
-#~ msgstr "הצהרה כללית"
-
-#~ msgid "Personal Information Collected and Use of Information"
-#~ msgstr "מידע אישי שנאסף ושימוש במידע"
-
-#~ msgid "Usage Information Collected and Use of Information"
-#~ msgstr "פרטי שימוש שנאספו ושימוש במידע"
-
-#~ msgid "External Links"
-#~ msgstr "קישורים חיצוניים"
-
-#~ msgid "Security Precautions"
-#~ msgstr "אזהרות אבטחה"
-
-#~ msgid "Access to the Site"
-#~ msgstr "גישה לאתר"
-
-#~ msgid "User Accounts"
-#~ msgstr "חשבונות משתמש"
-
-#~ msgid "Course Modification or Cancellation"
-#~ msgstr "שינוי או ביטול קורס"
-
-#~ msgid "License to use Site Materials"
-#~ msgstr "רישיון לשימוש בחומרים באתר"
-
-#~ msgid "Modifications to Site"
-#~ msgstr "שינויים באתר"
-
-#~ msgid "Rules for Online Conduct"
-#~ msgstr "כללים להתנהגות מקוונת"
-
-#~ msgid "Security Rules"
-#~ msgstr "כללי אבטחה"
-
-#~ msgid "Content Disclaimer"
-#~ msgstr "כתב ויתור על תוכן"
-
-#~ msgid "User Status and Statement of Accomplishment"
-#~ msgstr "סטטוס המשתמש והצהרת הישגים"
-
-#~ msgid "International Use and Consent to Processing"
-#~ msgstr "שימוש בינלאומי והסכמה לעיבוד"
-
-#~ msgid "Disclaimer of Warranties"
-#~ msgstr "כתב ויתור על אחריות"
-
-#~ msgid "Termination of Rights"
-#~ msgstr "הפסקת זכויות"
-
-#~ msgid "Consumer Notice"
-#~ msgstr "הודעת צרכן"
-
-#~ msgid "Use of Name"
-#~ msgstr "שימוש בשם"
-
-#~ msgid "Copyright Complaints"
-#~ msgstr "תלונות בנוגע לזכויות יוצרים"
-
-#~ msgid "Notices"
-#~ msgstr "הודעות"
-
-#~ msgid "Waiver"
-#~ msgstr "כתב ויתור"
-
-#~ msgid "Severability"
-#~ msgstr "דרגת חומרה"
-
-#~ msgid "Use Of The Site"
-#~ msgstr "שימוש באתר"
-
-#~ msgid "User Age and Eligibility"
-#~ msgstr "הגיל והכשירות של המשתמש"
-
-#~ msgid "Indemnification"
-#~ msgstr "שיפוי"
-
-#~ msgid "Entire Agreement"
-#~ msgstr "ההסכם כולו"
-
-#~ msgid "Explore our courses"
-#~ msgstr "גלה את הקורסים שלנו"
-
-#~ msgid "Education"
-#~ msgstr "חינוך"
-
-#~ msgid "Research"
-#~ msgstr "מחקר"
-
-#~ msgid "Connect"
-#~ msgstr "התחבר"
-
-#~ msgid "Facebook"
-#~ msgstr "פייסבוק"
-
-#~ msgid "Instagram"
-#~ msgstr "אינסטגרם"
-
-#~ msgid "LinkedIn"
-#~ msgstr "לינקדאין"
-
-#~ msgid "Twitter"
-#~ msgstr "טוויטר"
-
-#~ msgid "News"
-#~ msgstr "חדשות"
-
-#~ msgid "YouTube"
-#~ msgstr "יוטיוב"
+msgstr "פירוק תוכן הקורס לחתיכות קטנות מעודד מעורבות לומדים. אנחנו ממליצים שהיחידות לא יכללו יותר משלושה רכיבים."
 
 #: openedx/core/djangoapps/user_api/accounts/views.py
 #: openedx/core/djangoapps/user_authn/views/login.py
@@ -25730,9 +25342,9 @@ msgstr "חשבון זה ננעל כתוצאה ממספר רב של נסיונת,
 
 
 #. Eden: All Xblocks: (django.po)
-#. Eden: Transltion that I Found From GitHub ( by Google search: ' edx: "some-translation-string" po ') 
+#. Eden: Transltion that I Found From GitHub ( by Google search: ' edx: "some-translation-string" po ')
 # Translation that I found on branch edx-proctoring
-# module: Proctored exams with time limits 
+# module: Proctored exams with time limits
 #: templates/timed_exam/submitted.html
 msgid ""
 "\n"
@@ -25751,42 +25363,6 @@ msgid ""
 "                        You can save your progress and return to complete your response at any time before the due date\n"
 "                      "
 msgstr ""
-
-#: openassessment/templates/openassessmentblock/response/oa_response.html:167
-msgid "Team Response "
-msgstr ""
-
-#: openassessment/templates/openassessmentblock/response/oa_response.html:169
-msgid "Your Response "
-msgstr ""
-
-#: openassessment/templates/openassessmentblock/response/oa_response.html:173
-#: openassessment/templates/openassessmentblock/response/oa_response.html:244
-msgid "(Required)"
-msgstr ""
-
-#: openassessment/templates/openassessmentblock/response/oa_response.html:175
-#: openassessment/templates/openassessmentblock/response/oa_response.html:246
-msgid "(Optional)"
-msgstr ""
-
-#: openassessment/templates/openassessmentblock/response/oa_response.html:242
-msgid "File Uploads "
-msgstr ""
-
-#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:84
-msgid ""
-"To add more file extensions, select Custom File Types and enter the full "
-"list of acceptable file extensions to be included."
-msgstr ""
-
-#: openassessment/templates/openassessmentblock/response/oa_response.html:278
-msgid "Supported file types: "
-msgstr ""
-
-#: lms/templates/learner_dashboard/_dashboard_incomplete_profile_notification.html
-msgid "Your profile has missing fields!"
-msgstr "חסרים מספר נתונים בהגדרת החשבון שלך!"
 
 #. Eden: Xblock poll:
 #. Referance: OpenCraft-Poll repo
