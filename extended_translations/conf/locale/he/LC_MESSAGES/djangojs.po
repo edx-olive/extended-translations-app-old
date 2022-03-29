@@ -6426,6 +6426,10 @@ msgid ""
 "{strong_end}. If  you do not receive an email, check your spam folders or  "
 "{anchorStart}contact {platform_name} Support{anchorEnd}."
 msgstr ""
+"בשביל להתחבר, עליך להפעיל קודם את החשבון שלך.{line_break}"
+"{line_break}שלחנו אליך ברגע זה מייל עם קישור להפעלת החשבון אל הכתובת: {strong_start} {email} "
+"{strong_end}. במידה  ועדיין לא קיבלת מאיתנו הודעה, מומלץ לבדוק את תיקיית הספאם שלך או  "
+" {anchorStart}ליצור קשר {platform_name}לקבלת תמיכה {anchorEnd}."
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid "An unexpected error has occurred."
