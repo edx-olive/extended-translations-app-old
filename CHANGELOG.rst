@@ -14,6 +14,10 @@ Unreleased
 
 *
 
+[0.0.16] - 2021-03-11
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Update campus strings with fixes
+
 [0.0.15] - 2021-03-11
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Compile Campus translations from github
