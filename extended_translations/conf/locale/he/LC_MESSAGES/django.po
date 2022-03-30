@@ -25255,14 +25255,16 @@ msgstr "יש ללחוץ על הכפתור „התחלת מבחן תחת פיקו
 #. Eden: Launch checklists
 
 #: cms/templates/checklists.html
+msgid "Update"
+msgstr "עדכן"
+
+#: cms/templates/checklists.html
 msgid "Launch Checklist"
 msgstr "פתחו רשימת תיוג"
-
 
 #: cms/templates/checklists.html
 msgid "{completed}/{total} completed"
 msgstr "{completed}/{total} הושלם"
-
 
 #: cms/templates/checklists.html
 msgid "Add a Welcome Message"
