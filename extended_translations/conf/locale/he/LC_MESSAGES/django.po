@@ -615,7 +615,7 @@ msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 msgid "Account Activation"
-msgstr "הפעלת חשבון של"
+msgstr "הפעלת החשבון"
 
 # Eden- New Mail Template By CampusIL_V_2022_KOA
 #: common/templates/student/edx_ace/accountactivation/email/body.html
