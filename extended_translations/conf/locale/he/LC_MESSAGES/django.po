@@ -2233,7 +2233,7 @@ msgid ""
 msgstr ""
 "הדוא\"ל או הסיסמה שהזנת שגויים. {li_start}נותרו לך עוד {remaining_attempts} ניסיונות"
 "לפני שהחשבון שלך ינעל "
-"זמנית. {li_end}{li_start}במידה ושכחת את הסיסמה שלך, יש ללחוץ"
+"זמנית. {li_end}{li_start}במידה ושכחת את הסיסמה שלך, יש ללחוץ "
 "{link_start}כאן{link_end} כדי לבצע איפוס.{li_end}"
 
 # Translation that I found on branch edx-proctoring
@@ -12229,9 +12229,9 @@ msgid ""
 "reset.\n"
 msgstr ""
 "הדוא\"ל או הסיסמה שהזנת שגויים.\n"
-"נותרו לך עוד {remaining_attempts} ניסיונות התחברות לפני שהחשבון שלך"
+"נותרו לך עוד {remaining_attempts} ניסיונות התחברות לפני שהחשבון שלך "
 "ינעל זמנית.\n"
-"במידה ושכחת {quote}ve את הסיסמה שלך, יש ללחוץ {link_start}כאן{link_end} כדי לבצע "
+"במידה ושכחת {quote} את הסיסמה שלך, יש ללחוץ {link_start}כאן{link_end} כדי לבצע "
 "איפוס.\n"
 
 #: openedx/core/djangoapps/user_authn/views/login.py
