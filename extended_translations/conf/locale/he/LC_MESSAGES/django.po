@@ -510,7 +510,7 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid ""
-"Click the button to activate your {platform_name_tag} account "
+"Click the button to activate your {platform_name_tag} account."
 "We are doing this to protect your security!"
 msgstr ""
 "לחצו על הכפתור בכדי להפעיל את החשבון שלכם ב-{platform_name_tag}. "
@@ -540,7 +540,7 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid ""
-"This email message was automatically sent by {lms_url}, after a"
+"This email message was automatically sent by {lms_url}, after a "
 "{platform_name_tag} account with this email address was created."
 msgstr ""
 "הודעה זו נשלחה באופן אוטומטי על ידי {lms_url}, לאחר שנוצר חשבון ב"
