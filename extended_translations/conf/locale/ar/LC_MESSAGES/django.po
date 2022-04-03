@@ -11633,7 +11633,7 @@ msgstr ""
 msgid ""
 "We have received your request to reset the password of your {platform_name_tag} user account."
 msgstr ""
-""
+"لقد وصلنا طلبُك بتغيير كلمة السر الخاص {platform_name_tag} حساب المستخدم"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
