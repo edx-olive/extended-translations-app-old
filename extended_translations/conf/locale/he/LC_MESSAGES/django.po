@@ -1117,7 +1117,7 @@ msgid "Change my Password"
 msgstr "איפוס סיסמה"
 
 #: EdxCampus\edx-platform\lms\static\js\spec\student_account\login_spec.js
-msgid "Password Reset Success "
+msgid "Password Reset Success"
 msgstr "איפוס הסיסמה הושלם"
 
 msgid "Terms of Use"
