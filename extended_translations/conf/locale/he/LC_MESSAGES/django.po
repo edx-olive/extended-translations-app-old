@@ -510,10 +510,10 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid ""
-"Click the button to activate your %(platform_name_tag)s account "
+"Click the button to activate your {platform_name_tag} account "
 "We are doing this to protect your security!"
 msgstr ""
-"לחצו על הכפתור בכדי להפעיל את החשבון שלכם ב %(platform_name_tag)s. "
+"לחצו על הכפתור בכדי להפעיל את החשבון שלכם ב-{platform_name_tag}. "
 "אנחנו עושים זאת בכדי לשמור על האבטחה שלכם!"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
@@ -529,31 +529,31 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid ""
-"This email message was automatically sent by %(lms_url)s because someone "
-"attempted to create an account on %(platform_name_tag)s using this email address."
+"This email message was automatically sent by {lms_url} because someone "
+"attempted to create an account on {platform_name_tag} using this email address."
 msgstr ""
-"הודעה זו נשלחה באופן אוטומטי על ידי %(lms_url)s, לאחר שנוצר חשבון ב"
-"%(platform_name_tag)s באמצעות כתובת דוא\"ל זו."
+"הודעה זו נשלחה באופן אוטומטי על ידי {lms_url}, לאחר שנוצר חשבון ב"
+"{platform_name_tag} באמצעות כתובת דוא\"ל זו."
 
 #eden- New Mail Template By CampusIL_V_2022_KOA.
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid ""
-"This email message was automatically sent by %(lms_url)s, after a"
-"%(platform_name_tag) account with this email address was created."
+"This email message was automatically sent by {lms_url}, after a"
+"{platform_name_tag} account with this email address was created."
 msgstr ""
-"הודעה זו נשלחה באופן אוטומטי על ידי %(lms_url)s, לאחר שנוצר חשבון ב"
-"%(platform_name_tag) באמצעות מייל זה."
+"הודעה זו נשלחה באופן אוטומטי על ידי {lms_url}, לאחר שנוצר חשבון ב"
+"{platform_name_tag} באמצעות מייל זה."
 
 #eden- New Mail Template By CampusIL_V_2022_KOA.
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid ""
-"We wish you an enjoyable learning experience at %(platform_name_tag)."
+"We wish you an enjoyable learning experience at {platform_name_tag}."
 msgstr ""
-"מאחלים לך למידה מהנה ב  %(platform_name_tag)."
+"מאחלים לך למידה מהנה ב-{platform_name_tag}."
 
 #: common/templates/student/edx_ace/accountactivation/email/subject.txt
 #, python-format
@@ -639,14 +639,6 @@ msgstr ""
 "{start_anchor_web}{support_url}{end_anchor} או בדואל "
 "{start_anchor_email}%(support_email)s{end_anchor}."
 
-#eden- New Mail Template By CampusIL_V_2022_KOA
-#: common/templates/student/edx_ace/accountactivation/email/body.html
-#, python-format, python-brace-format
-msgid ""
-"We wish you an enjoyable learning experience at %(platform_name)s"
-msgstr ""
-"מאחלים לכם למידה מהנה ב %(platform_name)s"
-
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
@@ -665,16 +657,6 @@ msgstr ""
 "עוד קליק אחד ואתם מתחילים ללמוד ב{platform_name_tag}! \n"
 "בכדי להפעיל את החשבון שלכם, לחצו על הלינק הבא:\n"
 "אנחנו עושים את זה בכדי שנדע בביטחון שזה אתם!"
-
-#: common/templates/student/edx_ace/accountactivation/email/body.html
-#: common/templates/student/edx_ace/accountactivation/email/body.txt
-#, python-format
-msgid ""
-"This email message was automatically sent by {lms_url} because someone "
-"attempted to create an account on {platform_name_tag} using this email address."
-msgstr ""
-"הודעה זו נשלחה באופן אוטומטי על ידי {lms_url}, לאחר שנוצר חשבון ב"
-"{platform_name_tag} באמצעות כתובת דוא\"ל זו."
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.txt
@@ -1126,11 +1108,9 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
 #, python-format
 msgid ""
-"We have received your request to reset the password of your "
-"%(platform_name_tag)s user account."
+"We have received your request to reset the password of your {platform_name_tag} user account."
 msgstr ""
-"קבלנו ממך בקשה לאפס את סיסמת חשבון המשתמש שלך ב-"
-"%(platform_name_tag)s."
+"קבלנו ממך בקשה לאפס את סיסמת חשבון המשתמש שלך ב-{platform_name_tag}."
 
 #eden-New Mail Template By CampusIL_V_2022_KOA
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html

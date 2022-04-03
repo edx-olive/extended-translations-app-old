@@ -225,10 +225,10 @@ msgstr "لم نتمكن من تسجيل دخولك"
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid ""
-"Click the button to activate your %(platform_name)s account "
+"Click the button to activate your {platform_name_tag} account "
 "We are doing this to protect your security!"
 msgstr ""
-"إضغطوا على الزر لكي تُفعلّوا حسابكم في %(platform_name)s. "
+"إضغطوا على الزر لكي تُفعلّوا حسابكم في {platform_name_tag}. "
 "نحن نقوم بذلك لكي نحميكم!"
 
 #eden- New Mail Template By CampusIL_V_2022_KOA.
@@ -236,11 +236,11 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid ""
-"This email message was automatically sent by %(lms_url)s, after a"
-"%(platform_name) account with this email address was created."
+"This email message was automatically sent by {lms_url}, after a"
+"{platform_name_tag} account with this email address was created."
 msgstr ""
-"هذا البريد الالكتروني أُرسلَ اليك بشكل تلقائي عبر %(lms_url)s,بعد أن تم إنشاء حساب في"
-"%(platform_name)s بواسطة هذا البريد الالكتروني."
+"هذا البريد الالكتروني أُرسلَ اليك بشكل تلقائي عبر {lms_url},بعد أن تم إنشاء حساب في"
+"{platform_name_tag} بواسطة هذا البريد الالكتروني."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #, python-format, python-brace-format
@@ -296,9 +296,9 @@ msgstr "أ. عام  مقر المشروع القومي \"إسرائيل الرق
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #, python-format, python-brace-format
 msgid ""
-"We wish you an enjoyable learning experience at %(platform_name)s"
+"We wish you an enjoyable learning experience at {platform_name_tag}"
 msgstr ""
-"نتمنّى لكم تعليم ممتع في %(platform_name)s"
+"نتمنّى لكم تعليم ممتع في {platform_name_tag}"
 
 msgid "The meaning of the terms \"User\" is any person who makes contact and/or communicates with the Website."
 msgstr " يعني مصطلح \"المستخدم\" أدناه الشخص الذي يقوم بالاتصال و / أو التواصل مع الموقع"
@@ -5743,11 +5743,11 @@ msgstr "تفعيل الحساب"
 #, python-format
 msgid ""
 "You're almost there! Use the link below to activate your account to access "
-"engaging, high-quality %(platform_name)s courses. Note that you will not be "
+"engaging, high-quality {platform_name_tag} courses. Note that you will not be "
 "able to log back into your account until you have activated it."
 msgstr ""
 "أنت على وشك الانتهاء! استخدم الرابط أدناه لتنشيط حسابك للوصول إلى مساقات "
-"%(platform_name)s التعليمية عالية الجودة. الرجاء الملاحظة أن لا يمكن تسجيل "
+"{platform_name_tag} التعليمية عالية الجودة. الرجاء الملاحظة أن لا يمكن تسجيل "
 "الدخول مرة أخرى إلى حسابك حتى تقوم بتنشيطه."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
@@ -5761,8 +5761,8 @@ msgstr "إضغطوا هنا"
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
-msgid "Enjoy learning with %(platform_name)s."
-msgstr "استمتع بالتعلم مع %(platform_name)s."
+msgid "Enjoy learning with {platform_name_tag}."
+msgstr "استمتع بالتعلم مع {platform_name_tag}."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #, python-format, python-brace-format
@@ -5779,12 +5779,12 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid ""
-"This email message was automatically sent by %(lms_url)s because someone "
-"attempted to create an account on %(platform_name)s using this email "
+"This email message was automatically sent by {lms_url} because someone "
+"attempted to create an account on {platform_name_tag} using this email "
 "address."
 msgstr ""
-"تم إرسال رسالة البريد الإلكتروني هذه تلقائيًا بواسطة %(lms_url)s لأن شخصًا "
-"ما حاول إنشاء حساب على %(platform_name)s باستخدام عنوان البريد الإلكتروني "
+"تم إرسال رسالة البريد الإلكتروني هذه تلقائيًا بواسطة {lms_url} لأن شخصًا "
+"ما حاول إنشاء حساب على {platform_name_tag} باستخدام عنوان البريد الإلكتروني "
 "هذا."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
@@ -11621,10 +11621,19 @@ msgstr "تغيير كلمة المرور"
 #, python-format
 msgid ""
 "You're receiving this e-mail because you requested a password reset for your"
-" user account at %(platform_name)s."
+" user account at {platform_name_tag}."
 msgstr ""
 "وصلتك رسالة البريد الالكتروني هذه بناءً على طلبك بتغيير كلمة المرور لحسابك "
-"على %(platform_name)s."
+"على {platform_name_tag}."
+
+#eden-New Mail Template By CampusIL_V_2022_KOA
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
+#: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
+#, python-format
+msgid ""
+"We have received your request to reset the password of your {platform_name_tag} user account."
+msgstr ""
+""
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
@@ -21110,11 +21119,11 @@ msgstr ""
 #: themes/stanford-style/lms/templates/emails/confirm_email_change.txt
 msgid ""
 "This is to confirm that you changed the e-mail associated with "
-"{platform_name} from {old_email} to {new_email}. If you did not make this "
+"{platform_name_tag} from {old_email} to {new_email}. If you did not make this "
 "request, please contact us at"
 msgstr ""
 "هذه الرسالة للتأكيد على قيامك بتغيير البريد الإلكتروني المرتبط بالمنصة "
-"{platform_name} من {old_email} إلى {new_email}. في حال لم تكن قد طلبت هذا "
+"{platform_name_tag} من {old_email} إلى {new_email}. في حال لم تكن قد طلبت هذا "
 "التغيير الرجاء الاتصال بنا على"
 
 #: themes/stanford-style/lms/templates/emails/email_change.txt
