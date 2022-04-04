@@ -1036,6 +1036,11 @@ msgstr ""
 #Eden-New Mail Template By CampusIL_V_2022_KOA
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
 msgid "Great, take me to the course"
+msgstr "מעולה, קחו אותי לקורס"
+
+#Eden-New Mail Template By CampusIL_V_2022_KOA
+#: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
+msgid "Great, take me to the course!"
 msgstr "מעולה, קחו אותי לקורס!"
 
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.html
