@@ -236,10 +236,10 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid ""
-"This email message was automatically sent by {lms_url}, after a"
+"This email message was automatically sent by {site_name}, after a"
 "{platform_name_tag} account with this email address was created."
 msgstr ""
-"هذا البريد الالكتروني أُرسلَ اليك بشكل تلقائي عبر {lms_url},بعد أن تم إنشاء حساب في"
+"هذا البريد الالكتروني أُرسلَ اليك بشكل تلقائي عبر {site_name},بعد أن تم إنشاء حساب في"
 "{platform_name_tag} بواسطة هذا البريد الالكتروني."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
@@ -5779,11 +5779,11 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid ""
-"This email message was automatically sent by {lms_url} because someone "
+"This email message was automatically sent by {site_name} because someone "
 "attempted to create an account on {platform_name_tag} using this email "
 "address."
 msgstr ""
-"تم إرسال رسالة البريد الإلكتروني هذه تلقائيًا بواسطة {lms_url} لأن شخصًا "
+"تم إرسال رسالة البريد الإلكتروني هذه تلقائيًا بواسطة {site_name} لأن شخصًا "
 "ما حاول إنشاء حساب على {platform_name_tag} باستخدام عنوان البريد الإلكتروني "
 "هذا."
 
