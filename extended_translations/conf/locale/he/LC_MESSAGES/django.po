@@ -10013,28 +10013,11 @@ msgstr ""
 "המייל נשלח אוטומטי מהאתר %(site_name)s ל %(full_name)s.\n"
 "למידע נוסף ניתן לפנות לתמיכה במייל: Campus@mail.gov.il"
 
+#eden-New Mail Template By CampusIL_V_2022_KOA
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
 #, python-format
-msgid ""
-"\n"
-"                    You have been enrolled in %(course_name)s\n"
-"                "
-msgstr ""
-"\n"
-"                    נרשמת לקורס %(course_name)s\n"
-"                "
-
-# Eden-New Mail Template By CampusIL_V_2022_KOA
-#: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
-#, python-format
-msgid ""
-"\n"
-"                    You have been enrolled in the course (%(course_name)s)\n"
-"                "
-msgstr ""
-"\n"
-"                    נרשמת לקורס (%(course_name)s)\n"
-"                "
+msgid "You have been enrolled in the course (%(course_name)s)"
+msgstr "נרשמת לקורס (%(course_name)s)"
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.txt
