@@ -509,12 +509,8 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
-msgid ""
-"Click the button to activate your %(platform_name_tag)s account "
-"We are doing this to protect your security!"
-msgstr ""
-"לחצו על הכפתור בכדי להפעיל את החשבון שלכם ב %(platform_name_tag)s. "
-"אנחנו עושים זאת בכדי לשמור על האבטחה שלכם!"
+msgid "Click the button to activate your %(platform_name_tag)s account. We are doing this to protect your security!"
+msgstr "לחצו על הכפתור בכדי להפעיל את החשבון שלכם ב %(platform_name_tag)s. אנחנו עושים זאת בכדי לשמור על האבטחה שלכם!"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format

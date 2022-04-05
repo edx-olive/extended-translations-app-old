@@ -224,12 +224,8 @@ msgstr "لم نتمكن من تسجيل دخولك"
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
-msgid ""
-"Click the button to activate your %(platform_name)s account "
-"We are doing this to protect your security!"
-msgstr ""
-"إضغطوا على الزر لكي تُفعلّوا حسابكم في %(platform_name)s. "
-"نحن نقوم بذلك لكي نحميكم!"
+msgid "Click the button to activate your %(platform_name)s account. We are doing this to protect your security!"
+msgstr "إضغطوا على الزر لكي تُفعلّوا حسابكم في %(platform_name)s. نحن نقوم بذلك لكي نحميكم!"
 
 #eden- New Mail Template By CampusIL_V_2022_KOA.
 #: common/templates/student/edx_ace/accountactivation/email/body.html
