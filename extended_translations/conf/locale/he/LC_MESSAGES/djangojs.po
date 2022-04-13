@@ -192,7 +192,7 @@ msgstr ""
 
 #: lms/templates/student_account/password_reset.underscore
 msgid "Recover my password"
-msgstr "שחזר את הסיסמה שלי"
+msgstr "איפוס סיסמה"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Need other help signing in?"
