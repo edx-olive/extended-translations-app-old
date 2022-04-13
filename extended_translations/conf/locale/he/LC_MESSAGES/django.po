@@ -19986,7 +19986,7 @@ msgstr ""
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Start Course"
-msgstr "יאללה, להתחיל ללמוד"
+msgstr "אני רוצה להתחיל ללמוד"
 
 #: lms/templates/verify_student/_verification_help.html
 msgid "Have questions?"
