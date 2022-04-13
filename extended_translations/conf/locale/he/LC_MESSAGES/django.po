@@ -12182,7 +12182,7 @@ msgstr ""
 "הדוא\"ל או הסיסמה שהזנת שגויים.\n"
 "נותרו לך עוד {remaining_attempts} ניסיונות התחברות לפני שהחשבון שלך "
 "ינעל זמנית.\n"
-"במידה ושכחת {quote} את הסיסמה שלך, יש ללחוץ {link_start}כאן{link_end} כדי לבצע "
+"במידה ושכחת את הסיסמה שלך, יש ללחוץ {link_start}כאן{link_end} כדי לבצע "
 "איפוס.\n"
 
 #: openedx/core/djangoapps/user_authn/views/login.py
