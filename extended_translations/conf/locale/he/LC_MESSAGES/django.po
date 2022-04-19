@@ -12185,6 +12185,22 @@ msgstr ""
 "במידה ושכחת {quote} את הסיסמה שלך, יש ללחוץ {link_start}כאן{link_end} כדי לבצע "
 "איפוס.\n"
 
+# Eden- Trying to test new approach - without the quote symbol
+#: openedx/core/djangoapps/user_authn/views/login.py
+#, python-brace-format
+msgid ""
+"Email or password is incorrect.\n"
+"You have {remaining_attempts} more sign-in attempts before your account is "
+"temporarily locked.\n"
+"If you've forgotten your password, click {link_start}here{link_end} to "
+"reset.\n"
+msgstr ""
+"הדוא\"ל או הסיסמה שהזנת שגויים.\n"
+"נותרו לך עוד {remaining_attempts} ניסיונות התחברות לפני שהחשבון שלך "
+"ינעל זמנית.\n"
+"במידה ושכחת את הסיסמה שלך, יש ללחוץ {link_start}כאן{link_end} כדי לבצע "
+"איפוס.\n"
+
 #: openedx/core/djangoapps/user_authn/views/login.py
 #, python-brace-format
 msgid ""
