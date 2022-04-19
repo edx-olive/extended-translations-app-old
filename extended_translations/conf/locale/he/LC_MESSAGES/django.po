@@ -8671,11 +8671,13 @@ msgid "Your Platform Insights"
 msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py
-#, python-brace-format
+#, python-  -format
 msgid ""
 "The {report_type} report is being created. To view the status of the report, "
 "see Pending Tasks below."
 msgstr ""
+"הדו\"ח {report_type} נוצר. לצפייה בסטטוס שלו, "
+"ראו משימות ממתינות להלן."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "User does not exist."
@@ -9259,6 +9261,9 @@ msgid ""
 "see Pending Tasks below. You will be able to download the report when it is "
 "complete."
 msgstr ""
+"הדו\"ח {report_type} נוצר. לצפייה בסטטוס שלו, "
+"ראו משימות ממתינות להלן. יהיה ניתן להוריד את הדו\"ח כאשר הוא יהיה מוכן "
+"להורדה."
 
 #: lms/djangoapps/instructor_task/api_helper.py
 msgid "This component cannot be rescored."
@@ -12177,6 +12182,22 @@ msgid ""
 "You have {remaining_attempts} more sign-in attempts before your account is "
 "temporarily locked.\n"
 "If you{quote}ve forgotten your password, click {link_start}here{link_end} to "
+"reset.\n"
+msgstr ""
+"הדוא\"ל או הסיסמה שהזנת שגויים.\n"
+"נותרו לך עוד {remaining_attempts} ניסיונות התחברות לפני שהחשבון שלך "
+"ינעל זמנית.\n"
+"במידה ושכחת {quote} את הסיסמה שלך, יש ללחוץ {link_start}כאן{link_end} כדי לבצע "
+"איפוס.\n"
+
+#  Eden- Trying to test if we can remove the {quote} sign
+#: openedx/core/djangoapps/user_authn/views/login.py
+#, python-brace-format
+msgid ""
+"Email or password is incorrect.\n"
+"You have {remaining_attempts} more sign-in attempts before your account is "
+"temporarily locked.\n"
+"If you&#39;ve forgotten your password, click {link_start}here{link_end} to "
 "reset.\n"
 msgstr ""
 "הדוא\"ל או הסיסמה שהזנת שגויים.\n"
@@ -19979,7 +20000,7 @@ msgstr ""
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Start Course"
-msgstr "יאללה, להתחיל ללמוד"
+msgstr "אני רוצה להתחיל ללמוד"
 
 #: lms/templates/verify_student/_verification_help.html
 msgid "Have questions?"
