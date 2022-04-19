@@ -2209,7 +2209,7 @@ msgstr ""
 #. Eden: All Xblocks: (django.po)
 #. Eden: Xblock-ORA:
 #. Referance: origin/GlugovGrGlib-patch-1 branch
-#: openassessment/templates/openassessmentblock/response/oa_response.html:91
+#: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid ""
 "\n"
 "                        You can save your progress and return to complete "
@@ -2217,36 +2217,60 @@ msgid ""
 "                      "
 msgstr ""
 
-#: openassessment/templates/openassessmentblock/response/oa_response.html:167
+#: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "Team Response "
 msgstr ""
 
-#: openassessment/templates/openassessmentblock/response/oa_response.html:169
+#: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "Your Response "
 msgstr ""
 
-#: openassessment/templates/openassessmentblock/response/oa_response.html:173
-#: openassessment/templates/openassessmentblock/response/oa_response.html:244
+#: openassessment/templates/openassessmentblock/response/oa_response.html
+#: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "(Required)"
-msgstr ""
+msgstr "(חובה)"
 
 #: lms/templates/ccx/schedule.html
 msgid "(Optional)"
 msgstr "(רשות)"
 
-#: openassessment/templates/openassessmentblock/response/oa_response.html:242
+#: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "File Uploads "
-msgstr ""
+msgstr "העלאת קבצים "
 
-#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:84
+#: openassessment/templates/openassessmentblock/response
+msgid "Choose File"
+msgstr "בחירת קובץ"
+
+#: openassessment/templates/openassessmentblock/response
+msgid "No file chosen"
+msgstr "לא נבחר קובץ"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html
 msgid ""
 "To add more file extensions, select Custom File Types and enter the full "
 "list of acceptable file extensions to be included."
 msgstr ""
 
-#: openassessment/templates/openassessmentblock/response/oa_response.html:278
+#: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "Supported file types: "
+msgstr "סוגי קבצים נתמכים: "
+
+#: openassessment/xblock/grade_mixin.py
+msgid "The grade for this problem is determined by your Staff Grade."
+msgstr "הציון של מטלה זו נקבע על ידי צוות הקורס."
+
+#: openassessment/xblock/grade_mixin.py
+msgid ""
+"The grade for this problem is determined by the median score of your Peer "
+"Assessments."
 msgstr ""
+"הציון של מטלה זו נקבע על פי הציון החציוני של הערכות העמיתים "
+"בקורס."
+
+#: openassessment/xblock/grade_mixin.py
+msgid "The grade for this problem is determined by your Self Assessment."
+msgstr "הציון של מטלה זו נקבע על ידי ההערכה העצמית שנתת לעצמך."
 
 #. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 #. Translators: 'Discussion' refers to the tab in the courseware that leads to
