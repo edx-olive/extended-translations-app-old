@@ -6509,7 +6509,7 @@ msgstr "פרטי חשבון בסיסיים"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "These settings include basic information about your account."
-msgstr ""
+msgstr "הגדרות אלו כוללות מידע בסיסי על החשבון שלך."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
