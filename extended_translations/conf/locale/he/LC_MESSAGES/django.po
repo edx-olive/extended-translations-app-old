@@ -8216,6 +8216,12 @@ msgid "You must be enrolled in the course to see course content."
 msgstr "עליך להירשם לקורס כדי לראות את התוכן שלו."
 
 #: lms/djangoapps/courseware/views/views.py
+msgid "You must be enrolled in the course to see course content. "
+"{enroll_link_start}Enroll now{enroll_link_end}"
+msgstr "עליך להירשם לקורס כדי לראות את התוכן שלו. "
+"{enroll_link_start}הירשם עכשיו{enroll_link_end}"
+
+#: lms/djangoapps/courseware/views/views.py
 msgid "Invalid location."
 msgstr "מיקום לא חוקי."
 
