@@ -14,6 +14,10 @@ Unreleased
 
 *
 
+[0.0.20] - 2022-05-03
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Transfer translations from github
+
 [0.0.19] - 2022-04-14
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Transfer fixes for translations from github
