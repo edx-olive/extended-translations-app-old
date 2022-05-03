@@ -12225,7 +12225,7 @@ msgstr ""
 "נותרו לך עוד {remaining_attempts} ניסיונות התחברות לפני שהחשבון שלך "
 "ינעל זמנית.\n"
 "במידה ושכחת את הסיסמה שלך, יש ללחוץ {link_start}כאן{link_end} כדי לבצע "
-"איפוס.\n"
+"איפוס.{quote}\n"
 
 # Eden- Trying to test new approach - without the quote symbol
 #: openedx/core/djangoapps/user_authn/views/login.py
