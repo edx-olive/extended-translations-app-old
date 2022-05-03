@@ -8682,6 +8682,8 @@ msgid ""
 "The {report_type} report is being created. To view the status of the report, "
 "see Pending Tasks below."
 msgstr ""
+"הדו\"ח {report_type} נוצר. כדי להציג את הסטטוס שלו, "
+"ראו משימות ממתינות להלן."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "User does not exist."
@@ -9265,6 +9267,9 @@ msgid ""
 "see Pending Tasks below. You will be able to download the report when it is "
 "complete."
 msgstr ""
+"הדו\"ח {report_type} נוצר. כדי להציג את הסטטוס שלו, "
+"ראו משימות ממתינות להלן. יהיה ניתן להוריד את הדו\"ח כאשר התהליך היצירה שלו "
+"יושלם."
 
 #: lms/djangoapps/instructor_task/api_helper.py
 msgid "This component cannot be rescored."
