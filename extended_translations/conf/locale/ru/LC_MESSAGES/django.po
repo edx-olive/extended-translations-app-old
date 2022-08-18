@@ -30,4 +30,16 @@ msgstr ""
 msgid "In Progress"
 msgstr ""
 
+#: lms/templates/learner_dashboard/_dashboard_incomplete_profile_notification.html
+msgid "Your profile has missing fields!"
+msgstr "Не все поля заполнены в профиле!"
 
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:99
+msgctxt "header menu"
+msgid "Courses"
+msgstr "Мои курсы"
+
+#: cms/templates/index.html
+msgctxt "studio tabs"
+msgid "Courses"
+msgstr "Курсы"
