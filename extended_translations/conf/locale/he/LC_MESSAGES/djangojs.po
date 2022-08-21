@@ -192,7 +192,7 @@ msgstr ""
 
 #: lms/templates/student_account/password_reset.underscore
 msgid "Recover my password"
-msgstr "שחזר את הסיסמה שלי"
+msgstr "איפוס סיסמה"
 
 #: lms/templates/student_account/form_field.underscore
 msgid "Need other help signing in?"
@@ -6426,6 +6426,10 @@ msgid ""
 "{strong_end}. If  you do not receive an email, check your spam folders or  "
 "{anchorStart}contact {platform_name} Support{anchorEnd}."
 msgstr ""
+"בשביל להתחבר, עליך להפעיל קודם את החשבון שלך.{line_break}"
+"{line_break}שלחנו אליך ברגע זה מייל עם קישור להפעלת החשבון אל הכתובת: {strong_start} {email} "
+"{strong_end}. במידה  ועדיין לא קיבלת מאיתנו הודעה, מומלץ לבדוק את תיקיית הספאם שלך או  "
+" {anchorStart}ליצור קשר {platform_name}לקבלת תמיכה {anchorEnd}."
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid "An unexpected error has occurred."
@@ -6505,7 +6509,7 @@ msgstr "פרטי חשבון בסיסיים"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "These settings include basic information about your account."
-msgstr ""
+msgstr "הגדרות אלו כוללות מידע בסיסי על החשבון שלך."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -10150,13 +10154,15 @@ msgstr "הסימניה מופעלת"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid "You have not bookmarked any courseware pages yet"
-msgstr ""
+msgstr "עדיין לא סימנת דפי לימוד באף אחד מהקורסים שלך"
 
 #: openedx/features/course_bookmarks/static/course_bookmarks/templates/bookmarks-list.underscore
 msgid ""
 "Use bookmarks to help you easily return to courseware pages. To bookmark a "
 "page, click \"Bookmark this page\" under the page title."
 msgstr ""
+"ניתן להשתמש בסימניות כדי לחזור בקלות לדפי הלימוד בקורסים שלך. על מנת "
+"לסמן עמוד מסויים, יש ללחוץ על \"סמן עמוד זה\" המופיע תחת הכותרת של היחידה."
 
 #: openedx/features/course_search/static/course_search/templates/course_search_results.underscore
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore
@@ -11930,3 +11936,7 @@ msgstr ""
 #: cms/templates/js/video/transcripts/messages/transcripts-use-existing.underscore
 msgid "Use Current Transcript"
 msgstr "השתמש בתמליל נוכחי"
+
+#: lms/templates/header/user_dropdown.html
+msgid "Resume your last course"
+msgstr "המשך את הקורס האחרון שלך"

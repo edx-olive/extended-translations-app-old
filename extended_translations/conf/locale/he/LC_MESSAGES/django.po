@@ -79,11 +79,11 @@ msgstr "תנאי השימוש"
 msgid "Global"
 msgstr "גלובלי"
 
-[ #: edx-platform/israelxedu.gov.il/lms/templates/header.html:54
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:54
 #: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_courses.html:9
 #: edx-platform/israelxedu.gov.il/lms/templates/learner_dashboard/_dashboard_navigation_programs.html:8
 msgid "Dashboard"
-msgstr "קורסים שלי" ]
+msgstr "קורסים שלי"
 
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:55
 msgid "Profile"
@@ -509,8 +509,8 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
-msgid "Click the button to activate your {platform_name_tag} account. We are doing this to protect your security!"
-msgstr "לחצו על הכפתור בכדי להפעיל את החשבון שלכם ב {platform_name_tag}. אנחנו עושים זאת בכדי לשמור על האבטחה שלכם!"
+msgid "Click the button to activate your %(platform_name_tag)s account. We are doing this to protect your security!"
+msgstr "לחצו על הכפתור בכדי להפעיל את החשבון שלכם ב %(platform_name_tag)s. אנחנו עושים זאת בכדי לשמור על האבטחה שלכם!"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
@@ -542,8 +542,10 @@ msgstr "הודעה זו נשלחה באופן אוטומטי על ידי {site_n
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
-msgid "We wish you an enjoyable learning experience at {platform_name_tag}."
-msgstr "מאחלים לך למידה מהנה ב-{platform_name_tag}."
+msgid ""
+"We wish you an enjoyable learning experience at {platform_name_tag}."
+msgstr ""
+"מאחלים לך למידה מהנה ב-{platform_name_tag}."
 
 #: common/templates/student/edx_ace/accountactivation/email/subject.txt
 #, python-format
@@ -609,10 +611,9 @@ msgstr "הפעלת החשבון"
 
 # Eden- New Mail Template By CampusIL_V_2022_KOA
 #: common/templates/student/edx_ace/accountactivation/email/body.html
-
 msgid "Just one more click and you'll begin your studies!"
 msgstr "עוד קליק אחד ואתם מתחילים ללמוד!"
-#, python-format
+
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
@@ -874,7 +875,8 @@ msgstr ""
 #, python-format
 msgid ""
 "You have been invited to be a beta tester for the course %(course_name)s"
-msgstr "הוזמנת להיות בודק.ת בטא בקורס %(course_name)s"
+msgstr ""
+"הוזמנת להיות בודק.ת בטא בקורס %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt
 #, python-format
@@ -1102,9 +1104,11 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.txt
 #, python-format
 msgid ""
-"We have received your request to reset the password of your {platform_name_tag} user account."
+"We have received your request to reset the password of your "
+"{platform_name_tag} user account."
 msgstr ""
-"קבלנו ממך בקשה לאפס את סיסמת חשבון המשתמש שלך ב-{platform_name_tag}."
+"קבלנו ממך בקשה לאפס את סיסמת חשבון המשתמש שלך ב-"
+"{platform_name_tag}."
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordreset/email/body.html
 msgid "Change my Password"
@@ -2173,10 +2177,6 @@ msgstr "נפתחה עבורך כיתה מתוך קורס בקמפוסIL"
 msgid "A class has been opened for you for a CampusIL course: %(root_course_name)s"
 msgstr "נפתחה עבורך כיתה מתוך קורס %(root_course_name)s בקמפוסIL"
 
-#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/subject.txt
-msgid "A class has been opened for you for a CampusIL course: %(course_name)s"
-msgstr "נפתחה עבורך כיתה מתוך קורס %(root_course_name)s בקמפוסIL"
-
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
 msgid ""
 "Per your request, a new class was opened for you for the course "
@@ -2216,7 +2216,7 @@ msgstr ""
 #. Eden: All Xblocks: (django.po)
 #. Eden: Xblock-ORA:
 #. Referance: origin/GlugovGrGlib-patch-1 branch
-#: openassessment/templates/openassessmentblock/response/oa_response.html:91
+#: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid ""
 "\n"
 "                        You can save your progress and return to complete "
@@ -2224,36 +2224,60 @@ msgid ""
 "                      "
 msgstr ""
 
-#: openassessment/templates/openassessmentblock/response/oa_response.html:167
+#: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "Team Response "
 msgstr ""
 
-#: openassessment/templates/openassessmentblock/response/oa_response.html:169
+#: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "Your Response "
 msgstr ""
 
-#: openassessment/templates/openassessmentblock/response/oa_response.html:173
-#: openassessment/templates/openassessmentblock/response/oa_response.html:244
+#: openassessment/templates/openassessmentblock/response/oa_response.html
+#: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "(Required)"
-msgstr ""
+msgstr "(חובה)"
 
 #: lms/templates/ccx/schedule.html
 msgid "(Optional)"
 msgstr "(רשות)"
 
-#: openassessment/templates/openassessmentblock/response/oa_response.html:242
+#: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "File Uploads "
-msgstr ""
+msgstr "העלאת קבצים "
 
-#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html:84
+#: openassessment/templates/openassessmentblock/response
+msgid "Choose File"
+msgstr "בחירת קובץ"
+
+#: openassessment/templates/openassessmentblock/response
+msgid "No file chosen"
+msgstr "לא נבחר קובץ"
+
+#: openassessment/templates/openassessmentblock/edit/oa_edit_basic_settings_list.html
 msgid ""
 "To add more file extensions, select Custom File Types and enter the full "
 "list of acceptable file extensions to be included."
 msgstr ""
 
-#: openassessment/templates/openassessmentblock/response/oa_response.html:278
+#: openassessment/templates/openassessmentblock/response/oa_response.html
 msgid "Supported file types: "
+msgstr "סוגי קבצים נתמכים: "
+
+#: openassessment/xblock/grade_mixin.py
+msgid "The grade for this problem is determined by your Staff Grade."
+msgstr "הציון של מטלה זו נקבע על ידי צוות הקורס."
+
+#: openassessment/xblock/grade_mixin.py
+msgid ""
+"The grade for this problem is determined by the median score of your Peer "
+"Assessments."
 msgstr ""
+"הציון של מטלה זו נקבע על פי הציון החציוני של הערכות העמיתים "
+"בקורס."
+
+#: openassessment/xblock/grade_mixin.py
+msgid "The grade for this problem is determined by your Self Assessment."
+msgstr "הציון של מטלה זו נקבע על ידי ההערכה העצמית שנתת לעצמך."
 
 #. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 #. Translators: 'Discussion' refers to the tab in the courseware that leads to
@@ -8223,6 +8247,12 @@ msgid "You must be enrolled in the course to see course content."
 msgstr "עליך להירשם לקורס כדי לראות את התוכן שלו."
 
 #: lms/djangoapps/courseware/views/views.py
+msgid "You must be enrolled in the course to see course content. "
+"{enroll_link_start}Enroll now{enroll_link_end}"
+msgstr "עליך להירשם לקורס כדי לראות את התוכן שלו. "
+"{enroll_link_start}הירשם עכשיו{enroll_link_end}"
+
+#: lms/djangoapps/courseware/views/views.py
 msgid "Invalid location."
 msgstr "מיקום לא חוקי."
 
@@ -8683,10 +8713,6 @@ msgid ""
 "The {report_type} report is being created. To view the status of the report, "
 "see Pending Tasks below."
 msgstr ""
-
-#: lms/djangoapps/instructor/views/api.py
-msgid "User does not exist."
-msgstr "משתמש אינו קיים."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
@@ -9266,6 +9292,9 @@ msgid ""
 "see Pending Tasks below. You will be able to download the report when it is "
 "complete."
 msgstr ""
+"הדו\"ח {report_type} נוצר. כדי להציג את הסטטוס שלו, "
+"ראו משימות ממתינות להלן. יהיה ניתן להוריד את הדו\"ח כאשר התהליך היצירה שלו "
+"יושלם."
 
 #: lms/djangoapps/instructor_task/api_helper.py
 msgid "This component cannot be rescored."
@@ -10022,13 +10051,6 @@ msgstr ""
 #, python-format
 msgid "You have been enrolled in the course (%(course_name)s)"
 msgstr "נרשמת לקורס (%(course_name)s)"
-
-
-#: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
-#, python-format
-msgid "You have been enrolled in the course ({course_name})"
-msgstr "נרשמת לקורס ({course_name})"
-
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.txt
@@ -12197,6 +12219,22 @@ msgstr ""
 "נותרו לך עוד {remaining_attempts} ניסיונות התחברות לפני שהחשבון שלך "
 "ינעל זמנית.\n"
 "במידה ושכחת {quote} את הסיסמה שלך, יש ללחוץ {link_start}כאן{link_end} כדי לבצע "
+"איפוס.\n"
+
+# Eden- Trying to test new approach - without the quote symbol
+#: openedx/core/djangoapps/user_authn/views/login.py
+#, python-brace-format
+msgid ""
+"Email or password is incorrect.\n"
+"You have {remaining_attempts} more sign-in attempts before your account is "
+"temporarily locked.\n"
+"If you've forgotten your password, click {link_start}here{link_end} to "
+"reset.\n"
+msgstr ""
+"הדוא\"ל או הסיסמה שהזנת שגויים.\n"
+"נותרו לך עוד {remaining_attempts} ניסיונות התחברות לפני שהחשבון שלך "
+"ינעל זמנית.\n"
+"במידה ושכחת את הסיסמה שלך, יש ללחוץ {link_start}כאן{link_end} כדי לבצע "
 "איפוס.\n"
 
 #: openedx/core/djangoapps/user_authn/views/login.py
@@ -19993,7 +20031,7 @@ msgstr ""
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Start Course"
-msgstr "יאללה, להתחיל ללמוד"
+msgstr "אני רוצה להתחיל ללמוד"
 
 #: lms/templates/verify_student/_verification_help.html
 msgid "Have questions?"
