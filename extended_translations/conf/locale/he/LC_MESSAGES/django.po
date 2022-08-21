@@ -2184,13 +2184,6 @@ msgid ""
 msgstr "לבקשתך, נפתחה כיתה חדשה עבורך מתוך הקורס %(root_course_name)s"
 
 #: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
-msgid ""
-"Per your request, a new class was opened for you for the course "
-"%(root_course_name)s"
-msgstr "לבקשתך, נפתחה כיתה חדשה עבורך מתוך הקורס %(course_name)s"
-
-
-#: ccx_emails/templates/ccx_emails/edx_ace/enrollenrolledccxcoach/email/body.txt
 msgid "Called %(course_name)s"
 msgstr "בשם %(course_name)s"
 
