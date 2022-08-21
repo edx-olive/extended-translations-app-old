@@ -43,3 +43,21 @@ msgstr "Мои курсы"
 msgctxt "studio tabs"
 msgid "Courses"
 msgstr "Курсы"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/header.html:102
+msgid "About Us"
+msgstr "О нас"
+
+#: lms/templates/learner_dashboard/_dashboard_incomplete_profile_notification.html
+msgid "Please {link_start}complete your profile{link_end}."
+msgstr "Пожалуйста {link_start}заполните свой профиль.{link_end}"
+
+#: edx-platform/israelxedu.gov.il/lms/templates/footer.html:22
+msgid "About this Site"
+msgstr "Об этом сайте"
+
+
+#: lms/templates/header/user_dropdown.html
+msgid "Resume your last course"
+msgstr "Возобновить последний курс"
+
