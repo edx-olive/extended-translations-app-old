@@ -114,7 +114,7 @@ msgstr "בחר שפה"
 #: edx-platform/israelxedu.gov.il/lms/templates/header.html:99
 msgctxt "header menu"
 msgid "Courses"
-msgstr "קורסים שלי"
+msgstr "הקורסים שלי"
 
 #: cms/templates/index.html
 msgctxt "studio tabs"
@@ -587,7 +587,7 @@ msgstr[3] ""
 #. form used to select the country in which the user lives.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
 msgid "Country or Region of Residence"
-msgstr "ארץ או אזור מגורים"
+msgstr "  שדגשד ארץ או אזור מגורים"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
@@ -8706,12 +8706,6 @@ msgid ""
 "The {report_type} report is being created. To view the status of the report, "
 "see Pending Tasks below."
 msgstr ""
-"הדו\"ח {report_type} נוצר. כדי להציג את הסטטוס שלו, "
-"ראו משימות ממתינות להלן."
-
-#: lms/djangoapps/instructor/views/api.py
-msgid "User does not exist."
-msgstr "משתמש אינו קיים."
 
 #: lms/djangoapps/instructor/views/api.py
 msgid ""
