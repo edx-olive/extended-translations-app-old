@@ -25551,3 +25551,7 @@ msgstr "הציון שלך הוא"
 #, python-brace-format
 msgid "Your highest score is {score}"
 msgstr "הציון הגבוהה ביותר הוא {score}"
+
+#: edx/app/edxapp/themes/themes/lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
+msgid "Send the following link to your students to invite them to your course: %(ccx_auto_enroll_url)s"
+msgstr "להזמנת תלמידים להרשמה מהירה לכיתה ניתן לשלוח את הלינק הבא: %(ccx_auto_enroll_url)s"
