@@ -447,6 +447,14 @@ msgid ""
 "The name that will identify you in your courses. It cannot be changed later."
 msgstr "זה יהיה הכינוי שלך המזהה שלך בקורסים. לא ניתן לשנות אותו מאוחר יותר."
 
+#, python-format
+msgid "Your password must contain at least %(min_length)d character."
+msgid_plural "Your password must contain at least %(min_length)d characters."
+msgstr[0] "הסיסמה שלך חייבת להכיל לפחות תו %(min_length)d."
+msgstr[1] "הסיסמה שלך חייבת להכיל לפחות %(min_length)d תווים."
+msgstr[2] "הסיסמה שלך חייבת להכיל לפחות %(min_length)d תווים."
+msgstr[3] "הסיסמה שלך חייבת להכיל לפחות %(min_length)d תווים."
+
 #. Translators: This example username is used as a placeholder in
 #. a field on the registration form meant to hold the user's username.
 #: openedx/core/djangoapps/user_api/views.py
@@ -572,16 +580,16 @@ msgstr "מכיל מידע מוגן לפי חוק הגנת הפרטיות - המ�
 #: common/djangoapps/util/password_policy_validators.py
 #, python-brace-format
 msgid "Your password must contain {length_instruction}."
-msgstr ""
+msgstr "הסיסמה שלך חייבת להכיל {length_instruction}."
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
 msgid "at least %(min_length)d character"
 msgid_plural "at least %(min_length)d characters"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "לפחות תו %(min_length)d"
+msgstr[1] "לפחות %(min_length)d תווים"
+msgstr[2] "לפחות %(min_length)d תווים"
+msgstr[3] "לפחות %(min_length)d תווים"
 
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the country in which the user lives.
@@ -15876,11 +15884,11 @@ msgstr "לוח בקרה של מנחה כיתה"
 
 #: lms/templates/ccx/coach_dashboard.html
 msgid "Name your CCX"
-msgstr "קרא בשם את ה-CCX שלך"
+msgstr "הזינו כאן את שם הכיתה"
 
 #: lms/templates/ccx/coach_dashboard.html
 msgid "Create a new Custom Course for edX"
-msgstr "צור קורס מותאם אישית חדש עבור edX"
+msgstr "לחצו כאן לפתיחת הכיתה"
 
 #: lms/templates/ccx/coach_dashboard.html lms/templates/ccx/grading_policy.html
 msgid "Grading Policy"
@@ -25555,3 +25563,19 @@ msgstr "הציון הגבוהה ביותר הוא {score}"
 #: edx/app/edxapp/themes/themes/lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
 msgid "Send the following link to your students to invite them to your course: %(ccx_auto_enroll_url)s"
 msgstr "להזמנת תלמידים להרשמה מהירה לכיתה ניתן לשלוח את הלינק הבא: %(ccx_auto_enroll_url)s"
+
+#: /edx/app/edxapp/themes/themes/lms/templates/ccx/coach_dashboard.html
+msgid "EDU teachers, please enter the name of the class in the following format:"
+msgstr "מורי משרד החינוך אנא הזינו את שם הכיתה בפורמט הבא:"
+
+#: /edx/app/edxapp/themes/themes/lms/templates/ccx/coach_dashboard.html
+msgid "(course_name school_name class year_of_study full_name)"
+msgstr "(שם_הקורס שם_ביה\"ס כיתה שנת_לימודים שם_מלא)"
+
+#: /edx/app/edxapp/themes/themes/lms/templates/ccx/coach_dashboard.html
+msgid "For example: Electrical Physics 5 Units Rogozin 11th Grade John Doe"
+msgstr "פיזיקה חשמל 5 יח\"ל רוגוזין תשפ\"ג ישראל ישראלי"
+
+#: /edx/app/edxapp/themes/themes/lms/templates/ccx/coach_dashboard.html
+msgid "*If you want to create several classes (e.g. 11th grade I and 11th grade II ), You have an option later to use 'cohorts'"
+msgstr "*אם ברצונכם לפתוח מס' כיתות (לדוגמא י\"א 1 ו-י\"א2), תוכלו לעשות זאת בהמשך באמצעות 'קבוצות למידה'"
