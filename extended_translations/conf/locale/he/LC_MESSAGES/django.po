@@ -3560,12 +3560,65 @@ msgstr[3] ""
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
-msgid "This password must contain at least %(min_alphabetic)d letter."
-msgid_plural "This password must contain at least %(min_alphabetic)d letters."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgid ""
+"This password must contain at least %(min_alphabetic)d letters."
+msgid_plural ""
+"This password must contain at least %(min_alphabetic)d letters."
+msgstr[0] "הסיסמה שלך חייבת להכיל לפחות עוד %(min_alphabetic)d אותיות."
+msgstr[1] "הסיסמה שלך חייבת להכיל לפחות עוד %(min_alphabetic)d אותיות."
+msgstr[2] "הסיסמה שלך חייבת להכיל לפחות עוד %(min_alphabetic)d אותיות."
+msgstr[3] "הסיסמה שלך חייבת להכיל לפחות עוד %(min_alphabetic)d אותיות."
+
+#, python-format
+msgid ""
+"This password is too short. It must contain at least %(min_length)d "
+"character."
+msgid_plural ""
+"This password is too short. It must contain at least %(min_length)d "
+"characters."
+msgstr[0] "סיסמה זו קצרה מדי. הוא חייבת להכיל לפחות %(min_length)d תו."
+msgstr[1] "סיסמה זו קצרה מדי. הוא חייבת להכיל לפחות %(min_length)d תווים."
+msgstr[2] "סיסמה זו קצרה מדי. הוא חייבת להכיל לפחות %(min_length)d תווים."
+msgstr[3] "סיסמה זו קצרה מדי. הוא חייבת להכיל לפחות %(min_length)d תווים."
+
+#: password_character_requirements/password_validation.py:51
+#, python-format
+msgid "This password must contain at least %(min_length)d upper case letter."
+msgid_plural ""
+"This password must contain at least %(min_length)d upper case letters."
+msgstr[0] "סיסמה חייבת להכיל לפחות %(min_length)d אות גדולה."
+msgstr[1] "סיסמה חייבת להכיל לפחות %(min_length)d אותיות גדולות."
+msgstr[2] "סיסמה חייבת להכיל לפחות %(min_length)d אותיות גדולות."
+msgstr[3] "סיסמה חייבת להכיל לפחות %(min_length)d אותיות גדולות."
+
+#: password_character_requirements/password_validation.py:61
+#, python-format
+msgid "This password must contain at least %(min_length)d lower case letter."
+msgid_plural ""
+"This password must contain at least %(min_length)d lower case letters."
+msgstr[0] "סיסמה חייבת להכיל לפחות %(min_length)d אות קטנה."
+msgstr[1] "סיסמה חייבת להכיל לפחות %(min_length)d אותיות קטנות."
+msgstr[2] "סיסמה חייבת להכיל לפחות %(min_length)d אותיות קטנות."
+msgstr[3] "סיסמה חייבת להכיל לפחות %(min_length)d אותיות קטנות."
+
+#: password_character_requirements/password_validation.py:41
+#, python-format
+msgid "This password must contain at least %(min_length)d letter."
+msgid_plural "This password must contain at least %(min_length)d letters."
+msgstr[0] "סיסמה חייבת להכיל לפחות %(min_length)d אות ."
+msgstr[1] "סיסמה חייבת להכיל לפחות %(min_length)d אותיות."
+msgstr[2] "סיסמה חייבת להכיל לפחות %(min_length)d אותיות."
+msgstr[3] "סיסמה חייבת להכיל לפחות %(min_length)d אותיות."
+
+#: password_character_requirements/password_validation.py:71
+#, python-format
+msgid "This password must contain at least %(min_length)d special character."
+msgid_plural ""
+"This password must contain at least %(min_length)d special characters."
+msgstr[0] "סיסמה חייבת להכיל לפחות %(min_length)d תו מיוחד."
+msgstr[1] "סיסמה חייבת להכיל לפחות %(min_length)d תווים מיוחדים."
+msgstr[2] "סיסמה חייבת להכיל לפחות %(min_length)d תווים מיוחדים."
+msgstr[3] "סיסמה חייבת להכיל לפחות %(min_length)d תווים מיוחדים."
 
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
