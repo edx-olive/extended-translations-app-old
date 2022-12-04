@@ -402,6 +402,14 @@ msgstr ""
 "נראה כי {email_address} שייך לחשבון קיים. נסה שוב עם כתובת דואר אלקטרוני "
 "אחרת."
 
+msgid ""
+"It looks like {new_email} belongs to an existing account. Try again with "
+"a different email address."
+msgstr ""
+"נראה כי {new_email} שייך לחשבון קיים. נסה שוב עם כתובת דואר אלקטרוני "
+"אחרת."
+
+
 #. Translators: These instructions appear on the login form, immediately
 #. below a field meant to hold the user's email address.
 #. Translators: These instructions appear on the password reset form,
