@@ -587,7 +587,7 @@ msgstr[3] ""
 #. form used to select the country in which the user lives.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py
 msgid "Country or Region of Residence"
-msgstr "  שדגשד ארץ או אזור מגורים"
+msgstr "ארץ או אזור מגורים"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
