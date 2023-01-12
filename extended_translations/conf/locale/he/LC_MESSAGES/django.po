@@ -3641,6 +3641,15 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
+#: password_character_requirements/password_validation.py:31
+#, python-format
+msgid "This password must contain at least %(min_length)d digit."
+msgid_plural "This password must contain at least %(min_length)d digits."
+msgstr[0] "סיסמה זו חייבת להכיל לפחות %(min_length)d ספרה"
+msgstr[1] "סיסמה זו חייבת להכיל לפחות %(min_length)d ספרות"
+msgstr[2] "סיסמה זו חייבת להכיל לפחות %(min_length)d ספרות"
+msgstr[3] "סיסמה זו חייבת להכיל לפחות %(min_length)d ספרות"
+
 #: common/djangoapps/util/password_policy_validators.py
 #, python-format
 msgid "This password must contain at least %(min_lower)d lowercase letter."
