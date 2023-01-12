@@ -8208,7 +8208,7 @@ msgstr "התעודה שלך תהיה זמינה בקרוב!"
 msgid ""
 "After this course officially ends, you will receive an email notification "
 "with your certificate."
-msgstr ""
+msgstr "לאחר מועד הסיום הרשמי של הקורס, התעודה שלך תשלח לכתובת המייל איתה נרשמת לאתר."
 
 #: lms/djangoapps/courseware/views/views.py
 msgid "Your certificate is available"
