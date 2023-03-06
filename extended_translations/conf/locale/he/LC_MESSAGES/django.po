@@ -419,7 +419,7 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
 #, python-brace-format
 msgid "The email address you used to register with {platform_name}"
-msgstr "כתובת האי מייל שאיתה נרשמת ל{platform_name}."
+msgstr " הכתובת שאיתה נרשמתם לאתר {platform_name}."
 
 msgid "Remember me"
 msgstr "זכרו אותי"
@@ -12407,7 +12407,8 @@ msgstr "תנאי שימוש וקוד אתי"
 msgid ""
 "I agree to the {platform_name} {terms_of_service_link_start}"
 "{terms_of_service}{terms_of_service_link_end}"
-msgstr ""
+msgstr "אני מסכים ל {terms_of_service_link_start}"
+"{terms_of_service}{terms_of_service_link_end} של {platform_name}"
 
 #. Translators: "Terms of Service" is a legal document users must agree to
 #. in order to register a new account.
@@ -12437,7 +12438,7 @@ msgid ""
 "I agree to the {platform_name} {tos_link_start}{terms_of_service}"
 "{tos_link_end}"
 msgstr ""
-"אני מסכים ל{platform_name} {tos_link_start}{terms_of_service}{tos_link_end}"
+"אני מסכימ.ה ל-{tos_link_start}{terms_of_service}{tos_link_end} של {platform_name}"
 
 #: openedx/core/djangoapps/util/user_messages.py
 #, python-brace-format

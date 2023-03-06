@@ -187,8 +187,7 @@ msgid ""
 "Please enter your log-in or recovery email address below and we will send "
 "you an email with instructions."
 msgstr ""
-"יש להזין מטה את כתובת הדוא\"ל שאיתה נרשמת לאתר או כתובת דואל נוספת לשחזור "
-"(במידה והגדרת כזו), ואנו נשלח לך הנחיות לקביעת סיסמה חדשה."
+"לשחזור הסיסמה אנא הזינו דוא\"ל לשליחת קישור לאיפוס הסיסמא"
 
 #: lms/templates/student_account/password_reset.underscore
 msgid "Recover my password"
@@ -3574,6 +3573,10 @@ msgstr "הזן ואשר את סיסמתך החדשה."
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
 msgid "New Password"
 msgstr "סיסמה חדשה"
+
+#: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
+msgid "Please enter a new password, and be sure you will not forget this. It's too bad to go through this again :-)"
+msgstr "הזינו סיסמה חדשה והפעם בואו לא נשכח אותה, חבל לעבור את כל זה שוב :-)"
 
 #: common/static/bundles/PasswordResetConfirmation.js
 #: lms/static/js/student_account/components/PasswordResetConfirmation.jsx
@@ -9507,20 +9510,35 @@ msgstr "היכנס לחשבון באמצעות %(providerName)s"
 
 #: lms/templates/student_account/password_reset.underscore
 msgid "Password assistance"
-msgstr "עזרה עם סיסמה"
+msgstr "איפוס סיסמא"
 
 #: lms/templates/student_account/register.underscore
 msgid "Already have an {platformName} account?"
-msgstr "כבר יש לך חשבון  {platformName} ?"
+msgstr "כבר נרשמת ל {platformName}?"
 
 #: lms/templates/student_account/register.underscore
 msgid "Sign in."
-msgstr "התחבר/י"
+msgstr "התחברו עכשיו"
 
 #: lms/templates/student_account/register.underscore
 #, python-format
 msgid "Create account using %(providerName)s."
 msgstr "צור חשבון באמצעות %(providerName)s."
+
+#: lms/templates/student_account/register.underscore
+#, python-format
+msgid "Log in with %(providerName)s"
+msgstr "כניסה באמצעות %(providerName)s"
+
+#: lms/templates/student_account/register.underscore
+#, python-format
+msgid "EDU"
+msgstr "משרד החינוך"
+
+#: lms/templates/student_account/register.underscore
+#, python-format
+msgid "Facebook"
+msgstr "פייסבוק"
 
 #: lms/templates/student_account/register.underscore
 msgid "Use my institution/campus credentials"
@@ -11940,3 +11958,15 @@ msgstr "השתמש בתמליל נוכחי"
 #: lms/templates/header/user_dropdown.html
 msgid "Resume your last course"
 msgstr "המשך את הקורס האחרון שלך"
+
+#: lms/templates/student_account/register.underscore
+msgid "Or"
+msgstr "או"
+
+#: lms/templates/student_account/register.underscore
+msgid "Quick Registration"
+msgstr "הרשמה מהירה"
+
+#: lms/templates/student_account/login.underscore
+msgid "Quick Sign In"
+msgstr  "התחברות מהיר"
