@@ -19918,6 +19918,10 @@ msgid "Account Settings"
 msgstr "הגדרות חשבון"
 
 #: lms/templates/student_account/account_settings.html
+msgid "Campus IL"
+msgstr "קמפוס IL"
+
+#: lms/templates/student_account/account_settings.html
 msgid ""
 " and access to private sites offered by MIT Open Learning, Wharton Executive "
 "Education, and Harvard Medical School"
