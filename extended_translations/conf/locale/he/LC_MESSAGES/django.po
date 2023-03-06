@@ -8262,6 +8262,15 @@ msgid "You must be enrolled in the course to see course content. "
 msgstr "עליך להירשם לקורס כדי לראות את התוכן שלו. "
 "{enroll_link_start}הירשם עכשיו{enroll_link_end}"
 
+msgid ""
+"You must be enrolled in the course to see course content."
+"                             {enroll_link_start}Enroll now{enroll_link_end}."
+msgstr "עליך להירשם לקורס כדי לראות את התוכן שלו."
+""
+"                             {enroll_link_start}הירשמ/י כאן{enroll_link_end}."
+
+
+  
 #: lms/djangoapps/courseware/views/views.py
 msgid "Invalid location."
 msgstr "מיקום לא חוקי."
@@ -12749,6 +12758,8 @@ msgstr ""
 msgid ""
 "{open_enroll_link}Enroll now{close_enroll_link} to access the full course."
 msgstr ""
+"{open_enroll_link}הירשמ/י כאן{close_enroll_link} כדי לצפות בתוכן הקורס."
+
 
 #: openedx/features/course_experience/views/course_home_messages.py
 #, python-brace-format
@@ -20217,7 +20228,7 @@ msgstr "חלק מהזכויות שמורות"
 
 #: openedx/features/course_experience/templates/course_experience/course-dates-fragment.html
 msgid "Upcoming Dates"
-msgstr ""
+msgstr "אירועים קרובים"
 
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Goal: "
@@ -20325,7 +20336,7 @@ msgstr ""
 
 #: openedx/features/course_experience/templates/course_experience/latest-update-fragment.html
 msgid "Latest Update"
-msgstr ""
+msgstr "עדכונים אחרונים"
 
 #: openedx/features/course_experience/templates/course_experience/welcome-message-fragment.html
 msgid "Show More"
