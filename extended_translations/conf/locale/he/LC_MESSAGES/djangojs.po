@@ -5465,26 +5465,26 @@ msgstr "הכנס שם משתמש או דואר אלקטרוני"
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "{numUsersAdded} learner has been added to this cohort. "
 msgid_plural "{numUsersAdded} learners have been added to this cohort. "
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "לומד {numUsersAdded} נוסף לקבוצת לימוד זו."
+msgstr[1] "{numUsersAdded} לומדים נוספו לקבוצת לימוד זו."
+msgstr[2] "{numUsersAdded} לומדים נוספו לקבוצת לימוד זו."
+msgstr[3] "{numUsersAdded} לומדים נוספו לקבוצת לימוד זו."
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "{numMoved} learner was moved from {prevCohort}"
 msgid_plural "{numMoved} learners were moved from {prevCohort}"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "לומד {numMoved} הועבר מקבוצת לימוד {prevCohort}"
+msgstr[1] "{numMoved} :לומדים הועברו מקבוצת לימוד {prevCohort}"
+msgstr[2] "{numMoved} :לומדים הועברו מקבוצת לימוד {prevCohort}"
+msgstr[3] "{numMoved} :לומדים הועברו מקבוצת לימוד {prevCohort}"
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "{numPresent} learner was already in the cohort"
 msgid_plural "{numPresent} learners were already in the cohort"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "לומד {numPresent} כבר נמצא בקבוצת לימוד זו."
+msgstr[1] "{numPresent} לומדים כבר נמצאים בקבוצת לימוד זו."
+msgstr[2] "{numPresent} לומדים כבר נמצאים בקבוצת לימוד זו."
+msgstr[3] "{numPresent} לומדים כבר נמצאים בקבוצת לימוד זו."
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "{email}"
@@ -5497,26 +5497,26 @@ msgid ""
 msgid_plural ""
 "{numPreassigned} learners were pre-assigned for this cohort. These learners "
 "will automatically be added to the cohort when they enroll in the course."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "לומד {numPreassigned} הוקצה מראש לקבוצת לימוד הזאת. לאחר השלמת ההרשמה לאתר ולקורס הוא יתווסף באופן אוטומטי לקבוצת הלימוד שבחרת."
+msgstr[1] "{numPreassigned} הלומדים הוקצו מראש לקבוצת לימוד זו. לאחר השלמת ההרשמה לאתר ולקורס הם יתווספו באופן אוטומטי לקבוצת הלימוד שבחרת."
+msgstr[2] "{numPreassigned} הלומדים הוקצו מראש לקבוצת לימוד זו. לאחר השלמת ההרשמה לאתר ולקורס הם יתווספו באופן אוטומטי לקבוצת הלימוד שבחרת."
+msgstr[3] "{numPreassigned} הלומדים הוקצו מראש לקבוצת לימוד זו. לאחר השלמת ההרשמה לאתר ולקורס הם יתווספו באופן אוטומטי לקבוצת הלימוד שבחרת."
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Unknown username: {user}"
-msgstr ""
+msgstr "המשתמש {user} אינו מוכר למערכת"
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Invalid email address: {email}"
-msgstr ""
+msgstr "כתובת המייל: {email} לא חוקית"
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "There was an error when trying to add learners:"
 msgid_plural "{numErrors} learners could not be added to this cohort:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "אירעה שגיאה בעת ניסיון להוסיף לומדים:"
+msgstr[1] "לא ניתן להוסיף {numErrors} למודים לקבוצת לימוד זו:"
+msgstr[2] "לא ניתן להוסיף {numErrors} למודים לקבוצת לימוד זו:"
+msgstr[3] "לא ניתן להוסיף {numErrors} למודים לקבוצת לימוד זו:"
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "View all errors"
@@ -9070,10 +9070,10 @@ msgstr "צור קבוצת תוכן"
 #, python-format
 msgid "(contains %(student_count)s student)"
 msgid_plural "(contains %(student_count)s students)"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "(מכילה לומד %(student_count)s)"
+msgstr[1] "(מכילה  %(student_count)s לומדים)"
+msgstr[2] "(מכילה  %(student_count)s לומדים)"
+msgstr[3] "(מכילה  %(student_count)s לומדים)"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 msgid ""
